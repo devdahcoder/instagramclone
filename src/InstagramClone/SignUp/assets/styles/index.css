@@ -1,0 +1,986 @@
+.sign-up-section {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.sign-up-section .sign-up-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.sign-up-section .sign-up-container .sign-up-main {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  min-width: 0;
+  margin-bottom: 44px;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 12px;
+  max-width: 350px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(var(--d87, 255, 255, 255), 1);
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div {
+  margin: 0 40px 0;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .sign-up-form-logo {
+  text-align: center;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 350px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-form-header {
+  margin-bottom: 10px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-form-header p {
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .or-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .or-container .inner-or {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .or-container .inner-or .line {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: 0 solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  background-color: rgba(var(--b38, 219, 219, 219), 1);
+  height: 1px;
+  position: relative;
+  top: .45em;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .or-container .inner-or .main-or {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  position: relative;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 18px;
+  text-transform: uppercase;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-input {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  margin: 0 0px 6px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-input .sign-up-inner-input {
+  font: inherit;
+  vertical-align: baseline;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background: rgba(var(--b3f, 250, 250, 250), 1);
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-input .sign-up-inner-input label {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  -webkit-box-direction: normal;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 36px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0px;
+      flex: 1 0 0;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  min-width: 0;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-input .sign-up-inner-input label span {
+  -webkit-box-direction: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-size: 12px;
+  height: 36px;
+  left: 8px;
+  line-height: 36px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  transition: transform ease-out .1s,-webkit-transform ease-out .1s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-form-input .sign-up-inner-input label input {
+  -webkit-box-direction: normal;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-family: 'Roboto Mono', monospace;
+  line-height: 18px;
+  background: rgba(var(--b3f, 250, 250, 250), 1);
+  border: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+  margin: 0;
+  outline: 0;
+  overflow: hidden;
+  padding: 9px 0 7px 8px;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-btn-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .sign-up-btn-container button {
+  -webkit-box-direction: normal;
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: auto;
+  border-radius: 4px;
+  color: rgba(var(--eca, 255, 255, 255), 1);
+  position: relative;
+  pointer-events: none;
+  border: 1px solid transparent;
+  background-color: rgba(var(--d69, 0, 149, 246), 0.3);
+  opacity: 1;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .bottom-p {
+  -webkit-box-direction: normal;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-size: 12px;
+  line-height: 16px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-form .sign-up-div .main-form-div form .bottom-p a {
+  -webkit-box-direction: normal;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-weight: 600;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-account-login {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: rgba(var(--d87, 255, 255, 255), 1);
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  border-radius: 1px;
+  margin: 0 0 10px;
+  padding: 10px 0;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .sign-up-account-login p {
+  -webkit-box-direction: normal;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-size: 14px;
+  margin: 15px;
+  text-align: center;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .app-store-link-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .app-store-link-container .b_nGN {
+  -webkit-box-direction: normal;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .app-store-link-container .iny2t {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .app-store-link-container .iny2t a {
+  -webkit-box-direction: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  text-decoration: none;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .app-store-link-container .iny2t a .first {
+  margin-right: 10px;
+}
+
+.sign-up-section .sign-up-container .sign-up-main .sign-up-form-container .app-store-link-container .iny2t a img {
+  -webkit-box-direction: normal;
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  height: 40px;
+}
+
+.sign-up-section footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  position: relative;
+  -webkit-box-ordinal-group: 6;
+  -ms-flex-order: 5;
+      order: 5;
+  padding: 0 20px;
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.sign-up-section footer .first-footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 52px;
+}
+
+.sign-up-section footer .first-footer .second-footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-top: 24px;
+}
+
+.sign-up-section footer .first-footer .second-footer .third-footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sign-up-section footer .first-footer .second-footer .third-footer .footer-link-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.sign-up-section footer .first-footer .second-footer .third-footer .footer-link-container a {
+  color: #00376b;
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  text-decoration: none;
+}
+
+.sign-up-section footer .select-main {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.sign-up-section footer .select-main .select-container {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  margin: -2px 0 -3px;
+  font-weight: 400;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: block;
+}
+
+.sign-up-section footer .select-main .select-container .select-span {
+  -webkit-box-direction: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-weight: 400;
+}
+
+.sign-up-section footer .select-main .select-container .select-span .select-div {
+  cursor: pointer;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.sign-up-section footer .select-main .select-container .select-span .select-select {
+  -webkit-box-direction: normal;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.sign-up-section footer .select-main .footer-tag {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-left: 16px;
+}
+
+.sign-up-section footer .select-main .footer-tag .main-footer-tag {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  margin: -2px 0 -3px;
+  font-weight: 400;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */

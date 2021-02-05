@@ -1,0 +1,19 @@
+.chat-header-search {
+  position: relative;
+}
+
+.chat-header-search .chat-header-input {
+  width: 100%;
+  height: 30px;
+  background-color: #d3c5c5;
+  outline: none;
+  border: 1px solid #d3c5c5;
+  border-radius: 3px;
+}
+
+.chat-header-search .input-content {
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+}
+/*# sourceMappingURL=index.css.map */

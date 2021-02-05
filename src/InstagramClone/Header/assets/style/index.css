@@ -1,0 +1,71 @@
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 10px;
+}
+
+.main-header .main-logo .display-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+.main-header .main-header-nav ul {
+  list-style: none;
+}
+
+.main-header .main-header-nav ul li {
+  display: inline-block;
+  padding: 0 22px;
+}
+
+.main-header .logo-div {
+  margin-right: 20px;
+}
+
+.main-header .logo-div .logo {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.main-header .icon-btn {
+  background-color: inherit;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.main-header .icon-btn .icon {
+  height: 20px;
+  vertical-align: middle;
+}
+
+.main-header .logo-font {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.main-header .profile-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header .profile-logo .profile-container {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=index.css.map */

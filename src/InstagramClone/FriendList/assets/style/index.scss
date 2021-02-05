@@ -1,0 +1,48 @@
+.friend-list-view {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    .active-friend-list {
+        position: relative;
+        .friend-list-image-span {
+            background-color: #fafafa;
+            background-color: rgba(var(--b3f, 250, 250, 250), 1);
+            border-radius: 50%;
+            // border: 2px solid rgba(255, 115, 0, 0.637); //if image quality display gets affected please delete
+            // padding: 2px; //if image quality display gets affected please delete
+            box-sizing: border-box;
+            display: block;
+            flex: 0 0 auto;
+            overflow: hidden;
+            position: relative;
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+
+            .friend-list-image {
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        .status {
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            background-color: rgb(20, 214, 20);
+            position: absolute;
+            left: 51px;
+            bottom: 10px;
+            border: 2px solid white;
+        }
+    }
+
+    .friend-list-details {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        // overflow: hidden;
+        line-height: 20px;
+    }
+}

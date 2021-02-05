@@ -1,0 +1,95 @@
+$story-image-sizing: 56px;
+
+.story-container {
+    height: 120px;
+    padding: 0 4px;
+    top: 2px;
+    width: 80px;
+
+    .link {
+        align-items: center;
+        align-self: center;
+        background: 0 0;
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-top: 0;
+        text-align: center;
+        width: 64px;
+        margin: 0 auto;
+    
+
+
+        .story-container-image-container {
+            margin-bottom: 4px;
+            margin-top: 0px;
+
+            .circle {
+                position:relative;
+                width:80px;
+                height:80px;
+                
+                svg {
+                    fill:none;
+                    stroke:#8a3ab9;
+                    stroke-linecap: round;
+                    stroke-width:3;
+                    stroke-dasharray: 1;
+                    stroke-dashoffset: 0;
+                    animation: stroke-draw 6s ease-out infinite alternate; 
+                    enable-background: new -580 439 577.9 194;
+                    // animation: stroke-draw 6s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate; 
+                }
+                .dele {
+                    position:absolute;
+                    left:50%;
+                    top:50%;
+                    transform:translate(-50%, -50%);
+                    border-radius:50%;
+                    background-color: #fafafa;
+                    border-radius: 50%;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex: 0 0 auto;
+                    overflow: hidden;
+                    width: 60px;
+                    height: 60px;
+                    .story-play-all {
+                        height: 10px;
+                    }
+                }
+            }
+            // @keyframes stroke-draw {
+            //     from{
+            //         stroke:#8a3ab9;
+            //         stroke-dasharray: 1;
+            //     }
+            //     to{
+            //         stroke:#cd486b;
+            //         transform:rotate(180deg);
+            //         stroke-dasharray: 8;
+            //     }
+            // }
+        }
+
+        .story-text {
+            letter-spacing: .01em;
+            max-width: 75px;
+            color: #262626;
+            color: rgba(var(--i1d,38,38,38),1);
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            overflow: hidden;
+            // position: absolute;
+            text-align: center;
+            text-overflow: ellipsis;
+            top: 68px;
+            white-space: nowrap;
+        }
+    }
+}

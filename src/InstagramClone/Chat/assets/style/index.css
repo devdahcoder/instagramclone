@@ -1,0 +1,39 @@
+.main-chat-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  border-top: 1px solid #c0bbbb;
+}
+
+.main-chat-section .friend-list {
+  position: relative;
+  border-right: 1px solid #c0bbbb;
+  height: auto;
+}
+
+.main-chat-section .friend-list .friend-list-display {
+  min-width: 350px;
+  max-width: 350px;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.main-chat-section .friend-list .friend-list-display .friend-list-ul {
+  height: 100%;
+  padding: 22px 0;
+}
+
+.main-chat-section .friend-list .friend-list-display .friend-list-ul .friend-li:hover {
+  background-color: grey;
+}
+
+.main-chat-section .chat-area {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: auto;
+}
+/*# sourceMappingURL=index.css.map */

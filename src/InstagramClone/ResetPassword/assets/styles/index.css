@@ -1,0 +1,861 @@
+.reset-form-section .reset-password-main {
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.reset-form-section .reset-password-main .reset-password-container {
+  border: 1px solid #dbdbdb;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  position: relative;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 935px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 15px 10px #777;
+          box-shadow: 0 15px 10px #777;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form {
+  vertical-align: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form {
+  vertical-align: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 388px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form {
+  vertical-align: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .reset-form-logo {
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-bottom: 20px;
+  margin-top: 24px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .reset-form-logo .reset-image {
+  color: #4d4a4a;
+  vertical-align: baseline;
+  height: 96px;
+  width: 96px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .trouble-container {
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin: 0 44px 16px 44px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .trouble-container p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: -6px 0 -6px;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .reset-form-text {
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-bottom: 16px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .reset-form-text p {
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #928c8c;
+  display: block;
+  text-align: center;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .main-form-container {
+  margin-bottom: 16px;
+  margin-left: 44px;
+  margin-right: 44px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .main-form-container form label input {
+  border: 0;
+  padding: 10px 9px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #dbdbdb;
+  outline: 0 solid #000;
+  background: #fafafa;
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .btn-container {
+  margin-bottom: 16px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .btn-container button {
+  border-radius: 4px;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid transparent;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  height: 30px;
+  color: #ffffff;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgba(0, 149, 246, 0.3);
+  cursor: pointer;
+  outline: 0 solid #000;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .or-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 16px;
+  margin-left: 44px;
+  margin-right: 44px;
+  margin-top: 16px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .or-container .inner-or {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .or-container .inner-or .line {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  background-color: rgba(var(--b38, 219, 219, 219), 1);
+  height: 1px;
+  position: relative;
+  top: .45em;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .or-container .inner-or .main-or {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 0;
+  position: relative;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  margin: 0 18px;
+  text-transform: uppercase;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .reset-form-new-account-link {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-bottom: 16px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .reset-form-new-account-link a {
+  color: #262626;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: transparent;
+  width: auto;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .back-to-login-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .back-to-login-container .back-to-login {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 1px solid rgba(var(--b38, 219, 219, 219), 1);
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  height: 44px;
+}
+
+.reset-form-section .reset-password-main .reset-password-container .reset-password-form .form .inner-form .back-to-login-container .back-to-login a {
+  -webkit-box-direction: normal;
+  margin: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  width: auto;
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  padding: 0;
+  position: relative;
+  color: rgba(var(--f75, 38, 38, 38), 1);
+}
+
+.reset-form-section footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  position: relative;
+  -webkit-box-ordinal-group: 6;
+  -ms-flex-order: 5;
+      order: 5;
+  padding: 0 20px;
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.reset-form-section footer .first-footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 52px;
+}
+
+.reset-form-section footer .first-footer .second-footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-top: 24px;
+}
+
+.reset-form-section footer .first-footer .second-footer .third-footer {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reset-form-section footer .first-footer .second-footer .third-footer .footer-link-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.reset-form-section footer .first-footer .second-footer .third-footer .footer-link-container a {
+  color: #00376b;
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  text-decoration: none;
+}
+
+.reset-form-section footer .select-main {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.reset-form-section footer .select-main .select-container {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  margin: -2px 0 -3px;
+  font-weight: 400;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: block;
+}
+
+.reset-form-section footer .select-main .select-container .select-span {
+  -webkit-box-direction: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-weight: 400;
+}
+
+.reset-form-section footer .select-main .select-container .select-span .select-div {
+  cursor: pointer;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.reset-form-section footer .select-main .select-container .select-span .select-select {
+  -webkit-box-direction: normal;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.reset-form-section footer .select-main .footer-tag {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  margin-left: 16px;
+}
+
+.reset-form-section footer .select-main .footer-tag .main-footer-tag {
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  border: 0 solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  margin: -2px 0 -3px;
+  font-weight: 400;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  display: block;
+}
+/*# sourceMappingURL=index.css.map */

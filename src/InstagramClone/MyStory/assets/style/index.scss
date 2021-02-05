@@ -1,0 +1,11 @@
+.story-container {
+    position: relative;
+    .plus {
+        height: 20px;
+        position: absolute;
+        bottom: 65px;
+        left: 53px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+}

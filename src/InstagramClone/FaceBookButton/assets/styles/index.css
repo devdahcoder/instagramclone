@@ -1,0 +1,80 @@
+.facebook-auth {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.facebook-auth button {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  padding: 5px 9px;
+  text-align: center;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: auto;
+  border-radius: 4px;
+  color: rgba(var(--eca, 255, 255, 255), 1);
+  position: relative;
+  border: 1px solid transparent;
+  background-color: rgba(var(--d69, 0, 149, 246), 1);
+}
+
+.facebook-auth button span {
+  cursor: pointer;
+  text-align: center;
+  text-transform: inherit;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: rgba(var(--eca, 255, 255, 255), 1);
+  font: inherit;
+  vertical-align: baseline;
+  display: inline-block;
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+}
+
+.facebook-auth button span img {
+  height: 16px;
+  width: 16px;
+}
+/*# sourceMappingURL=index.css.map */

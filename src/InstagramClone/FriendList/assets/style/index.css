@@ -1,0 +1,65 @@
+.friend-list-view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.friend-list-view .active-friend-list {
+  position: relative;
+}
+
+.friend-list-view .active-friend-list .friend-list-image-span {
+  background-color: #fafafa;
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.friend-list-view .active-friend-list .friend-list-image-span .friend-list-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.friend-list-view .active-friend-list .status {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #14d614;
+  position: absolute;
+  left: 51px;
+  bottom: 10px;
+  border: 2px solid white;
+}
+
+.friend-list-view .friend-list-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 20px;
+}
+/*# sourceMappingURL=index.css.map */

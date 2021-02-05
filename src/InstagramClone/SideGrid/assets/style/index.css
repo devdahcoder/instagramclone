@@ -1,0 +1,45 @@
+.grid-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5em;
+  position: fixed;
+  width: 3rem;
+}
+
+.grid-nav .grid-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.grid-nav .grid-ul .grid-li {
+  padding: 15px 0;
+}
+
+.grid-nav .grid-ul .grid-li .grid-link {
+  text-decoration: none;
+}
+
+.grid-nav .grid-ul .grid-li .grid-link .grid-image {
+  height: 20px;
+}
+
+.grid-nav .last-child {
+  margin-top: 10em;
+}
+/*# sourceMappingURL=index.css.map */

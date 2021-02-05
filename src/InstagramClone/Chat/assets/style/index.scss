@@ -1,0 +1,40 @@
+.main-chat-section {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    // width: 90%;
+    // margin: 0 auto;
+    border-top: 1px solid rgb(192, 187, 187);
+
+
+    .friend-list {
+        position: relative;
+        border-right: 1px solid rgb(192, 187, 187);
+        height: auto;
+
+        .friend-list-display {
+            min-width: 350px;
+            max-width: 350px;
+            overflow-y: auto;
+            height: 100%;
+
+            .friend-list-ul {
+                height: 100%;
+                padding: 22px 0;
+
+                .friend-li {
+                    &:hover {
+                        background-color: grey;
+                    }
+                }
+            }
+        }
+    }
+
+    .chat-area {
+        flex-grow: 1;
+        // border: 1px solid red;
+        height: auto;
+    }
+}

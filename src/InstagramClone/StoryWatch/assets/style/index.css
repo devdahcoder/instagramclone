@@ -1,0 +1,100 @@
+.story-container {
+  height: 120px;
+  padding: 0 4px;
+  top: 2px;
+  width: 80px;
+}
+
+.story-container .link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 64px;
+  margin: 0 auto;
+}
+
+.story-container .link .story-container-image-container {
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.story-container .link .story-container-image-container .circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.story-container .link .story-container-image-container .circle svg {
+  fill: none;
+  stroke: #8a3ab9;
+  stroke-linecap: round;
+  stroke-width: 3;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke-draw 6s ease-out infinite alternate;
+          animation: stroke-draw 6s ease-out infinite alternate;
+  enable-background: new -580 439 577.9 194;
+}
+
+.story-container .link .story-container-image-container .circle .dele {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #fafafa;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+}
+
+.story-container .link .story-container-image-container .circle .dele .story-play-all {
+  height: 10px;
+}
+
+.story-container .link .story-text {
+  letter-spacing: .01em;
+  max-width: 75px;
+  color: #262626;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  top: 68px;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=index.css.map */

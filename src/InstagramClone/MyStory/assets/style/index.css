@@ -1,0 +1,13 @@
+.story-container {
+  position: relative;
+}
+
+.story-container .plus {
+  height: 20px;
+  position: absolute;
+  bottom: 65px;
+  left: 53px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index.css.map */

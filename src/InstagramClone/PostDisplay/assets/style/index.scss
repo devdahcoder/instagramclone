@@ -1,0 +1,8 @@
+.post-display {
+    display: grid;
+    // align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    // display: flex;
+    // flex-wrap: wrap;
+}
