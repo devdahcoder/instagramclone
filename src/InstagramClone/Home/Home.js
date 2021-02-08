@@ -3,6 +3,7 @@ import "./assets/index.css"
 import Post from "../Post/Post"
 // import ResetPassword from "../ResetPassword/ResetPassword"
 import SignUp from "../SignUp/SignUp"
+import Login from "../Login/Login"
 // import SinglePost from "../SinglePost/SinglePost"
 // import ThreePost from "../ThreePost/ThreePost"
 import Story from "../Story/Story"
@@ -45,7 +46,8 @@ const Home = () => {
 
   return (
     <section className="home-section">
-      <SignUp />
+      <Login />
+      {/* <SignUp /> */}
       {/* <ResetPassword /> */}
       {/* <Story />
       <div className="home-main">
