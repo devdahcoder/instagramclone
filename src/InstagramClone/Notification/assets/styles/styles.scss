@@ -1,0 +1,447 @@
+.notification-section {
+    color: rgba(var(--i1d,38,38,38),1);
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1; 
+
+    .notification-main {
+        color: rgba(var(--i1d,38,38,38),1);
+        font: inherit;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        border: 0 solid #000;
+        box-sizing: border-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        -webkit-box-flex: 1;
+        flex-grow: 1;
+        -webkit-box-ordinal-group: 5;
+        order: 4;
+        background-color: rgba(var(--b3f,250,250,250),1);
+
+        .notification-container {
+            color: rgba(var(--i1d,38,38,38),1);
+            font: inherit;
+            vertical-align: baseline;
+            border: 0 solid #000;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            align-content: stretch;
+            align-items: stretch;
+            justify-content: flex-start;
+            flex: 0 0 auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            // margin: 20px auto 0 auto;
+            max-width: 600px;
+            border: 1px solid red;
+
+            .notification-center {
+                color: rgba(var(--i1d,38,38,38),1);
+                font: inherit;
+                vertical-align: baseline;
+                -webkit-box-align: stretch;
+                align-items: stretch;
+                border: 0 solid #000;
+                box-sizing: border-box;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                flex-direction: column;
+                flex-shrink: 0;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                height: auto;
+                overflow: hidden auto; 
+
+                .notification-display {
+                    color: rgba(var(--i1d,38,38,38),1);
+                    font: inherit;
+                    vertical-align: baseline;
+                    -webkit-box-align: stretch;
+                    align-items: stretch;
+                    border: 0 solid #000;
+                    box-sizing: border-box;
+                    display: flex;
+                    -webkit-box-orient: vertical;
+                    -webkit-box-direction: normal;
+                    flex-shrink: 0;
+                    margin: 0;
+                    padding: 0;
+                    position: relative;
+                    flex-direction: column;
+                    padding-bottom: 0px;
+                    padding-top: 0px;
+
+                    .notification-list {
+                        color: rgba(var(--i1d,38,38,38),1);
+                        font: inherit;
+                        vertical-align: baseline;
+                        border: 0 solid #000;
+                        box-sizing: border-box;
+                        flex-shrink: 0;
+                        margin: 0;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                        min-height: 40px;
+                        padding: 12px 16px 13px;
+                        position: relative;
+                        white-space: normal;
+                        cursor: pointer;
+
+                        .notification-profile-container {
+                            color: rgba(var(--i1d,38,38,38),1);
+                            white-space: normal;
+                            cursor: pointer;
+                            font: inherit;
+                            vertical-align: baseline;
+                            -webkit-box-align: stretch;
+                            align-items: stretch;
+                            border: 0 solid #000;
+                            box-sizing: border-box;
+                            display: flex;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            flex-direction: column;
+                            margin: 0;
+                            padding: 0;
+                            position: relative;
+                            align-self: flex-start;
+                            -webkit-box-flex: 0;
+                            flex: 0 0 auto;
+
+                            .notification-profile-display {
+                                color: rgba(var(--i1d,38,38,38),1);
+                                white-space: normal;
+                                cursor: pointer;
+                                font: inherit;
+                                vertical-align: baseline;
+                                -webkit-box-align: stretch;
+                                align-items: stretch;
+                                border: 0 solid #000;
+                                box-sizing: border-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                flex-direction: column;
+                                flex-shrink: 0;
+                                margin: 0;
+                                padding: 0;
+                                position: relative;
+                                display: inline-block;
+
+                                .notification-profile-center {
+                                    color: rgba(var(--i1d,38,38,38),1);
+                                    white-space: normal;
+                                    cursor: pointer;
+                                    font: inherit;
+                                    vertical-align: baseline;
+                                    border: 0 solid #000;
+                                    box-sizing: border-box;
+                                    -webkit-box-orient: vertical;
+                                    -webkit-box-direction: normal;
+                                    flex-direction: column;
+                                    margin: 0;
+                                    padding: 0;
+                                    position: relative;
+                                    -webkit-box-align: center;
+                                    align-items: center;
+                                    align-self: center;
+                                    display: block;
+                                    -webkit-box-flex: 0;
+                                    flex: none;
+                                    -webkit-box-pack: center;
+                                    justify-content: center;
+
+                                    .notification-canvas {
+                                        color: rgba(var(--i1d,38,38,38),1);
+                                        white-space: normal;
+                                        cursor: pointer;
+                                        -webkit-box-direction: normal;
+                                        margin: 0;
+                                        padding: 0;
+                                        border: 0;
+                                        font: inherit;
+                                        vertical-align: baseline;
+                                        -webkit-tap-highlight-color: transparent;
+                                        user-select: none;
+                                        position: absolute;
+                                        top: -5px;
+                                        left: -5px;
+                                        width: 44px;
+                                        height: 44px;
+                                    }
+                                    .notification-profile-link {
+                                        white-space: normal;
+                                        -webkit-box-direction: normal;
+                                        margin: 0;
+                                        padding: 0;
+                                        border: 0;
+                                        font: inherit;
+                                        vertical-align: baseline;
+                                        color: rgba(var(--fe0,0,55,107),1);
+                                        text-decoration: none;
+                                        background-color: rgba(var(--b3f,250,250,250),1);
+                                        border-radius: 50%;
+                                        box-sizing: border-box;
+                                        display: block;
+                                        -webkit-box-flex: 0;
+                                        flex: 0 0 auto;
+                                        overflow: hidden;
+                                        position: relative;
+                                        cursor: pointer;
+                                        width: 34px;
+                                        height: 34px;
+
+                                        .notification-profile-img {
+                                            white-space: normal;
+                                            -webkit-box-direction: normal;
+                                            color: rgba(var(--fe0,0,55,107),1);
+                                            cursor: pointer;
+                                            -webkit-user-drag: none;
+                                            margin: 0;
+                                            padding: 0;
+                                            border: 0;
+                                            font: inherit;
+                                            vertical-align: baseline;
+                                            height: 100%;
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                        .notification-user-container {
+                            white-space: normal;
+                            cursor: pointer;
+                            font: inherit;
+                            vertical-align: baseline;
+                            -webkit-box-align: stretch;
+                            align-items: stretch;
+                            border: 0 solid #000;
+                            box-sizing: border-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            flex-direction: column;
+                            padding: 0;
+                            position: relative;
+                            color: rgba(var(--i1d,38,38,38),1);
+                            display: block;
+                            -webkit-box-flex: 1;
+                            flex: 1 0 0%;
+                            line-height: 1.3;
+                            margin: 0 12px;
+                            min-width: 0;
+
+                            .notification-user-link-container {
+                                white-space: normal;
+                                cursor: pointer;
+                                color: rgba(var(--i1d,38,38,38),1);
+                                font: inherit;
+                                vertical-align: baseline;
+                                -webkit-box-align: stretch;
+                                align-items: stretch;
+                                border: 0 solid #000;
+                                box-sizing: border-box;
+                                display: flex;
+                                -webkit-box-orient: vertical;
+                                -webkit-box-direction: normal;
+                                flex-direction: column;
+                                margin: 0;
+                                padding: 0;
+                                position: relative;
+                                -webkit-box-flex: 1;
+                                flex: 1 1 auto;
+                            }
+
+                            .notification-user-link {
+                                -webkit-box-direction: normal;
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                font: inherit;
+                                vertical-align: baseline;
+                                text-decoration: none;
+                                color: rgba(var(--i1d,38,38,38),1);
+                                font-weight: 600;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                padding-left: 5px;
+                                margin-left: -5px;
+                            }
+
+                            .notification-time {
+                                white-space: normal;
+                                cursor: pointer;
+                                -webkit-box-direction: normal;
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                font: inherit;
+                                vertical-align: baseline;
+                                color: rgba(var(--f52,142,142,142),1);
+                                margin-left: 5px;
+                                font-size: 15px;
+                                line-height: 18px;
+                            }
+                        }
+
+                        .notification-post-container {
+                            color: rgba(var(--i1d,38,38,38),1);
+                            white-space: normal;
+                            cursor: pointer;
+                            font: inherit;
+                            vertical-align: baseline;
+                            -webkit-box-align: stretch;
+                            align-items: stretch;
+                            border: 0 solid #000;
+                            box-sizing: border-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            flex-direction: column;
+                            margin: 0;
+                            padding: 0;
+                            position: relative;
+                            display: block;
+                            -webkit-box-flex: 0;
+                            flex: 0 0 auto;
+                            min-height: 26px;
+                            min-width: 40px;
+
+                            .notification-post-link {
+                                white-space: normal;
+                                -webkit-box-direction: normal;
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                font: inherit;
+                                vertical-align: baseline;
+                                color: rgba(var(--fe0,0,55,107),1);
+                                text-decoration: none;
+                                display: inline-block;
+
+                                .notification-post-display {
+                                    white-space: normal;
+                                    color: rgba(var(--fe0,0,55,107),1);
+                                    font: inherit;
+                                    -webkit-box-align: stretch;
+                                    align-items: stretch;
+                                    border: 0 solid #000;
+                                    box-sizing: border-box;
+                                    -webkit-box-orient: vertical;
+                                    -webkit-box-direction: normal;
+                                    flex-direction: column;
+                                    flex-shrink: 0;
+                                    margin: 0;
+                                    padding: 0;
+                                    position: relative;
+                                    height: 40px;
+                                    min-width: 40px;
+                                    vertical-align: middle;
+                                    background-color: rgba(var(--bb2,239,239,239),1);
+                                    display: block;
+                                    width: 100%;
+
+                                    .notification-image-container {
+                                        white-space: normal;
+                                        color: rgba(var(--fe0,0,55,107),1);
+                                        font: inherit;
+                                        vertical-align: baseline;
+                                        -webkit-box-align: stretch;
+                                        align-items: stretch;
+                                        border: 0 solid #000;
+                                        box-sizing: border-box;
+                                        -webkit-box-orient: vertical;
+                                        -webkit-box-direction: normal;
+                                        flex-direction: column;
+                                        flex-shrink: 0;
+                                        margin: 0;
+                                        padding: 0;
+                                        position: relative;
+                                        display: block;
+                                        overflow: hidden;
+                                        padding-bottom: 100%;
+
+                                        .notification-post-image {
+                                            white-space: normal;
+                                            color: rgba(var(--fe0,0,55,107),1);
+                                            -webkit-box-direction: normal;
+                                            margin: 0;
+                                            padding: 0;
+                                            border: 0;
+                                            font: inherit;
+                                            vertical-align: baseline;
+                                            height: 100%;
+                                            left: 0;
+                                            position: absolute;
+                                            top: 0;
+                                            user-select: none;
+                                            width: 100%;
+                                            object-fit: cover;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .follow-btn {
+                                white-space: normal;
+                                -webkit-box-direction: normal;
+                                margin: 0;
+                                font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                                font-size: 14px;
+                                line-height: 18px;
+                                appearance: none;
+                                background: 0 0;
+                                box-sizing: border-box;
+                                cursor: pointer;
+                                display: block;
+                                font-weight: 600;
+                                padding: 5px 9px;
+                                text-align: center;
+                                text-transform: inherit;
+                                text-overflow: ellipsis;
+                                user-select: none;
+                                width: auto;
+                                border-radius: 4px;
+                                color: rgba(var(--eca,255,255,255),1);
+                                position: relative;
+                                border: 1px solid transparent;
+                                background-color: rgba(var(--d69,0,149,246),1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
