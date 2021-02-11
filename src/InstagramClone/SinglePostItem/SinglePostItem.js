@@ -99,7 +99,10 @@ const SinglePostItem = ({post}) => {
             </div>
           </div>
           
-          <div className="single-post-content">
+
+          <div className="over-flow-ul">
+          <div className="over-flow">
+            <div className="single-post-content">
             <div className="single-post-caption">
               <div className="single-post-caption-user-detail">
                 <div className="single-post-username"><span><a href="">{post.name}</a></span></div>
@@ -124,8 +127,155 @@ const SinglePostItem = ({post}) => {
           </div>
 
 
-          <div className="reply-container">
+            <div className="reply-container">
             <ul>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
+              <li>
+
+                <div className="single-post-comment">
+                  <div className="comment-button-container">
+                    <button>
+                      <div className="comment-post-btn">
+                        <span>
+                          <img src={Love} alt="" />
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                  <div className="comment-caption">
+                    <div className="comment-caption-user-detail">
+                      <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
+                    </div>
+                      adipisci eum.
+                  </div>
+                </div>
+                
+              </li>
               <li>
 
                 <div className="single-post-comment">
@@ -171,7 +321,22 @@ const SinglePostItem = ({post}) => {
             </ul>
           </div>
 
+          </div>
+          </div>
 
+          <div className="comment-form-container">
+              <div>
+                <form action="">
+                  <button className="comment-form-profile">
+                    <ProfileImage />
+                  </button>
+
+                  <textarea aria-label="Add a comment…" placeholder="Add a comment…" class="Ypffh" autocomplete="off" autocorrect="off"></textarea>
+
+                  <button class="post-comment-btn" type="submit">Post</button>
+                </form>
+              </div>
+          </div>
 
 
 

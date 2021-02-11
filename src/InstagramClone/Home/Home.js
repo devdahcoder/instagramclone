@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./assets/index.css"
-import Post from "../Post/Post"
+// import Post from "../Post/Post"
 // import ResetPassword from "../ResetPassword/ResetPassword"
-import SignUp from "../SignUp/SignUp"
-import Login from "../Login/Login"
-// import SinglePost from "../SinglePost/SinglePost"
+// import SignUp from "../SignUp/SignUp"
+// import Login from "../Login/Login"
+import SinglePost from "../SinglePost/SinglePost"
 // import ThreePost from "../ThreePost/ThreePost"
 import Story from "../Story/Story"
 import SideGrid from "../SideGrid/SideGrid"
@@ -46,25 +46,25 @@ const Home = () => {
 
   return (
     <section className="home-section">
-      <Login />
+      {/* <Login /> */}
       {/* <SignUp /> */}
       {/* <ResetPassword /> */}
-      {/* <Story />
+      <Story />
       <div className="home-main">
         <div className="post-section">
             <div>
               {/* <ThreePost /> */}
               {/* <Post  /> */}
               {/* {!toggle && <TwoPost posts={posts} />} */}
-              {/* <SinglePost /> */}
-            {/* </div>
-        </div> */}
+              <SinglePost />
+            </div>
+        </div>
 
 
-        {/* <div className="side-bar">
+        <div className="side-bar">
           <SideGrid />
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }
