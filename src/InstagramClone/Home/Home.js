@@ -4,11 +4,12 @@ import "./assets/index.css"
 // import ResetPassword from "../ResetPassword/ResetPassword"
 // import SignUp from "../SignUp/SignUp"
 // import Login from "../Login/Login"
-import SinglePost from "../SinglePost/SinglePost"
+// import SinglePost from "../SinglePost/SinglePost"
 // import ThreePost from "../ThreePost/ThreePost"
-import Story from "../Story/Story"
-import SideGrid from "../SideGrid/SideGrid"
+// import Story from "../Story/Story"
+// import SideGrid from "../SideGrid/SideGrid"
 // import Post from "../Post/Post"
+import Chat from "../Chat/Chat"
 const Home = () => {
   // const [story, setStory] = useState([]);
   // const [posts, setPosts] = useState([]);
@@ -49,22 +50,24 @@ const Home = () => {
       {/* <Login /> */}
       {/* <SignUp /> */}
       {/* <ResetPassword /> */}
-      <Story />
-      <div className="home-main">
+      <Chat />
+      {/* <Story /> */}
+      {/* <div className="home-main">
         <div className="post-section">
-            <div>
+            <div> */}
+              
               {/* <ThreePost /> */}
               {/* <Post  /> */}
               {/* {!toggle && <TwoPost posts={posts} />} */}
-              <SinglePost />
-            </div>
-        </div>
+              {/* <SinglePost /> */}
+            {/* </div>
+        </div> */}
 
 
-        <div className="side-bar">
+        {/* <div className="side-bar">
           <SideGrid />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </section>
   );
 }

@@ -2,8 +2,8 @@ import React, {useEffect, useState} from "react";
 import "./assets/style/index.css";
 import ThreePostItem from "../ThreePostItem/ThreePostItem";
 import { v4 as uuid } from "uuid";
-import {useSelector, useDispatch} from "react-redux"
-import {fetchPost} from "../../actions/postAction"
+// import {useSelector, useDispatch} from "react-redux"
+// import {fetchPost} from "../../actions/postAction"
 
 
 

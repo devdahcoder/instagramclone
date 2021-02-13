@@ -145,7 +145,7 @@ const SinglePostItem = ({post}) => {
                     <div className="comment-caption-user-detail">
                       <div className="comment-post-username"><span><a href="">{post.name}</a></span></div>
                     </div>
-                      adipisci eum.
+                      adipisci eum &#x1F60a;.
                   </div>
                 </div>
                 
@@ -326,6 +326,15 @@ const SinglePostItem = ({post}) => {
 
           <div className="comment-form-container">
               <div>
+                <div className="emoji-display">
+                  <h2 >&#x1F60D;</h2>
+                  <h2>&#x1F914;</h2>
+                  <h2>&#x2764;</h2>
+                  <h2>&#x1F44C;</h2>
+                  <h2>&#x1F44F;</h2>
+                  <h2>&#x1F64C;</h2>
+                  <h2>&#x1F525;</h2>
+                </div>
                 <form action="">
                   <button className="comment-form-profile">
                     <ProfileImage />

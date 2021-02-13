@@ -414,9 +414,9 @@
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
       flex-grow: 1;
-  height: 370px;
+  height: 350px;
   overflow-y: scroll;
-  padding: 16px 12px;
+  padding: 16px 25px 16px 0;
   width: calc(100% - 8px);
 }
 
@@ -890,7 +890,24 @@
       order: 5;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 5px;
   margin-top: 8px;
+}
+
+.single-post-container .single-post-details .comment-form-container .emoji-display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.single-post-container .single-post-details .comment-form-container .emoji-display h2 {
+  cursor: pointer;
 }
 
 .single-post-container .single-post-details .comment-form-container form {

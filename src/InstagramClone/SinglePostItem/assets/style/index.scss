@@ -335,9 +335,9 @@ $font-size: 12px;
                 box-sizing: content-box;
                 -webkit-box-flex: 1;
                 flex-grow: 1;
-                height: 370px;
+                height: 350px;
                 overflow-y: scroll;
-                padding: 16px 12px;
+                padding: 16px 25px 16px 0;
                 width: calc(100% - 8px);
 
 
@@ -776,7 +776,19 @@ $font-size: 12px;
             order: 5;
             padding-left: 10px;
             padding-right: 10px;
+            padding-top: 5px;
             margin-top: 8px;
+
+            .emoji-display {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                // margin: 5px 0;
+
+                h2 {
+                    cursor: pointer;
+                }
+            }
 
             form {
                 color: rgba(var(--f52,142,142,142),1);
