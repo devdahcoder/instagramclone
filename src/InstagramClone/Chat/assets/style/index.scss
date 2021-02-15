@@ -5,39 +5,31 @@
     border: 0 solid #000;
     box-sizing: border-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
     position: relative;
     align-content: stretch;
-    -webkit-box-align: stretch;
     align-items: stretch;
-    -webkit-box-pack: start;
     justify-content: flex-start;
-    -webkit-box-flex: 0;
     flex: 0 0 auto;
     height: 100%;
     width: 100%;
+    
 
     .chat-container {
         align-items: center;
         height: 100%;
         padding: 20px;
         width: 100%;
+        
 
 
         .chat-div {
             color: rgba(var(--i1d,38,38,38),1);
             font: inherit;
             vertical-align: baseline;
-            box-sizing: border-box;
             display: flex;
-            margin: 0;
-            padding: 0;
             position: relative;
-            border: 1px solid rgba(var(--b38,219,219,219),1);
+            // border: 1px solid rgba(var(--b38,219,219,219),1);  //main chart border uncomment this later
             border-radius: 4px;
             align-content: stretch;
             -webkit-box-align: stretch;
@@ -53,6 +45,7 @@
             height: 100%;
             width: 100%;
             // max-width: 935px;
+            border-top: 1px solid rgba(var(--b38,219,219,219),1);
 
             .chat-friends-container {
                 color: rgba(var(--i1d,38,38,38),1);
@@ -75,6 +68,8 @@
                 height: 100%;
                 overflow: hidden;
                 width: 350px;
+                
+                
 
                 .friends-header-container {
                     color: rgba(var(--i1d,38,38,38),1);
@@ -93,11 +88,10 @@
                     flex-wrap: wrap;
                     font-size: 16px;
                     font-weight: 600;
-                    height: 60px;
+                    padding: 10px 16px;
+                    // height: 40px;
                     // border: 1px solid red;
-                    // padding: 0 20px;
                     width: 100%;
-                    // z-index: 2;
 
                     .friends-header {
                         color: rgba(var(--i1d,38,38,38),1);
@@ -129,13 +123,7 @@
                             border: 0 solid #000;
                             box-sizing: border-box;
                             display: flex;
-                            flex-shrink: 0;
-                            margin: 0;
-                            padding: 0;
                             position: relative;
-                            flex-basis: 32px;
-                            -webkit-box-orient: horizontal;
-                            -webkit-box-direction: normal;
                             flex-direction: row;
                             -webkit-box-pack: end;
                             justify-content: flex-end;
@@ -180,33 +168,6 @@
                                 }
                             }
                         }
-
-                        // .header-font {
-                        //     font: inherit;
-                        //     vertical-align: baseline;
-                        //     border: 0 solid #000;
-                        //     box-sizing: border-box;
-                        //     -webkit-box-orient: vertical;
-                        //     -webkit-box-direction: normal;
-                        //     flex-direction: column;
-                        //     margin: 0;
-                        //     padding: 0;
-                        //     position: relative;
-                        //     -webkit-box-align: center;
-                        //     align-items: center;
-                        //     color: rgba(var(--i1d,38,38,38),1);
-                        //     display: inline-block;
-                        //     -webkit-box-flex: 1;
-                        //     flex: 1;
-                        //     -webkit-box-pack: center;
-                        //     justify-content: center;
-                        //     min-width: 0;
-                        //     overflow: hidden;
-                        //     text-align: center;
-                        //     text-overflow: ellipsis;
-                        //     white-space: nowrap;
-                        // }
-
                         
                     }
 
@@ -214,8 +175,12 @@
                 }
 
 
+                /* display none */
                 .search-container {
                     position: relative;
+                    padding: 0 20px;
+                    margin: 5px 0;
+                    display: none;
 
                     form {
                         .form-display {
@@ -296,7 +261,14 @@
                         }
                     }
                 }
+
+                /* this element is displayed none for now */
                 
+
+
+
+
+
 
                 .people-chat-container {
                     color: rgba(var(--i1d,38,38,38),1);
@@ -305,21 +277,15 @@
                     border: 0 solid #000;
                     box-sizing: border-box;
                     display: flex;
-                    -webkit-box-orient: vertical;
-                    -webkit-box-direction: normal;
                     flex-direction: column;
-                    margin: 0;
-                    padding: 0;
                     position: relative;
                     align-content: stretch;
-                    -webkit-box-align: stretch;
                     align-items: stretch;
-                    -webkit-box-pack: start;
                     justify-content: flex-start;
-                    -webkit-box-flex: 0;
                     flex: 0 0 auto;
                     overflow: hidden;
                     height: 100%;
+
 
                     .people-chat-div {
                         color: rgba(var(--i1d,38,38,38),1);
@@ -337,8 +303,7 @@
                         margin: 0;
                         padding: 0;
                         position: relative;
-                        // height: calc(100% - 44px);
-                        height: 460px;
+                        height: 500px;
                         overflow: hidden;
                         
                         
@@ -352,55 +317,49 @@
                             border: 0 solid #000;
                             box-sizing: border-box;
                             display: flex;
-                            -webkit-box-orient: vertical;
-                            -webkit-box-direction: normal;
                             flex-direction: column;
-                            flex-shrink: 0;
-                            margin: 0;
-                            padding: 0;
                             position: relative;
                             background: rgba(var(--d87,255,255,255),1);
                             overscroll-behavior: contain;
                             padding-top: 8px;
                             height: 100%;
                             overflow: hidden auto;
+                            -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, 
+                            color-stop(0.00,  rgba(0,0,0,0)),
+                            color-stop(1.00,  rgba(0,0,0,1)));
+
+                            &::-webkit-scrollbar {
+                                width: 0px;
+                            }
+        
+                            /* Track */
+                            &::-webkit-scrollbar-track {
+                                background: #f1f1f1;
+                                border-radius: 100vh;
+                            }
+                            
+                            /* Handle */
+                            &::-webkit-scrollbar-thumb {
+                                background: rgb(226, 217, 217);
+                                border-radius: 100vh;
+                            }
+
+                            
                             .classs {
                                 flex-direction: column;
-                                padding-bottom: 40px;
+                                padding-bottom: 90px;
                                 padding-top: 0px;
 
 
                                 .message-request-container {
-                                    // color: rgba(var(--i1d,38,38,38),1);
-                                    // font: inherit;
-                                    // vertical-align: baseline;
-                                    // border: 0 solid #000;
-                                    // box-sizing: border-box;
+                                    color: rgba(var(--i1d,38,38,38),1);
                                     display: flex;
                                     align-items: center;
                                     justify-content: space-between;
-                                    // margin: 0;
-                                    // padding: 0;
-                                    // position: relative;
-                                    // align-content: stretch;
-                                    // -webkit-box-align: stretch;
-                                    // align-items: stretch;
-                                    // -webkit-box-orient: horizontal;
-                                    // -webkit-box-direction: normal;
-                                    // flex-direction: row;
-                                    // -webkit-box-pack: start;
-                                    // justify-content: flex-start;
-                                    // -webkit-box-flex: 0;
-                                    // flex: 0 0 auto;
-                                    margin-bottom: 10px;
-                                    margin-top: 4px;
-                                    // padding-left: 20px;
-                                    // padding-right: 20px;
+                                    margin: 5px 0;
+                                    padding: 0 20px;
 
                                     .message-text {
-                                        -webkit-box-direction: normal;
-                                        padding: 0;
-                                        border: 0;
                                         font: inherit;
                                         vertical-align: baseline;
                                         font-size: 16px;
@@ -443,54 +402,45 @@
                                     border: 0 solid #000;
                                     box-sizing: border-box;
                                     display: flex;
-                                    -webkit-box-orient: vertical;
-                                    -webkit-box-direction: normal;
                                     flex-direction: column;
-                                    margin: 0;
-                                    padding: 0;
-                                    position: relative;
                                     background-color: rgba(var(--d87,255,255,255),1);
                                     align-content: stretch;
-                                    -webkit-box-align: stretch;
                                     align-items: stretch;
-                                    -webkit-box-pack: start;
                                     justify-content: flex-start;
-                                    -webkit-box-flex: 0;
                                     flex: 0 0 auto;
 
                                     a {
-                                        -webkit-box-direction: normal;
-                                        margin: 0;
-                                        border: 0;
                                         font: inherit;
                                         vertical-align: baseline;
                                         color: rgba(var(--fe0,0,55,107),1);
                                         text-decoration: none;
-                                        // padding: 8px 20px;
-                                        padding: 8px 0px;
+                                        padding: 8px 15px;
                                         cursor: pointer;
                                         outline: 0;
+                                        border-radius: 10px;
+                                        
+
+                                        &:hover {
+                                            background-color: rgb(247, 241, 241);
+                                        }
+
+                                        &:visited {
+                                            color: #00376b;
+                                            color: rgba(var(--fe0,0,55,107),1);
+                                            text-decoration: none;
+                                        }
 
                                         .followers-chat {
                                             color: rgba(var(--fe0,0,55,107),1);
                                             cursor: pointer;
                                             font: inherit;
                                             vertical-align: baseline;
-                                            border: 0 solid #000;
                                             box-sizing: border-box;
                                             display: flex;
-                                            margin: 0;
-                                            padding: 0;
-                                            position: relative;
                                             align-content: stretch;
-                                            -webkit-box-align: center;
                                             align-items: center;
-                                            -webkit-box-orient: horizontal;
-                                            -webkit-box-direction: normal;
                                             flex-direction: row;
-                                            -webkit-box-pack: start;
                                             justify-content: flex-start;
-                                            -webkit-box-flex: 0;
                                             flex: 0 0 auto;
 
                                             .chat-user-details {
@@ -601,45 +551,6 @@
                                                 }
 
                                                 .active-container {
-                                                    --f52: 142,142,142;
-                                                    --h1d: 255,255,255;
-                                                    --de5: 255,255,255;
-                                                    --d69: 0,149,246;
-                                                    --b86: 88,195,34;
-                                                    --i30: 237,73,86;
-                                                    --d62: 255,255,255;
-                                                    --e4f: 54,54,54;
-                                                    --a72: 255,255,255;
-                                                    --ie3: 142,142,142;
-                                                    --c37: 237,73,86;
-                                                    --f24: 0,149,246;
-                                                    --jbb: 53,121,234;
-                                                    --eca: 255,255,255;
-                                                    --jb7: 0,0,0;
-                                                    --fa7: 224,241,255;
-                                                    --ba8: 168,168,168;
-                                                    --eac: 237,73,86;
-                                                    --i1d: 38,38,38;
-                                                    --edc: 199,199,199;
-                                                    --f75: 38,38,38;
-                                                    --fe0: 0,55,107;
-                                                    --d87: 255,255,255;
-                                                    --b3f: 250,250,250;
-                                                    --bb2: 239,239,239;
-                                                    --f23: 255,255,255;
-                                                    --b38: 219,219,219;
-                                                    --b6a: 219,219,219;
-                                                    --ca6: 219,219,219;
-                                                    --cdd: 38,38,38;
-                                                    --e22: 199,199,199;
-                                                    --e62: 245,251,255;
-                                                    --b2f: 88,195,34;
-                                                    --c8c: 168,168,168;
-                                                    --ce3: 239,239,239;
-                                                    --jd9: 0,0,0;
-                                                    --j64: 54,54,54;
-                                                    --a97: 243,243,243;
-                                                    --d20: 38,38,38;
                                                     color: rgba(var(--fe0,0,55,107),1);
                                                     cursor: pointer;
                                                     font: inherit;
@@ -663,45 +574,6 @@
                                                     margin-top: 0px;
 
                                                     .active-display {
-                                                        --f52: 142,142,142;
-                                                        --h1d: 255,255,255;
-                                                        --de5: 255,255,255;
-                                                        --d69: 0,149,246;
-                                                        --b86: 88,195,34;
-                                                        --i30: 237,73,86;
-                                                        --d62: 255,255,255;
-                                                        --e4f: 54,54,54;
-                                                        --a72: 255,255,255;
-                                                        --ie3: 142,142,142;
-                                                        --c37: 237,73,86;
-                                                        --f24: 0,149,246;
-                                                        --jbb: 53,121,234;
-                                                        --eca: 255,255,255;
-                                                        --jb7: 0,0,0;
-                                                        --fa7: 224,241,255;
-                                                        --ba8: 168,168,168;
-                                                        --eac: 237,73,86;
-                                                        --i1d: 38,38,38;
-                                                        --edc: 199,199,199;
-                                                        --f75: 38,38,38;
-                                                        --fe0: 0,55,107;
-                                                        --d87: 255,255,255;
-                                                        --b3f: 250,250,250;
-                                                        --bb2: 239,239,239;
-                                                        --f23: 255,255,255;
-                                                        --b38: 219,219,219;
-                                                        --b6a: 219,219,219;
-                                                        --ca6: 219,219,219;
-                                                        --cdd: 38,38,38;
-                                                        --e22: 199,199,199;
-                                                        --e62: 245,251,255;
-                                                        --b2f: 88,195,34;
-                                                        --c8c: 168,168,168;
-                                                        --ce3: 239,239,239;
-                                                        --jd9: 0,0,0;
-                                                        --j64: 54,54,54;
-                                                        --a97: 243,243,243;
-                                                        --d20: 38,38,38;
                                                         cursor: pointer;
                                                         font: inherit;
                                                         vertical-align: baseline;
@@ -726,45 +598,6 @@
                                                         white-space: nowrap;
 
                                                         .active {
-                                                            --f52: 142,142,142;
-                                                            --h1d: 255,255,255;
-                                                            --de5: 255,255,255;
-                                                            --d69: 0,149,246;
-                                                            --b86: 88,195,34;
-                                                            --i30: 237,73,86;
-                                                            --d62: 255,255,255;
-                                                            --e4f: 54,54,54;
-                                                            --a72: 255,255,255;
-                                                            --ie3: 142,142,142;
-                                                            --c37: 237,73,86;
-                                                            --f24: 0,149,246;
-                                                            --jbb: 53,121,234;
-                                                            --eca: 255,255,255;
-                                                            --jb7: 0,0,0;
-                                                            --fa7: 224,241,255;
-                                                            --ba8: 168,168,168;
-                                                            --eac: 237,73,86;
-                                                            --i1d: 38,38,38;
-                                                            --edc: 199,199,199;
-                                                            --f75: 38,38,38;
-                                                            --fe0: 0,55,107;
-                                                            --d87: 255,255,255;
-                                                            --b3f: 250,250,250;
-                                                            --bb2: 239,239,239;
-                                                            --f23: 255,255,255;
-                                                            --b38: 219,219,219;
-                                                            --b6a: 219,219,219;
-                                                            --ca6: 219,219,219;
-                                                            --cdd: 38,38,38;
-                                                            --e22: 199,199,199;
-                                                            --e62: 245,251,255;
-                                                            --b2f: 88,195,34;
-                                                            --c8c: 168,168,168;
-                                                            --ce3: 239,239,239;
-                                                            --jd9: 0,0,0;
-                                                            --j64: 54,54,54;
-                                                            --a97: 243,243,243;
-                                                            --d20: 38,38,38;
                                                             cursor: pointer;
                                                             color: rgba(var(--f52,142,142,142),1);
                                                             white-space: nowrap;
@@ -789,45 +622,6 @@
                                                                 max-width: 200px;
 
                                                                 p {
-                                                                    --f52: 142,142,142;
-                                                                    --h1d: 255,255,255;
-                                                                    --de5: 255,255,255;
-                                                                    --d69: 0,149,246;
-                                                                    --b86: 88,195,34;
-                                                                    --i30: 237,73,86;
-                                                                    --d62: 255,255,255;
-                                                                    --e4f: 54,54,54;
-                                                                    --a72: 255,255,255;
-                                                                    --ie3: 142,142,142;
-                                                                    --c37: 237,73,86;
-                                                                    --f24: 0,149,246;
-                                                                    --jbb: 53,121,234;
-                                                                    --eca: 255,255,255;
-                                                                    --jb7: 0,0,0;
-                                                                    --fa7: 224,241,255;
-                                                                    --ba8: 168,168,168;
-                                                                    --eac: 237,73,86;
-                                                                    --i1d: 38,38,38;
-                                                                    --edc: 199,199,199;
-                                                                    --f75: 38,38,38;
-                                                                    --fe0: 0,55,107;
-                                                                    --d87: 255,255,255;
-                                                                    --b3f: 250,250,250;
-                                                                    --bb2: 239,239,239;
-                                                                    --f23: 255,255,255;
-                                                                    --b38: 219,219,219;
-                                                                    --b6a: 219,219,219;
-                                                                    --ca6: 219,219,219;
-                                                                    --cdd: 38,38,38;
-                                                                    --e22: 199,199,199;
-                                                                    --e62: 245,251,255;
-                                                                    --b2f: 88,195,34;
-                                                                    --c8c: 168,168,168;
-                                                                    --ce3: 239,239,239;
-                                                                    --jd9: 0,0,0;
-                                                                    --j64: 54,54,54;
-                                                                    --a97: 243,243,243;
-                                                                    --d20: 38,38,38;
                                                                     cursor: pointer;
                                                                     white-space: nowrap;
                                                                     -webkit-box-direction: normal;
@@ -899,45 +693,6 @@
                                                             }
 
                                                             .last-message-time {
-                                                                --f52: 142,142,142;
-                                                                --h1d: 255,255,255;
-                                                                --de5: 255,255,255;
-                                                                --d69: 0,149,246;
-                                                                --b86: 88,195,34;
-                                                                --i30: 237,73,86;
-                                                                --d62: 255,255,255;
-                                                                --e4f: 54,54,54;
-                                                                --a72: 255,255,255;
-                                                                --ie3: 142,142,142;
-                                                                --c37: 237,73,86;
-                                                                --f24: 0,149,246;
-                                                                --jbb: 53,121,234;
-                                                                --eca: 255,255,255;
-                                                                --jb7: 0,0,0;
-                                                                --fa7: 224,241,255;
-                                                                --ba8: 168,168,168;
-                                                                --eac: 237,73,86;
-                                                                --i1d: 38,38,38;
-                                                                --edc: 199,199,199;
-                                                                --f75: 38,38,38;
-                                                                --fe0: 0,55,107;
-                                                                --d87: 255,255,255;
-                                                                --b3f: 250,250,250;
-                                                                --bb2: 239,239,239;
-                                                                --f23: 255,255,255;
-                                                                --b38: 219,219,219;
-                                                                --b6a: 219,219,219;
-                                                                --ca6: 219,219,219;
-                                                                --cdd: 38,38,38;
-                                                                --e22: 199,199,199;
-                                                                --e62: 245,251,255;
-                                                                --b2f: 88,195,34;
-                                                                --c8c: 168,168,168;
-                                                                --ce3: 239,239,239;
-                                                                --jd9: 0,0,0;
-                                                                --j64: 54,54,54;
-                                                                --a97: 243,243,243;
-                                                                --d20: 38,38,38;
                                                                 cursor: pointer;
                                                                 color: rgba(var(--f52,142,142,142),1);
                                                                 white-space: nowrap;
@@ -1034,7 +789,7 @@
             .message-container {
                 height: 100%;
                 flex-grow: 1;
-                border: 1px solid red;
+                // border: 1px solid red;
                 width: 100%;
 
                 .a {
@@ -1340,7 +1095,7 @@
                             }
                         }
 
-                        
+
                         .text-container {
                             color: rgba(var(--i1d,38,38,38),1);
                             font: inherit;
@@ -1406,7 +1161,7 @@
                                     padding-right: 8px;
                                     width: 100%;
 
-                                    .text-area-container {
+                                    .message-text-area-container {
                                         color: rgba(var(--i1d,38,38,38),1);
                                         font: inherit;
                                         vertical-align: baseline;
@@ -1431,7 +1186,7 @@
                                         margin-right: 4px;
                                         width: 100%;
 
-                                        .text-area {
+                                        .textarea {
                                             -webkit-box-direction: normal;
                                             color: rgba(var(--i1d,38,38,38),1);
                                             font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -1442,34 +1197,7 @@
                                             overflow: auto;
                                             padding: 8px 9px;
                                             resize: none;
-                                            height: 25px;
-                                            // outline: none;
-                                            // -webkit-writing-mode: horizontal-tb !important;
-                                            // text-rendering: auto;
-                                            // color: -internal-light-dark(black, white);
-                                            // letter-spacing: normal;
-                                            // word-spacing: normal;
-                                            // text-transform: none;
-                                            // text-indent: 0px;
-                                            // text-shadow: none;
-                                            // display: inline-block;
-                                            // text-align: start;
-                                            // appearance: textarea;
-                                            // background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-                                            // -webkit-rtl-ordering: logical;
-                                            // flex-direction: column;
-                                            // resize: auto;
-                                            // cursor: text;
-                                            // white-space: pre-wrap;
-                                            // overflow-wrap: break-word;
-                                            // column-count: initial !important;
-                                            // margin: 0em;
-                                            // font: 400 13.3333px Arial;
-                                            // border-width: 1px;
-                                            // border-style: solid;
-                                            // border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-                                            // border-image: initial;
-                                            // padding: 2px;
+                                            height: 18px !important;
                                         }
                                     }
 
@@ -1552,6 +1280,8 @@
                 display: flex;
                 flex-direction: column;
                 padding: 25px 5px;
+                
+                
 
                 .side-btn-container {
                     color: rgba(var(--i1d,38,38,38),1);
@@ -1563,15 +1293,12 @@
                     box-sizing: border-box;
                     display: flex;
                     flex-shrink: 0;
-                    margin: 0;
-                    padding: 0;
                     position: relative;
                     flex-basis: 32px;
-                    -webkit-box-orient: horizontal;
-                    -webkit-box-direction: normal;
                     flex-direction: row;
-                    -webkit-box-pack: end;
                     justify-content: flex-end;
+                    
+                    
 
                     button {
                         -webkit-box-direction: normal;
@@ -1590,6 +1317,7 @@
                         justify-content: center;
                         padding: 0;
                         outline: none;
+                        
 
                         .svg-container {
                             color: rgba(var(--i1d,38,38,38),1);
@@ -1599,16 +1327,10 @@
                             border: 0 solid #000;
                             box-sizing: border-box;
                             display: flex;
-                            -webkit-box-orient: vertical;
-                            -webkit-box-direction: normal;
                             flex-direction: column;
                             flex-shrink: 0;
-                            margin: 0;
-                            padding: 0;
                             position: relative;
-                            -webkit-box-align: center;
                             align-items: center;
-                            -webkit-box-pack: center;
                             justify-content: center;
                         }
                     }
