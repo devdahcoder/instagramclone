@@ -30,7 +30,7 @@
             display: flex;
             position: relative;
             // border: 1px solid rgba(var(--b38,219,219,219),1);  //main chart border uncomment this later
-            border-radius: 4px;
+            // border-radius: 4px;
             align-content: stretch;
             align-items: stretch;
             flex-direction: row;
@@ -644,7 +644,6 @@
             .message-container {
                 height: 100%;
                 flex-grow: 1;
-                border: 1px solid red;
                 width: 100%;
 
                 .a {
@@ -705,6 +704,24 @@
                                 overflow-x: hidden;
                                 overflow-y: auto;
                                 padding: 20px;
+                                height: 460px;
+
+                                &::-webkit-scrollbar {
+                                    width: 0px;
+                                }
+            
+                                /* Track */
+                                &::-webkit-scrollbar-track {
+                                    background: #f1f1f1;
+                                    border-radius: 100vh;
+                                }
+                                
+                                /* Handle */
+                                &::-webkit-scrollbar-thumb {
+                                    background: rgb(226, 217, 217);
+                                    border-radius: 100vh;
+                                }
+
                                 .inner {
                                     color: rgba(var(--i1d,38,38,38),1);
                                     font: inherit;
@@ -768,6 +785,51 @@
                                                     align-items: center;
                                                     flex-direction: row;
                                                     justify-content: flex-end;
+
+                                                    .kari-btn-container {
+                                                        color: rgba(var(--i1d,38,38,38),1);
+                                                        font: inherit;
+                                                        vertical-align: baseline;
+                                                        align-items: stretch;
+                                                        border: 0 solid #000;
+                                                        display: flex;
+                                                        flex-shrink: 0;
+                                                        position: relative;
+                                                        flex-basis: 32px;
+                                                        flex-direction: row;
+                                                        justify-content: flex-end;
+                            
+                                                        button {
+                                                            color: rgba(var(--i1d,38,38,38),1);
+                                                            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+                                                            font-size: 14px;
+                                                            line-height: 18px;
+                                                            align-items: center;
+                                                            background: 0 0;
+                                                            border: 0;
+                                                            cursor: pointer;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            outline: none;
+                                                            height: 42px;
+                                                            padding: 0 5px; 
+                            
+                                                            .svg-container {
+                                                                color: rgba(var(--i1d,38,38,38),1);
+                                                                cursor: pointer;
+                                                                font: inherit;
+                                                                vertical-align: baseline;
+                                                                border: 0 solid #000;
+                                                                box-sizing: border-box;
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                flex-shrink: 0;
+                                                                position: relative;
+                                                                align-items: center;
+                                                                justify-content: center;
+                                                            }
+                                                        }
+                                                    }
 
                                                     .kunle {
                                                         color: rgba(var(--i1d,38,38,38),1);

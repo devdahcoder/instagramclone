@@ -13,6 +13,8 @@ import Gif from "./assets/images/gif.svg"
 import Gallery from "./assets/images/gallery.svg"
 import Option from "./assets/images/options-lines.svg"
 import Arrow from "./assets/images/leftdirect.svg"
+import Reply from "./assets/images/reply.svg"
+import Align from "./assets/images/align.svg"
 
 const Chat = ({posts}) => {
 
@@ -468,6 +470,8 @@ const Chat = ({posts}) => {
                                 <div className="c">
                                     <div className="dele">
                                         <div className="inner">
+
+
                                             <div className="inner-chat-container">
                                                 <div class="JI_ht                                                                      ">
                                                     <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " style={{height: "24px", width: "24px"}}>
@@ -481,27 +485,28 @@ const Chat = ({posts}) => {
                                                     <div>
                                                         <div className="bolu">
                                                             <div className="kari" role="listbox" tabindex="0">
-                                                                <div>
+                                                                <div className="kari-btn-container">
                                                                     <button>
-                                                                        <div>
-                                                                            <img height="10px" src={Option} alt=""/>
+                                                                        <div className="svg-container">
+                                                                            <img height="16px" src={Align} alt=""/>
                                                                         </div>
                                                                     </button>
                                                                 </div>
-                                                                <div>
+                                                                <div className="kari-btn-container">
                                                                     <button>
-                                                                        <div>
-                                                                            <img height="10px" src={Option} alt=""/>
+                                                                        <div className="svg-container">
+                                                                            <img height="16px" src={Reply} alt=""/>
                                                                         </div>
                                                                     </button>
                                                                 </div>
-                                                                <div>
+                                                                <div className="kari-btn-container">
                                                                     <button>
-                                                                        <div>
-                                                                            <img height="10px" src={Option} alt=""/>
+                                                                        <div className="svg-container">
+                                                                            <img height="16px" src={Smile} alt=""/>
                                                                         </div>
                                                                     </button>
                                                                 </div>
+                                                                
                                                                 <div className="kunle">
                                                                     <div className="samuel">
                                                                         <div role="button" className="hassan" tabindex="-1">
@@ -518,59 +523,9 @@ const Chat = ({posts}) => {
                                                     </div>
                                                 </div>
                                             </div>
+
+
                                             <div class="">
-                                                <div class="JI_ht                                                                      ">
-                                                    <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " style={{height: "24px", width: "24px"}}>
-                                                    
-                                                    </div>
-                                                </div>
-                                                <div class="DMBLb" role="listbox" tabindex="0">
-                                                    <div>
-                                                        <div class="VdURK e9_tN JRTzd">
-                                                            <div class="PaBnr  eFVJg" role="listbox" tabindex="0">
-                                                                <div class="iXTil  ">
-                                                                    <div class="  _6FEQj CMoMH    RQUXn _8_yLp  ">
-                                                                        <div role="button" class="ZyFrc" tabindex="-1">
-                                                                            <div class="                     Igw0E     IwRSH        YBx95       _4EzTm                                                                                   XfCBB            g6RW6               " style={{minHeight: "44px"}}>
-                                                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4             p1tLr      hjZTB">
-                                                                                    <span>Fine fine bro and yours</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="JI_ht                                                                      ">
-                                                    <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " style={{height: "24px", width: "24px"}}>
-                                                    
-                                                    </div>
-                                                </div>
-                                                <div class="DMBLb" role="listbox" tabindex="0">
-                                                    <div>
-                                                        <div class="VdURK e9_tN JRTzd">
-                                                            <div class="PaBnr  eFVJg" role="listbox" tabindex="0">
-                                                                <div class="iXTil  ">
-                                                                    <div class="  _6FEQj CMoMH    RQUXn _8_yLp  ">
-                                                                        <div role="button" class="ZyFrc" tabindex="-1">
-                                                                            <div class="                     Igw0E     IwRSH        YBx95       _4EzTm                                                                                   XfCBB            g6RW6               " style={{minHeight: "44px"}}>
-                                                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4             p1tLr      hjZTB">
-                                                                                    <span>Fine fine bro and yours</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            {/* <div class="">
                                                 <div class="JI_ht                                                                      ">
                                                     <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " style={{height: "24px", width: "24px"}}>
                                                     
@@ -907,7 +862,59 @@ const Chat = ({posts}) => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> */}
+                                            </div>
+                                            <div class="">
+                                                <div class="JI_ht                                                                      ">
+                                                    <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " style={{height: "24px", width: "24px"}}>
+                                                    
+                                                    </div>
+                                                </div>
+                                                <div class="DMBLb" role="listbox" tabindex="0">
+                                                    <div>
+                                                        <div class="VdURK e9_tN JRTzd">
+                                                            <div class="PaBnr  eFVJg" role="listbox" tabindex="0">
+                                                                <div class="iXTil  ">
+                                                                    <div class="  _6FEQj CMoMH    RQUXn _8_yLp  ">
+                                                                        <div role="button" class="ZyFrc" tabindex="-1">
+                                                                            <div class="                     Igw0E     IwRSH        YBx95       _4EzTm                                                                                   XfCBB            g6RW6               " style={{minHeight: "44px"}}>
+                                                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4             p1tLr      hjZTB">
+                                                                                    <span>Fine fine bro and yours</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <div class="JI_ht                                                                      ">
+                                                    <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              " style={{height: "24px", width: "24px"}}>
+                                                    
+                                                    </div>
+                                                </div>
+                                                <div class="DMBLb" role="listbox" tabindex="0">
+                                                    <div>
+                                                        <div class="VdURK e9_tN JRTzd">
+                                                            <div class="PaBnr  eFVJg" role="listbox" tabindex="0">
+                                                                <div class="iXTil  ">
+                                                                    <div class="  _6FEQj CMoMH    RQUXn _8_yLp  ">
+                                                                        <div role="button" class="ZyFrc" tabindex="-1">
+                                                                            <div class="                     Igw0E     IwRSH        YBx95       _4EzTm                                                                                   XfCBB            g6RW6               " style={{minHeight: "44px"}}>
+                                                                                <div class="_7UhW9   xLCgt      MMzan  KV-D4             p1tLr      hjZTB">
+                                                                                    <span>Fine fine bro and yours</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
