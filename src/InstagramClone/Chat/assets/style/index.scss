@@ -418,10 +418,15 @@
                                         cursor: pointer;
                                         outline: 0;
                                         border-radius: 10px;
+                                        transform: scale(0.9);
+                                        transition: transform 300ms ease 200ms;
                                         
 
                                         &:hover {
                                             background-color: rgb(247, 241, 241);
+                                            transform: scale(1);
+                                            // transition: transform 1s ease 200ms;
+                                            
                                         }
 
                                         &:visited {
@@ -1249,16 +1254,12 @@
                                                 border: 0 solid #000;
                                                 box-sizing: border-box;
                                                 display: flex;
-                                                -webkit-box-orient: vertical;
-                                                -webkit-box-direction: normal;
                                                 flex-direction: column;
                                                 flex-shrink: 0;
                                                 margin: 0;
                                                 padding: 0;
                                                 position: relative;
-                                                -webkit-box-align: center;
                                                 align-items: center;
-                                                -webkit-box-pack: center;
                                                 justify-content: center;
                                             }
                                         }
@@ -1287,7 +1288,6 @@
                     color: rgba(var(--i1d,38,38,38),1);
                     font: inherit;
                     vertical-align: baseline;
-                    -webkit-box-align: stretch;
                     align-items: stretch;
                     border: 0 solid #000;
                     box-sizing: border-box;

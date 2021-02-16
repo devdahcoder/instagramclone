@@ -530,10 +530,18 @@
   cursor: pointer;
   outline: 0;
   border-radius: 10px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform 300ms ease 200ms;
+  transition: -webkit-transform 300ms ease 200ms;
+  transition: transform 300ms ease 200ms;
+  transition: transform 300ms ease 200ms, -webkit-transform 300ms ease 200ms;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a:hover {
   background-color: #f7f1f1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a:visited {
@@ -1566,19 +1574,19 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin: 0;
   padding: 0;
   position: relative;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-chat-section .chat-container .chat-div .chat-side-bar {
@@ -1598,8 +1606,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
