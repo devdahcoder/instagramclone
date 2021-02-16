@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./assets/style/index.css"
 import ChatHeader from "../ChatHeader/ChatHeader"
 import ChatSearch from "../ChatSearch/ChatSearch"
@@ -15,6 +15,8 @@ import Option from "./assets/images/options-lines.svg"
 import Arrow from "./assets/images/leftdirect.svg"
 
 const Chat = ({posts}) => {
+
+    const [vanish, setVanish] = useState("false")
     return (
         <section className="main-chat-section">
             <div className="chat-container">
@@ -53,8 +55,8 @@ const Chat = ({posts}) => {
                             <form action="">
                                 <div className="form-display">
                                     <label className="form-display">
-                                        <input type="text" name="" id="" />
-                                        <span><img style={{height: "10px"}} src={Search} alt=""/> Search</span>
+                                        <input onFocus={() => setVanish("true")} type="text" name="" id="" />
+                                        <span style={{display: vanish === "true" ? "none": ""}}><img style={{height: "10px"}} src={Search} alt=""/> Search</span>
                                     </label>
                                 </div>
                             </form>

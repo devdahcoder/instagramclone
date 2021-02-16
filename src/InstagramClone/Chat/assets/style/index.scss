@@ -32,14 +32,9 @@
             // border: 1px solid rgba(var(--b38,219,219,219),1);  //main chart border uncomment this later
             border-radius: 4px;
             align-content: stretch;
-            -webkit-box-align: stretch;
             align-items: stretch;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
             flex-direction: row;
-            -webkit-box-pack: center;
             justify-content: center;
-            -webkit-box-flex: 0;
             flex: 0 0 auto;
             overflow: hidden;
             height: 100%;
@@ -51,17 +46,11 @@
                 color: rgba(var(--i1d,38,38,38),1);
                 font: inherit;
                 vertical-align: baseline;
-                -webkit-box-align: stretch;
                 align-items: stretch;
                 border: 0 solid #000;
-                box-sizing: border-box;
                 display: flex;
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
                 flex-direction: column;
                 flex-shrink: 0;
-                margin: 0;
-                padding: 0;
                 position: relative;
                 background-color: rgba(var(--d87,255,255,255),1);
                 border-right: 1px solid rgba(var(--b6a,219,219,219),1);
@@ -75,12 +64,9 @@
                     color: rgba(var(--i1d,38,38,38),1);
                     font: inherit;
                     vertical-align: baseline;
-                    -webkit-box-align: stretch;
                     align-items: stretch;
                     border: 0 solid #000;
-                    box-sizing: border-box;
                     flex-shrink: 0;
-                    margin: 0;
                     position: relative;
                     background-color: rgba(var(--d87,255,255,255),1);
                     display: flex;
@@ -98,7 +84,6 @@
                         font: inherit;
                         vertical-align: baseline;
                         border: 0 solid #000;
-                        box-sizing: border-box;
                         display: flex;
                         flex-shrink: 0;
                         margin: 0;
@@ -121,7 +106,6 @@
                             -webkit-box-align: stretch;
                             align-items: stretch;
                             border: 0 solid #000;
-                            box-sizing: border-box;
                             display: flex;
                             position: relative;
                             flex-direction: row;
@@ -152,18 +136,13 @@
                                     font: inherit;
                                     vertical-align: baseline;
                                     border: 0 solid #000;
-                                    box-sizing: border-box;
                                     display: flex;
-                                    -webkit-box-orient: vertical;
-                                    -webkit-box-direction: normal;
                                     flex-direction: column;
                                     flex-shrink: 0;
                                     margin: 0;
                                     padding: 0;
                                     position: relative;
-                                    -webkit-box-align: center;
                                     align-items: center;
-                                    -webkit-box-pack: center;
                                     justify-content: center;
                                 }
                             }
@@ -180,60 +159,44 @@
                     position: relative;
                     padding: 0 20px;
                     margin: 5px 0;
-                    display: none;
+                    // display: none;
 
                     form {
                         .form-display {
                             font: inherit;
                             vertical-align: baseline;
                             flex-shrink: 0;
-                            margin: 0;
-                            padding: 0;
-                            -webkit-box-align: center;
                             align-items: center;
-                            background: rgba(var(--b3f,250,250,250),1);
-                            border: 1px solid rgba(var(--ca6,219,219,219),1);
+                            background-color: rgba(var(--b3f,250,250,250),1);
+                            border: 1px solid rgb(241, 238, 238);
                             border-radius: 3px;
-                            box-sizing: border-box;
                             color: rgba(var(--i1d,38,38,38),1);
                             display: flex;
-                            -webkit-box-orient: horizontal;
-                            -webkit-box-direction: normal;
                             flex-direction: row;
                             font-size: 14px;
-                            position: relative;
                             width: 100%;
                             label {
                                 color: rgba(var(--i1d,38,38,38),1);
-                                -webkit-box-direction: normal;
-                                border: 0;
                                 font: inherit;
                                 vertical-align: baseline;
                                 display: flex;
                                 // height: 30px;
-                                -webkit-box-flex: 1;
                                 flex: 1 0 0;
-                                padding: 0;
                                 position: relative;
-                                margin: 0;
-                                min-width: 0;
                                 input {
-                                    -webkit-box-direction: normal;
                                     color: rgba(var(--i1d,38,38,38),1);
                                     font-family: 'Roboto Mono', monospace;
                                     line-height: 18px;
-                                    background: rgb(219, 215, 215);
-                                    border: 0;
-                                    -webkit-box-flex: 1;
+                                    background: rgb(241, 238, 238);
                                     flex: 1 0 auto;
-                                    margin: 0;
-                                    outline: 0;
                                     overflow: hidden;
                                     padding: 9px 0 7px 8px;
                                     text-overflow: ellipsis;
                                     font-size: 16px;
                                     width: 100%;
                                     height: 30px;
+                                    outline: none;
+                                    border: 0px solid #000;
                                 }
                                 span {
                                     -webkit-box-direction: normal;
@@ -274,8 +237,6 @@
                     color: rgba(var(--i1d,38,38,38),1);
                     font: inherit;
                     vertical-align: baseline;
-                    border: 0 solid #000;
-                    box-sizing: border-box;
                     display: flex;
                     flex-direction: column;
                     position: relative;
@@ -291,19 +252,13 @@
                         color: rgba(var(--i1d,38,38,38),1);
                         font: inherit;
                         vertical-align: baseline;
-                        -webkit-box-align: stretch;
                         align-items: stretch;
                         border: 0 solid #000;
-                        box-sizing: border-box;
                         display: flex;
-                        -webkit-box-orient: vertical;
-                        -webkit-box-direction: normal;
                         flex-direction: column;
                         flex-shrink: 0;
-                        margin: 0;
-                        padding: 0;
                         position: relative;
-                        height: 500px;
+                        height: 460px;
                         overflow: hidden;
                         
                         
@@ -312,10 +267,8 @@
                             color: rgba(var(--i1d,38,38,38),1);
                             font: inherit;
                             vertical-align: baseline;
-                            -webkit-box-align: stretch;
                             align-items: stretch;
                             border: 0 solid #000;
-                            box-sizing: border-box;
                             display: flex;
                             flex-direction: column;
                             position: relative;
@@ -325,7 +278,7 @@
                             height: 100%;
                             overflow: hidden auto;
                             -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, 
-                            color-stop(0.00,  rgba(0,0,0,0)),
+                            color-stop(0.00,  rgba(0,0,0,0.1)),
                             color-stop(1.00,  rgba(0,0,0,1)));
 
                             &::-webkit-scrollbar {
@@ -349,6 +302,8 @@
                                 flex-direction: column;
                                 padding-bottom: 90px;
                                 padding-top: 0px;
+                                // border: 1px solid red;
+                                // height: 100vh;
 
 
                                 .message-request-container {
@@ -371,14 +326,11 @@
                                     }
 
                                     button {
-                                        -webkit-box-direction: normal;
-                                        margin: 0;
                                         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
                                         font-size: 14px;
                                         line-height: 18px;
                                         appearance: none;
                                         background: 0 0;
-                                        box-sizing: border-box;
                                         cursor: pointer;
                                         font-weight: 600;
                                         text-align: center;
@@ -391,6 +343,7 @@
                                         display: inline;
                                         padding: 0;
                                         position: relative;
+                                        outline: none;
                                     }
                                 }
 
@@ -400,7 +353,6 @@
                                     font: inherit;
                                     vertical-align: baseline;
                                     border: 0 solid #000;
-                                    box-sizing: border-box;
                                     display: flex;
                                     flex-direction: column;
                                     background-color: rgba(var(--d87,255,255,255),1);
@@ -418,14 +370,14 @@
                                         cursor: pointer;
                                         outline: 0;
                                         border-radius: 10px;
-                                        transform: scale(0.9);
+                                        // transform: scale(0.9);
                                         transition: transform 300ms ease 200ms;
                                         
 
                                         &:hover {
                                             background-color: rgb(247, 241, 241);
-                                            transform: scale(1);
-                                            // transition: transform 1s ease 200ms;
+                                            transform: scale(0.9);
+                                            transition: transform 300ms ease 200ms;
                                             
                                         }
 
@@ -440,7 +392,6 @@
                                             cursor: pointer;
                                             font: inherit;
                                             vertical-align: baseline;
-                                            box-sizing: border-box;
                                             display: flex;
                                             align-content: stretch;
                                             align-items: center;
@@ -456,9 +407,6 @@
                                                     -webkit-box-align: stretch;
                                                     align-items: stretch;
                                                     border: 0 solid #000;
-                                                    box-sizing: border-box;
-                                                    -webkit-box-orient: vertical;
-                                                    -webkit-box-direction: normal;
                                                     flex-direction: column;
                                                     flex-shrink: 0;
                                                     padding: 0;
@@ -482,20 +430,12 @@
                                                         font: inherit;
                                                         vertical-align: baseline;
                                                         border: 0 solid #000;
-                                                        box-sizing: border-box;
                                                         display: flex;
-                                                        margin: 0;
-                                                        padding: 0;
                                                         position: relative;
                                                         align-content: stretch;
-                                                        -webkit-box-align: center;
                                                         align-items: center;
-                                                        -webkit-box-orient: horizontal;
-                                                        -webkit-box-direction: normal;
                                                         flex-direction: row;
-                                                        -webkit-box-pack: start;
                                                         justify-content: flex-start;
-                                                        -webkit-box-flex: 0;
                                                         flex: 0 0 auto;
                                                         .chat-user-profile-name {
                                                             cursor: pointer;
@@ -504,20 +444,12 @@
                                                             font: inherit;
                                                             vertical-align: baseline;
                                                             border: 0 solid #000;
-                                                            box-sizing: border-box;
                                                             display: flex;
-                                                            -webkit-box-orient: vertical;
-                                                            -webkit-box-direction: normal;
                                                             flex-direction: column;
-                                                            margin: 0;
-                                                            padding: 0;
                                                             position: relative;
                                                             align-content: stretch;
-                                                            -webkit-box-align: stretch;
                                                             align-items: stretch;
-                                                            -webkit-box-pack: start;
                                                             justify-content: flex-start;
-                                                            -webkit-box-flex: 0;
                                                             flex: 0 1 auto;
                                                             overflow: hidden;
                                                             // width: 40px;
@@ -531,8 +463,6 @@
                                                                 align-items: stretch;
                                                                 border: 0 solid #000;
                                                                 box-sizing: border-box;
-                                                                -webkit-box-orient: vertical;
-                                                                -webkit-box-direction: normal;
                                                                 flex-direction: column;
                                                                 flex-shrink: 0;
                                                                 padding: 0;
@@ -563,18 +493,13 @@
                                                     border: 0 solid #000;
                                                     box-sizing: border-box;
                                                     display: flex;
-                                                    -webkit-box-orient: vertical;
-                                                    -webkit-box-direction: normal;
                                                     flex-direction: column;
                                                     margin: 0;
                                                     padding: 0;
                                                     position: relative;
                                                     align-content: stretch;
-                                                    -webkit-box-align: stretch;
                                                     align-items: stretch;
-                                                    -webkit-box-pack: start;
                                                     justify-content: flex-start;
-                                                    -webkit-box-flex: 0;
                                                     flex: 0 0 auto;
                                                     margin-top: 0px;
 
@@ -582,12 +507,9 @@
                                                         cursor: pointer;
                                                         font: inherit;
                                                         vertical-align: baseline;
-                                                        -webkit-box-align: stretch;
                                                         align-items: stretch;
                                                         border: 0 solid #000;
                                                         box-sizing: border-box;
-                                                        -webkit-box-orient: vertical;
-                                                        -webkit-box-direction: normal;
                                                         flex-direction: column;
                                                         flex-shrink: 0;
                                                         padding: 0;
@@ -608,17 +530,12 @@
                                                             white-space: nowrap;
                                                             font: inherit;
                                                             vertical-align: baseline;
-                                                            -webkit-box-align: stretch;
                                                             align-items: stretch;
                                                             border: 0 solid #000;
                                                             box-sizing: border-box;
                                                             display: flex;
                                                             flex-shrink: 0;
-                                                            margin: 0;
-                                                            padding: 0;
                                                             position: relative;
-                                                            -webkit-box-orient: horizontal;
-                                                            -webkit-box-direction: normal;
                                                             flex-direction: row;
 
                                                             .last-message-or-active {
@@ -629,9 +546,6 @@
                                                                 p {
                                                                     cursor: pointer;
                                                                     white-space: nowrap;
-                                                                    -webkit-box-direction: normal;
-                                                                    padding: 0;
-                                                                    border: 0;
                                                                     font: inherit;
                                                                     vertical-align: baseline;
                                                                     font-size: 14px;
@@ -644,66 +558,19 @@
                                                             }
 
                                                             .spot {
-                                                                --f52: 142,142,142;
-                                                                --h1d: 255,255,255;
-                                                                --de5: 255,255,255;
-                                                                --d69: 0,149,246;
-                                                                --b86: 88,195,34;
-                                                                --i30: 237,73,86;
-                                                                --d62: 255,255,255;
-                                                                --e4f: 54,54,54;
-                                                                --a72: 255,255,255;
-                                                                --ie3: 142,142,142;
-                                                                --c37: 237,73,86;
-                                                                --f24: 0,149,246;
-                                                                --jbb: 53,121,234;
-                                                                --eca: 255,255,255;
-                                                                --jb7: 0,0,0;
-                                                                --fa7: 224,241,255;
-                                                                --ba8: 168,168,168;
-                                                                --eac: 237,73,86;
-                                                                --i1d: 38,38,38;
-                                                                --edc: 199,199,199;
-                                                                --f75: 38,38,38;
-                                                                --fe0: 0,55,107;
-                                                                --d87: 255,255,255;
-                                                                --b3f: 250,250,250;
-                                                                --bb2: 239,239,239;
-                                                                --f23: 255,255,255;
-                                                                --b38: 219,219,219;
-                                                                --b6a: 219,219,219;
-                                                                --ca6: 219,219,219;
-                                                                --cdd: 38,38,38;
-                                                                --e22: 199,199,199;
-                                                                --e62: 245,251,255;
-                                                                --b2f: 88,195,34;
-                                                                --c8c: 168,168,168;
-                                                                --ce3: 239,239,239;
-                                                                --jd9: 0,0,0;
-                                                                --j64: 54,54,54;
-                                                                --a97: 243,243,243;
-                                                                --d20: 38,38,38;
                                                                 cursor: pointer;
                                                                 white-space: nowrap;
-                                                                -webkit-box-direction: normal;
-                                                                margin: 0;
-                                                                padding: 0;
-                                                                border: 0;
                                                                 font: inherit;
                                                                 vertical-align: baseline;
                                                                 display: inline;
                                                                 color: rgba(var(--i1d,38,38,38),1);
-                                                                margin-left: 4px;
-                                                                margin-right: 4px;
+                                                                margin: 0px 4px;
                                                             }
 
                                                             .last-message-time {
                                                                 cursor: pointer;
                                                                 color: rgba(var(--f52,142,142,142),1);
                                                                 white-space: nowrap;
-                                                                -webkit-box-direction: normal;
-                                                                margin: 0;
-                                                                padding: 0;
                                                                 border: 0;
                                                                 font: inherit;
                                                                 vertical-align: baseline;
@@ -719,39 +586,28 @@
                                                 color: rgba(var(--i1d,38,38,38),1);
                                                 font: inherit;
                                                 vertical-align: baseline;
-                                                -webkit-box-align: stretch;
                                                 align-items: stretch;
                                                 border: 0 solid #000;
                                                 box-sizing: border-box;
                                                 display: flex;
                                                 flex-shrink: 0;
-                                                margin: 0;
-                                                padding: 0;
                                                 position: relative;
                                                 flex-basis: 32px;
-                                                -webkit-box-orient: horizontal;
-                                                -webkit-box-direction: normal;
                                                 flex-direction: row;
-                                                -webkit-box-pack: end;
                                                 justify-content: flex-end;
                                                 margin-left: auto;
                     
                                                 button {
-                                                    -webkit-box-direction: normal;
-                                                    margin: 0;
                                                     color: rgba(var(--i1d,38,38,38),1);
                                                     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
                                                     font-size: 14px;
                                                     line-height: 18px;
-                                                    -webkit-box-align: center;
                                                     align-items: center;
                                                     background: 0 0;
                                                     border: 0;
                                                     cursor: pointer;
                                                     display: flex;
-                                                    -webkit-box-pack: center;
                                                     justify-content: center;
-                                                    padding: 0;
                                                     outline: none;
                     
                                                     .svg-container {
@@ -762,16 +618,10 @@
                                                         border: 0 solid #000;
                                                         box-sizing: border-box;
                                                         display: flex;
-                                                        -webkit-box-orient: vertical;
-                                                        -webkit-box-direction: normal;
                                                         flex-direction: column;
                                                         flex-shrink: 0;
-                                                        margin: 0;
-                                                        padding: 0;
                                                         position: relative;
-                                                        -webkit-box-align: center;
                                                         align-items: center;
-                                                        -webkit-box-pack: center;
                                                         justify-content: center;
                                                     }
                                                 }
@@ -794,43 +644,32 @@
             .message-container {
                 height: 100%;
                 flex-grow: 1;
-                // border: 1px solid red;
+                border: 1px solid red;
                 width: 100%;
 
                 .a {
                     color: rgba(var(--i1d,38,38,38),1);
                     font: inherit;
                     vertical-align: baseline;
-                    -webkit-box-align: stretch;
                     align-items: stretch;
                     border: 0 solid #000;
                     box-sizing: border-box;
                     display: flex;
                     flex-shrink: 0;
-                    margin: 0;
-                    padding: 0;
                     position: relative;
                     height: 100%;
                     width: 100%;
-                    -webkit-box-orient: horizontal;
-                    -webkit-box-direction: normal;
                     flex-direction: row;
                     .b {
                         color: rgba(var(--i1d,38,38,38),1);
                         font: inherit;
                         vertical-align: baseline;
-                        -webkit-box-align: stretch;
                         align-items: stretch;
                         border: 0 solid #000;
                         box-sizing: border-box;
                         display: flex;
-                        -webkit-box-orient: vertical;
-                        -webkit-box-direction: normal;
                         flex-direction: column;
-                        margin: 0;
-                        padding: 0;
                         position: relative;
-                        -webkit-box-flex: 2;
                         flex: 2 1 auto;
                         // padding-top: 44px;
 
@@ -841,18 +680,11 @@
                             border: 0 solid #000;
                             box-sizing: border-box;
                             display: flex;
-                            -webkit-box-orient: vertical;
-                            -webkit-box-direction: normal;
                             flex-direction: column;
-                            margin: 0;
-                            padding: 0;
                             position: relative;
                             align-content: stretch;
-                            -webkit-box-align: stretch;
                             align-items: stretch;
-                            -webkit-box-pack: end;
                             justify-content: flex-end;
-                            -webkit-box-flex: 1;
                             flex: 1 1 auto;
                             min-height: 0;
                             min-width: 0;
@@ -862,26 +694,21 @@
                                 color: rgba(var(--i1d,38,38,38),1);
                                 font: inherit;
                                 vertical-align: baseline;
-                                -webkit-box-align: stretch;
                                 align-items: stretch;
                                 border: 0 solid #000;
                                 box-sizing: border-box;
                                 display: flex;
-                                -webkit-box-orient: vertical;
-                                -webkit-box-direction: normal;
                                 flex-direction: column;
                                 margin: 0;
                                 position: relative;
-                                -webkit-box-flex: 0;
                                 flex: 0 1 auto;
                                 overflow-x: hidden;
                                 overflow-y: auto;
-                                padding: 20px 20px 0;
+                                padding: 20px;
                                 .inner {
                                     color: rgba(var(--i1d,38,38,38),1);
                                     font: inherit;
                                     vertical-align: baseline;
-                                    -webkit-box-align: stretch;
                                     align-items: stretch;
                                     border: 0 solid #000;
                                     box-sizing: border-box;
@@ -899,18 +726,11 @@
                                         border: 0 solid #000;
                                         box-sizing: border-box;
                                         display: flex;
-                                        margin: 0;
-                                        padding: 0;
                                         position: relative;
                                         align-content: stretch;
-                                        -webkit-box-align: end;
                                         align-items: flex-end;
-                                        -webkit-box-orient: horizontal;
-                                        -webkit-box-direction: normal;
                                         flex-direction: row;
-                                        -webkit-box-pack: start;
                                         justify-content: flex-start;
-                                        -webkit-box-flex: 0;
                                         flex: 0 0 auto;
 
                                         .inner-chat {
@@ -920,21 +740,15 @@
                                                 color: rgba(var(--i1d,38,38,38),1);
                                                 font: inherit;
                                                 vertical-align: baseline;
-                                                -webkit-box-align: stretch;
                                                 align-items: stretch;
                                                 border: 0 solid #000;
                                                 box-sizing: border-box;
-                                                -webkit-box-orient: vertical;
-                                                -webkit-box-direction: normal;
                                                 flex-direction: column;
                                                 flex-shrink: 0;
-                                                margin: 0;
-                                                padding: 0;
                                                 position: relative;
                                                 border-radius: 22px;
                                                 cursor: default;
                                                 display: flex;
-                                                -webkit-box-pack: center;
                                                 justify-content: center;
                                                 min-height: 44px;
                                                 align-self: flex-end;
@@ -950,15 +764,9 @@
                                                     box-sizing: border-box;
                                                     display: flex;
                                                     flex-shrink: 0;
-                                                    margin: 0;
-                                                    padding: 0;
                                                     position: relative;
-                                                    -webkit-box-orient: horizontal;
-                                                    -webkit-box-align: center;
                                                     align-items: center;
-                                                    -webkit-box-direction: normal;
                                                     flex-direction: row;
-                                                    -webkit-box-pack: end;
                                                     justify-content: flex-end;
 
                                                     .kunle {
@@ -966,17 +774,12 @@
                                                         cursor: default;
                                                         font: inherit;
                                                         vertical-align: baseline;
-                                                        -webkit-box-align: stretch;
                                                         align-items: stretch;
                                                         border: 0 solid #000;
                                                         box-sizing: border-box;
                                                         display: flex;
-                                                        -webkit-box-orient: vertical;
-                                                        -webkit-box-direction: normal;
                                                         flex-direction: column;
                                                         flex-shrink: 0;
-                                                        margin: 0;
-                                                        padding: 0;
                                                         position: relative;
                                                         margin-bottom: 8px;
 
@@ -985,11 +788,8 @@
                                                             cursor: default;
                                                             font: inherit;
                                                             vertical-align: baseline;
-                                                            -webkit-box-align: stretch;
                                                             align-items: stretch;
                                                             box-sizing: border-box;
-                                                            -webkit-box-orient: vertical;
-                                                            -webkit-box-direction: normal;
                                                             flex-direction: column;
                                                             flex-shrink: 0;
                                                             margin: 0;
@@ -997,13 +797,11 @@
                                                             position: relative;
                                                             border-radius: 22px;
                                                             display: flex;
-                                                            -webkit-box-pack: center;
                                                             justify-content: center;
                                                             max-width: 236px;
                                                             min-height: 44px;
                                                             overflow: hidden;
                                                             z-index: 1;
-                                                            background: #efefef;
                                                             background: #efefef;
                                                             align-self: flex-end;
 
@@ -1012,17 +810,12 @@
                                                                 cursor: default;
                                                                 font: inherit;
                                                                 vertical-align: baseline;
-                                                                -webkit-box-align: stretch;
                                                                 align-items: stretch;
                                                                 border: 0 solid #000;
                                                                 box-sizing: border-box;
                                                                 display: flex;
-                                                                -webkit-box-orient: vertical;
-                                                                -webkit-box-direction: normal;
                                                                 flex-direction: column;
                                                                 flex-shrink: 0;
-                                                                margin: 0;
-                                                                padding: 0;
                                                                 position: relative;
                                                                 touch-action: manipulation;
 
@@ -1034,38 +827,26 @@
                                                                     border: 0 solid #000;
                                                                     box-sizing: border-box;
                                                                     display: flex;
-                                                                    -webkit-box-orient: vertical;
-                                                                    -webkit-box-direction: normal;
                                                                     flex-direction: column;
                                                                     margin: 0;
                                                                     position: relative;
                                                                     align-content: stretch;
-                                                                    -webkit-box-align: stretch;
                                                                     align-items: stretch;
-                                                                    -webkit-box-pack: center;
                                                                     justify-content: center;
-                                                                    -webkit-box-flex: 0;
                                                                     flex: 0 0 auto;
-                                                                    padding-left: 16px;
-                                                                    padding-right: 16px;
-                                                                    padding-bottom: 16px;
-                                                                    padding-top: 16px;
+                                                                    padding: 16px;
                                                                     min-height: 44px;
 
                                                                     .ola {
                                                                         cursor: default;
                                                                         font: inherit;
                                                                         vertical-align: baseline;
-                                                                        -webkit-box-align: stretch;
                                                                         align-items: stretch;
                                                                         border: 0 solid #000;
                                                                         box-sizing: border-box;
                                                                         display: flex;
-                                                                        -webkit-box-orient: vertical;
-                                                                        -webkit-box-direction: normal;
                                                                         flex-direction: column;
                                                                         flex-shrink: 0;
-                                                                        padding: 0;
                                                                         position: relative;
                                                                         font-size: 14px;
                                                                         line-height: 18px;
@@ -1077,13 +858,9 @@
 
                                                                         span {
                                                                             cursor: default;
-                                                                            -webkit-box-direction: normal;
                                                                             color: rgba(var(--i1d,38,38,38),1);
                                                                             overflow-wrap: break-word;
                                                                             white-space: normal;
-                                                                            margin: 0;
-                                                                            padding: 0;
-                                                                            border: 0;
                                                                             font: inherit;
                                                                             vertical-align: baseline;
                                                                         }
@@ -1109,8 +886,6 @@
                             box-sizing: border-box;
                             display: flex;
                             flex-direction: column;
-                            margin: 0;
-                            padding: 0;
                             position: relative;
                             align-content: stretch;
                             align-items: stretch;
@@ -1124,23 +899,14 @@
                                 border: 0 solid #000;
                                 box-sizing: border-box;
                                 display: flex;
-                                // -webkit-box-orient: vertical;
-                                // -webkit-box-direction: normal;
                                 flex-direction: row;
-                                // margin: 0;
                                 position: relative;
                                 // align-content: stretch;
-                                // -webkit-box-align: stretch;
                                 // align-items: stretch;
-                                // -webkit-box-pack: start;
                                 // justify-content: flex-start;
-                                // -webkit-box-flex: 0;
                                 // flex: 0 0 auto;
                                 align-items: center;
-                                padding-left: 20px;
-                                padding-right: 20px;
-                                padding-bottom: 20px;
-                                padding-top: 20px;
+                                padding: 20px;
                                 width: 100%;
 
                                 .profile-img {
@@ -1152,9 +918,6 @@
                                     font: inherit;
                                     vertical-align: baseline;
                                     border: 0 solid #000;
-                                    box-sizing: border-box;
-                                    margin: 0;
-                                    padding: 0;
                                     position: relative;
                                     align-items: center;
                                     border-radius: 22px;
@@ -1170,21 +933,12 @@
                                         color: rgba(var(--i1d,38,38,38),1);
                                         font: inherit;
                                         vertical-align: baseline;
-                                        border: 0 solid #000;
-                                        box-sizing: border-box;
                                         display: flex;
-                                        -webkit-box-orient: vertical;
-                                        -webkit-box-direction: normal;
                                         flex-direction: column;
-                                        margin: 0;
-                                        padding: 0;
                                         position: relative;
                                         align-content: stretch;
-                                        -webkit-box-align: stretch;
                                         align-items: stretch;
-                                        -webkit-box-pack: start;
                                         justify-content: flex-start;
-                                        -webkit-box-flex: 1;
                                         flex: 1 1 auto;
                                         min-height: 0;
                                         min-width: 0;
@@ -1192,7 +946,6 @@
                                         width: 100%;
 
                                         .textarea {
-                                            -webkit-box-direction: normal;
                                             color: rgba(var(--i1d,38,38,38),1);
                                             font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
                                             font-size: 14px;
@@ -1210,38 +963,26 @@
                                         color: rgba(var(--i1d,38,38,38),1);
                                         font: inherit;
                                         vertical-align: baseline;
-                                        -webkit-box-align: stretch;
                                         align-items: stretch;
                                         border: 0 solid #000;
-                                        box-sizing: border-box;
                                         display: flex;
                                         flex-shrink: 0;
-                                        margin: 0;
-                                        padding: 0;
                                         position: relative;
                                         flex-basis: 32px;
-                                        -webkit-box-orient: horizontal;
-                                        -webkit-box-direction: normal;
                                         flex-direction: row;
-                                        -webkit-box-pack: end;
                                         justify-content: flex-end;
             
                                         button {
-                                            -webkit-box-direction: normal;
-                                            margin: 0;
                                             color: rgba(var(--i1d,38,38,38),1);
                                             font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
                                             font-size: 14px;
                                             line-height: 18px;
-                                            -webkit-box-align: center;
                                             align-items: center;
                                             background: 0 0;
                                             border: 0;
                                             cursor: pointer;
                                             display: flex;
-                                            -webkit-box-pack: center;
                                             justify-content: center;
-                                            padding: 0;
                                             outline: none;
                                             height: 42px;
                                             padding: 0 5px; 
@@ -1256,8 +997,6 @@
                                                 display: flex;
                                                 flex-direction: column;
                                                 flex-shrink: 0;
-                                                margin: 0;
-                                                padding: 0;
                                                 position: relative;
                                                 align-items: center;
                                                 justify-content: center;
@@ -1297,7 +1036,7 @@
                     flex-basis: 32px;
                     flex-direction: row;
                     justify-content: flex-end;
-                    
+
                     
 
                     button {
@@ -1318,7 +1057,6 @@
                         padding: 0;
                         outline: none;
                         
-
                         .svg-container {
                             color: rgba(var(--i1d,38,38,38),1);
                             cursor: pointer;

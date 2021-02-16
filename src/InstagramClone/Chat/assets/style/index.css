@@ -49,18 +49,18 @@
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   overflow: hidden;
   height: 100%;
   width: 100%;
@@ -72,22 +72,18 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   background-color: rgba(var(--d87, 255, 255, 255), 1);
   border-right: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
@@ -103,14 +99,11 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
   position: relative;
   background-color: rgba(var(--d87, 255, 255, 255), 1);
   display: -webkit-box;
@@ -133,8 +126,6 @@
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,8 +156,6 @@
   -ms-flex-align: stretch;
       align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,33 +198,30 @@
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin: 0;
   padding: 0;
   position: relative;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .search-container {
   position: relative;
   padding: 0 20px;
   margin: 5px 0;
-  display: none;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display {
@@ -243,65 +229,53 @@
   vertical-align: baseline;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
-  background: rgba(var(--b3f, 250, 250, 250), 1);
-  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  border: 1px solid #f1eeee;
   border-radius: 3px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   font-size: 14px;
-  position: relative;
   width: 100%;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label {
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  -webkit-box-direction: normal;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 0px;
-      flex: 1 0 0;
-  padding: 0;
+      -ms-flex: 1 0 0px;
+          flex: 1 0 0;
   position: relative;
-  margin: 0;
-  min-width: 0;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label input {
-  -webkit-box-direction: normal;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: 'Roboto Mono', monospace;
   line-height: 18px;
-  background: #dbd7d7;
-  border: 0;
+  background: #f1eeee;
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 auto;
-      flex: 1 0 auto;
-  margin: 0;
-  outline: 0;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   overflow: hidden;
   padding: 9px 0 7px 8px;
   text-overflow: ellipsis;
   font-size: 16px;
   width: 100%;
   height: 30px;
+  outline: none;
+  border: 0px solid #000;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label span {
@@ -335,9 +309,6 @@
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,24 +337,20 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
-  height: 500px;
+  height: 460px;
   overflow: hidden;
 }
 
@@ -392,11 +359,9 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +375,7 @@
   padding-top: 8px;
   height: 100%;
   overflow: hidden auto;
-  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0, rgba(0, 0, 0, 0)), color-stop(1, black));
+  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0, rgba(0, 0, 0, 0.1)), color-stop(1, black));
   /* Track */
   /* Handle */
 }
@@ -465,8 +430,6 @@
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .message-request-container button {
-  -webkit-box-direction: normal;
-  margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -474,8 +437,6 @@
      -moz-appearance: none;
           appearance: none;
   background: 0 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   cursor: pointer;
   font-weight: 600;
   text-align: center;
@@ -491,6 +452,7 @@
   display: inline;
   padding: 0;
   position: relative;
+  outline: none;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container {
@@ -498,8 +460,6 @@
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -530,8 +490,6 @@
   cursor: pointer;
   outline: 0;
   border-radius: 10px;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
   -webkit-transition: -webkit-transform 300ms ease 200ms;
   transition: -webkit-transform 300ms ease 200ms;
   transition: transform 300ms ease 200ms;
@@ -540,8 +498,12 @@
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a:hover {
   background-color: #f7f1f1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: -webkit-transform 300ms ease 200ms;
+  transition: -webkit-transform 300ms ease 200ms;
+  transition: transform 300ms ease 200ms;
+  transition: transform 300ms ease 200ms, -webkit-transform 300ms ease 200ms;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a:visited {
@@ -555,8 +517,6 @@
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -585,12 +545,10 @@
   -ms-flex-align: stretch;
       align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   padding: 0;
@@ -614,29 +572,25 @@
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
-  padding: 0;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name {
@@ -646,29 +600,25 @@
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin: 0;
-  padding: 0;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-      flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   overflow: hidden;
 }
 
@@ -684,8 +634,8 @@
           box-sizing: border-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   padding: 0;
@@ -718,22 +668,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0;
   padding: 0;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
   margin-top: 0px;
 }
 
@@ -742,15 +692,15 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   padding: 0;
@@ -773,8 +723,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -783,13 +733,11 @@
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active {
@@ -801,9 +749,6 @@
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active p {
   cursor: pointer;
   white-space: nowrap;
-  -webkit-box-direction: normal;
-  padding: 0;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
   font-size: 14px;
@@ -815,66 +760,19 @@
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .spot {
-  --f52: 142,142,142;
-  --h1d: 255,255,255;
-  --de5: 255,255,255;
-  --d69: 0,149,246;
-  --b86: 88,195,34;
-  --i30: 237,73,86;
-  --d62: 255,255,255;
-  --e4f: 54,54,54;
-  --a72: 255,255,255;
-  --ie3: 142,142,142;
-  --c37: 237,73,86;
-  --f24: 0,149,246;
-  --jbb: 53,121,234;
-  --eca: 255,255,255;
-  --jb7: 0,0,0;
-  --fa7: 224,241,255;
-  --ba8: 168,168,168;
-  --eac: 237,73,86;
-  --i1d: 38,38,38;
-  --edc: 199,199,199;
-  --f75: 38,38,38;
-  --fe0: 0,55,107;
-  --d87: 255,255,255;
-  --b3f: 250,250,250;
-  --bb2: 239,239,239;
-  --f23: 255,255,255;
-  --b38: 219,219,219;
-  --b6a: 219,219,219;
-  --ca6: 219,219,219;
-  --cdd: 38,38,38;
-  --e22: 199,199,199;
-  --e62: 245,251,255;
-  --b2f: 88,195,34;
-  --c8c: 168,168,168;
-  --ce3: 239,239,239;
-  --jd9: 0,0,0;
-  --j64: 54,54,54;
-  --a97: 243,243,243;
-  --d20: 38,38,38;
   cursor: pointer;
   white-space: nowrap;
-  -webkit-box-direction: normal;
-  margin: 0;
-  padding: 0;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
   display: inline;
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  margin-left: 4px;
-  margin-right: 4px;
+  margin: 0px 4px;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-time {
   cursor: pointer;
   color: rgba(var(--f52, 142, 142, 142), 1);
   white-space: nowrap;
-  -webkit-box-direction: normal;
-  margin: 0;
-  padding: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline;
@@ -887,8 +785,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -897,31 +795,27 @@
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   -ms-flex-preferred-size: 32px;
       flex-basis: 32px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-left: auto;
 }
 
 .main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .followers-chat-container a .followers-chat .followers-btn-container button {
-  -webkit-box-direction: normal;
-  margin: 0;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
@@ -929,9 +823,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  padding: 0;
+      -ms-flex-pack: center;
+          justify-content: center;
   outline: none;
 }
 
@@ -948,19 +841,17 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-chat-section .chat-container .chat-div .message-container {
@@ -968,6 +859,7 @@
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  border: 1px solid red;
   width: 100%;
 }
 
@@ -976,8 +868,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -986,15 +878,13 @@
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   height: 100%;
   width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b {
@@ -1002,8 +892,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1012,14 +902,12 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin: 0;
-  padding: 0;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 auto;
-      flex: 2 1 auto;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .c {
@@ -1034,22 +922,20 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin: 0;
-  padding: 0;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   min-height: 0;
   min-width: 0;
   height: 100%;
@@ -1061,8 +947,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1071,16 +957,16 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0;
   position: relative;
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-      flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
   overflow-x: hidden;
   overflow-y: auto;
-  padding: 20px 20px 0;
+  padding: 20px;
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner {
@@ -1088,8 +974,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1117,24 +1003,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
-  padding: 0;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-      align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat {
@@ -1148,19 +1032,17 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   border-radius: 22px;
   cursor: default;
@@ -1168,8 +1050,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 44px;
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -1190,19 +1072,17 @@
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
-  -webkit-box-orient: horizontal;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle {
@@ -1211,8 +1091,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1221,12 +1101,10 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   margin-bottom: 8px;
 }
@@ -1237,14 +1115,14 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin: 0;
@@ -1255,13 +1133,12 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 236px;
   min-height: 44px;
   overflow: hidden;
   z-index: 1;
-  background: #efefef;
   background: #efefef;
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -1273,8 +1150,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1283,12 +1160,10 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
@@ -1307,25 +1182,22 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 0;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
-  padding-top: 16px;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 16px;
   min-height: 44px;
 }
 
@@ -1334,8 +1206,8 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1344,11 +1216,10 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  padding: 0;
   position: relative;
   font-size: 14px;
   line-height: 18px;
@@ -1361,13 +1232,9 @@
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola span {
   cursor: default;
-  -webkit-box-direction: normal;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   overflow-wrap: break-word;
   white-space: normal;
-  margin: 0;
-  padding: 0;
-  border: 0;
   font: inherit;
   vertical-align: baseline;
 }
@@ -1386,8 +1253,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0;
-  padding: 0;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
@@ -1420,10 +1285,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -1436,10 +1298,6 @@
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1463,30 +1321,25 @@
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin: 0;
-  padding: 0;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   min-height: 0;
   min-width: 0;
   margin-right: 4px;
@@ -1494,7 +1347,6 @@
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container .textarea {
-  -webkit-box-direction: normal;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
@@ -1512,40 +1364,34 @@
   font: inherit;
   vertical-align: baseline;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   -ms-flex-preferred-size: 32px;
       flex-basis: 32px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button {
-  -webkit-box-direction: normal;
-  margin: 0;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
@@ -1553,9 +1399,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  padding: 0;
+      -ms-flex-pack: center;
+          justify-content: center;
   outline: none;
   height: 42px;
   padding: 0 5px;
@@ -1578,8 +1423,6 @@
           flex-direction: column;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   -webkit-box-align: center;
       -ms-flex-align: center;
