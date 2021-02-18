@@ -16,8 +16,8 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
   return (
-    <div className="main">
-      <section className="main-section">
+    <section className="main">
+      <div className="main-section">
         <div className="container">
           <Router>
             <Header />
@@ -31,8 +31,8 @@ function App() {
             </Switch>
           </Router>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

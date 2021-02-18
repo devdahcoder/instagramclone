@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./assets/index.css"
-// import Post from "../Post/Post"
+import Post from "../Post/Post"
 // import ResetPassword from "../ResetPassword/ResetPassword"
 // import SignUp from "../SignUp/SignUp"
 // import Login from "../Login/Login"
 // import SinglePost from "../SinglePost/SinglePost"
 // import ThreePost from "../ThreePost/ThreePost"
-// import Story from "../Story/Story"
-// import SideGrid from "../SideGrid/SideGrid"
+import Story from "../Story/Story"
+import SideGrid from "../SideGrid/SideGrid"
 // import Post from "../Post/Post"
 import Chat from "../Chat/Chat"
 const Home = () => {
@@ -50,24 +50,24 @@ const Home = () => {
       {/* <Login /> */}
       {/* <SignUp /> */}
       {/* <ResetPassword /> */}
-      <Chat />
-      {/* <Story /> */}
-      {/* <div className="home-main">
+      {/* <Chat /> */}
+      <Story />
+      <div className="home-main">
         <div className="post-section">
-            <div> */}
+            <div> 
               
               {/* <ThreePost /> */}
-              {/* <Post  /> */}
+              <Post  />
               {/* {!toggle && <TwoPost posts={posts} />} */}
               {/* <SinglePost /> */}
-            {/* </div>
-        </div> */}
+            </div>
+        </div>
 
 
-        {/* <div className="side-bar">
+        <div className="side-bar">
           <SideGrid />
-        </div> */}
-      {/* </div> */}
+        </div>
+      </div>
     </section>
   );
 }
