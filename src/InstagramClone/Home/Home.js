@@ -56,8 +56,8 @@ const Home = () => {
         <div className="post-section">
             <div> 
               
-              {/* <ThreePost /> */}
-              <Post  />
+              <ThreePost />
+              {/* <Post  /> */}
               {/* {!toggle && <TwoPost posts={posts} />} */}
               {/* <SinglePost /> */}
             </div>

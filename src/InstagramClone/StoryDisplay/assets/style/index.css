@@ -1,9 +1,8 @@
 .story-display {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   height: 104px;
   outline: 0;
-  overflow-y: hidden;
 }
 
 .story-display .story-inner-div {
@@ -12,9 +11,8 @@
 }
 
 .story-display .story-inner-div .inner-container {
-  overflow-x: auto;
-  overflow-y: hidden;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   height: 100%;
 }
