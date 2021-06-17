@@ -1,70 +1,4 @@
-.main-chat-section {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
-  border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  height: 100%;
-  width: 100%;
-}
-
-.main-chat-section .chat-container {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-
-.main-chat-section .chat-container .chat-div {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  border-top: 1px solid rgba(var(--b38, 219, 219, 219), 1);
+.direct-section .chat-container .chat-div {
   /*
             chat side bar is the link that takes user to
             post for easy and convenient navigation to post
@@ -72,24 +6,17 @@
             */
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container {
+.direct-section .chat-container .chat-div .chat-friends-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0;
   background-color: rgba(var(--d87, 255, 255, 255), 1);
   border-right: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
   height: 100%;
@@ -99,180 +26,115 @@
   /* this element is displayed none for now */
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .friends-header-container {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  border: 0 solid #000;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  position: relative;
+.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container {
   background-color: rgba(var(--d87, 255, 255, 255), 1);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: column;
   font-size: 16px;
   font-weight: 600;
   padding: 10px 16px;
   width: 100%;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header {
+.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin: 0;
   padding: 0;
   position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-      flex-direction: row;
+  align-items: center;
+  flex-direction: row;
   height: inherit;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 100%;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container {
+.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container button {
-  -webkit-box-direction: normal;
+.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container button {
   margin: 0;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   padding: 0;
   outline: none;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container button .svg-container {
+.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   margin: 0;
   padding: 0;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .search-container {
+.direct-section .chat-container .chat-div .chat-friends-container .search-container {
   position: relative;
   padding: 0 20px;
   margin: 5px 0;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display {
+.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display {
   font: inherit;
   vertical-align: baseline;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-shrink: 0;
+  align-items: center;
   background-color: rgba(var(--b3f, 250, 250, 250), 1);
   border: 1px solid #f1eeee;
   border-radius: 3px;
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   font-size: 14px;
   width: 100%;
   border: 0px solid #000;
   border-radius: 100vh;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label {
+.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   border: 0px solid #000;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label input {
+.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label input {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: 'Roboto Mono', monospace;
   line-height: 18px;
   background: #f1eeee;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  flex: 1 0 auto;
   overflow: hidden;
   padding: 9px 0 7px 8px;
   text-overflow: ellipsis;
@@ -285,7 +147,7 @@
   padding: 0 15px;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label span {
+.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label span {
   font: inherit;
   vertical-align: baseline;
   color: rgba(var(--f52, 142, 142, 142), 1);
@@ -298,117 +160,58 @@
   position: absolute;
   right: 0;
   text-overflow: ellipsis;
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  transition: transform ease-out .1s,-webkit-transform ease-out .1s;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  transform-origin: left;
+  transition: transform ease-out .1s;
+  user-select: none;
   white-space: nowrap;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  display: -webkit-box;
-  display: -ms-flexbox;
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   overflow: hidden;
   height: 100%;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  height: 100%;
+}
+
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  height: 100%;
-  overflow: hidden;
-}
-
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat {
   height: calc(100% - 44px);
   overflow: hidden;
-  -webkit-mask-image: -webkit-gradient(linear, center bottom, center top, color-stop(0, rgba(0, 0, 0, 0.1)), color-stop(1, black));
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  display: -webkit-box;
-  display: -ms-flexbox;
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: relative;
+  flex-direction: column;
   background: rgba(var(--d87, 255, 255, 255), 1);
-  overscroll-behavior-y: contain;
+  overscroll-behavior: contain;
   padding-top: 8px;
-  height: 550px;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  height: 100%;
   overflow: hidden auto;
-  /* Track */
-  /* Handle */
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs::-webkit-scrollbar {
-  width: 4px;
-}
-
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 100vh;
-}
-
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs::-webkit-scrollbar-thumb {
-  background: #e2d9d9;
-  border-radius: 100vh;
-}
-
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding-bottom: 432px;
-  padding-top: 0px;
-}
-
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  display: -webkit-box;
-  display: -ms-flexbox;
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+}
+
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin: 5px 0;
   padding: 0 20px;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container .message-text {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container .message-text {
   font: inherit;
   vertical-align: baseline;
   font-size: 16px;
@@ -419,23 +222,18 @@
   display: block;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container button {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container button {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
   background: 0 0;
   cursor: pointer;
   font-weight: 600;
   text-align: center;
   text-transform: inherit;
   text-overflow: ellipsis;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   width: auto;
   border: 0;
   color: rgba(var(--d69, 0, 149, 246), 1);
@@ -445,33 +243,21 @@
   outline: none;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background-color: rgba(var(--d87, 255, 255, 255), 1);
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0 0 auto;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a {
   font: inherit;
   vertical-align: baseline;
   color: rgba(var(--fe0, 0, 55, 107), 1);
@@ -480,69 +266,35 @@
   cursor: pointer;
   outline: 0;
   border-radius: 10px;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: -webkit-transform 300ms ease 200ms;
-  transition: -webkit-transform 300ms ease 200ms;
-  transition: transform 300ms ease 200ms;
-  transition: transform 300ms ease 200ms, -webkit-transform 300ms ease 200ms;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a:hover {
-  background-color: #f7f1f1;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  -webkit-transition: -webkit-transform 300ms ease 200ms;
-  transition: -webkit-transform 300ms ease 200ms;
-  transition: transform 300ms ease 200ms;
-  transition: transform 300ms ease 200ms, -webkit-transform 300ms ease 200ms;
-}
-
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a:visited {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a:visited {
   color: #00376b;
   color: rgba(var(--fe0, 0, 55, 107), 1);
   text-decoration: none;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat {
   color: rgba(var(--fe0, 0, 55, 107), 1);
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  align-content: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 0 0 auto;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   padding: 0;
   position: relative;
   font-size: 14px;
@@ -557,79 +309,48 @@
   max-width: 230px;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display {
   cursor: pointer;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   white-space: nowrap;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  align-content: stretch;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 0 0 auto;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name {
   cursor: pointer;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   white-space: nowrap;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0 1 auto;
   overflow: hidden;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name p {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name p {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-      align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-shrink: 0;
   padding: 0;
   position: relative;
   font-size: 14px;
@@ -643,58 +364,38 @@
   margin: 0 !important;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .padding-div {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .padding-div {
   padding: 5px 0;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container {
   color: rgba(var(--fe0, 0, 55, 107), 1);
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0 0 auto;
   margin-top: 0px;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-shrink: 0;
   padding: 0;
   position: relative;
   font-size: 14px;
@@ -708,37 +409,28 @@
   white-space: nowrap;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active {
   cursor: pointer;
   color: rgba(var(--f52, 142, 142, 142), 1);
   white-space: nowrap;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active p {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active p {
   cursor: pointer;
   white-space: nowrap;
   font: inherit;
@@ -751,7 +443,7 @@
   margin: 0 !important;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .spot {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .spot {
   cursor: pointer;
   white-space: nowrap;
   font: inherit;
@@ -761,7 +453,7 @@
   margin: 0px 4px;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-time {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-time {
   cursor: pointer;
   color: rgba(var(--f52, 142, 142, 142), 1);
   white-space: nowrap;
@@ -772,501 +464,306 @@
   line-height: inherit;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
-  -ms-flex-preferred-size: 32px;
-      flex-basis: 32px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-basis: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
   margin-left: auto;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   outline: none;
 }
 
-.main-chat-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button .svg-container {
+.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-chat-section .chat-container .chat-div .message-container {
+.direct-section .chat-container .chat-div .message-container {
   height: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   width: 100%;
+  display: none;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a {
+.direct-section .chat-container .chat-div .message-container .a {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
   height: 100%;
   width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b {
+.direct-section .chat-container .chat-div .message-container .a .b {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 auto;
-          flex: 2 1 auto;
+  flex: 2 1 auto;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c {
+.direct-section .chat-container .chat-div .message-container .a .b .c {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-end;
   height: 100%;
   width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0;
   position: relative;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
+  flex: 0 1 auto;
   overflow-x: hidden;
   overflow-y: auto;
   padding: 20px;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  flex-direction: row;
+  flex: 0 0 auto;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat {
+  flex-grow: 1;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
   border-radius: 22px;
   cursor: default;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   min-height: 44px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   max-width: none;
   z-index: auto;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
-  -ms-flex-preferred-size: 32px;
-      flex-basis: 32px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-basis: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   outline: none;
   height: 42px;
   padding: 0 5px;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button .svg-container {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
   margin-bottom: 8px;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  align-items: stretch;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-shrink: 0;
   margin: 0;
   padding: 0;
   position: relative;
   border-radius: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   max-width: 236px;
   min-height: 44px;
   overflow: hidden;
   z-index: 1;
   background: #efefef;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
-  -ms-touch-action: manipulation;
-      touch-action: manipulation;
+  touch-action: manipulation;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 0;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: center;
+  flex: 0 0 auto;
   padding: 16px;
   min-height: 44px;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola {
   cursor: default;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
   font-size: 14px;
   line-height: 18px;
@@ -1277,7 +774,7 @@
   white-space: normal;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola span {
+.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola span {
   cursor: default;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   overflow-wrap: break-word;
@@ -1286,114 +783,74 @@
   vertical-align: baseline;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0 0 auto;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 20px;
   width: 100%;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .profile-img {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .profile-img {
   margin-right: 10px;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 22px;
   border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   min-height: 44px;
   padding-left: 11px;
   padding-right: 8px;
   width: 100%;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
-  -ms-flex-line-pack: stretch;
-      align-content: stretch;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 1 1 auto;
   min-height: 0;
   min-width: 0;
   margin-right: 4px;
   width: 100%;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container .textarea {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container .textarea {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
@@ -1406,159 +863,98 @@
   height: 18px !important;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
-  -ms-flex-preferred-size: 32px;
-      flex-basis: 32px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-basis: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   outline: none;
   height: 42px;
   padding: 0 5px;
 }
 
-.main-chat-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button .svg-container {
+.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.main-chat-section .chat-container .chat-div .chat-side-bar {
+.direct-section .chat-container .chat-div .chat-side-bar {
   min-width: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 25px 5px;
+  display: none;
 }
 
-.main-chat-section .chat-container .chat-div .chat-side-bar .side-btn-container {
+.direct-section .chat-container .chat-div .chat-side-bar .side-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   position: relative;
-  -ms-flex-preferred-size: 32px;
-      flex-basis: 32px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-basis: 32px;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.main-chat-section .chat-container .chat-div .chat-side-bar .side-btn-container button {
+.direct-section .chat-container .chat-div .chat-side-bar .side-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-size: 14px;
   line-height: 18px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: 0 0;
   border: 0;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   outline: none;
 }
 
-.main-chat-section .chat-container .chat-div .chat-side-bar .side-btn-container button .svg-container {
+.direct-section .chat-container .chat-div .chat-side-bar .side-btn-container button .svg-container {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  box-sizing: border-box;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-direction: column;
+  flex-shrink: 0;
   position: relative;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 /*# sourceMappingURL=index.css.map */

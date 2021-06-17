@@ -20,7 +20,7 @@ const Chat = () => {
 
 
     return (
-        <section className="main-chat-section">
+        <div className="direct-section">
             <div className="chat-container">
                 <div className="chat-div">
 
@@ -689,7 +689,7 @@ const Chat = () => {
                     {/* enf of post navigation */}
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

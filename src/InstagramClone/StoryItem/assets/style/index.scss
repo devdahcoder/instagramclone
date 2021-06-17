@@ -1,10 +1,11 @@
 $story-image-sizing: 56px;
 
-.story-container {
+.story-item-container {
     height: 120px;
     padding: 0 4px;
     top: 2px;
     width: 80px;
+    text-align: center;
 
     .link {
         align-items: center;
@@ -43,6 +44,7 @@ $story-image-sizing: 56px;
                     // animation: stroke-draw 6s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate; 
                 }
                 .dele {
+                    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                     position:absolute;
                     left:50%;
                     top:50%;
@@ -64,11 +66,9 @@ $story-image-sizing: 56px;
             }
             @keyframes stroke-draw {
                 from{
-                    stroke:#8a3ab9;
                     stroke-dasharray: 1;
                 }
                 to{
-                    stroke:#cd486b;
                     transform:rotate(180deg);
                     stroke-dasharray: 8;
                 }

@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat&family=Noto+Sans+SC&family=Nunito&family=Open+Sans&family=Poppins&family=Roboto+Mono&family=Source+Sans+Pro&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat&family=Noto+Sans+SC&family=Nunito&family=Open+Sans&family=Poppins&family=Roboto+Mono&family=Source+Sans+Pro&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth;
   position: relative;
+  font: inherit;
+  vertical-align: baseline; */
 }
 
 
@@ -15,16 +17,26 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'Noto Sans SC', sans-serif; */
   /* font-family: 'Nunito', sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Poppins', sans-serif; */
   /* font-family: 'Roboto Mono', monospace; */
-  /* font-family: 'Source Sans Pro', sans-serif;  */
-  font-size: 14px;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Inter', sans-serif; 
+  /* font-size: 14px; */
   line-height: 18px;
   height: 100%;
   /* overflow-y: scroll; */
 }
 
 #root {
-  height: 100%
+  color: rgba(var(--i1d,38,38,38),1);
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 100%;
+  z-index: 0;
 }

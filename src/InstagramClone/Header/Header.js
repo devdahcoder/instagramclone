@@ -8,8 +8,11 @@ import Direction from "./assets/images/direction.svg";
 import Heart from "./assets/images/heart.svg";
 import Send from "./assets/images/send.svg";
 // import Profile from "./assets/images/download.png"
-import ProfileImage from "../ProfileImage/ProfileImage"
-import {Link} from "react-router-dom"
+import ProfileImage from "../ProfileImage/ProfileImage";
+import {Link} from "react-router-dom";
+
+
+
 const Header = ({ profile }) => {
   return (
     <header className="main-header">
