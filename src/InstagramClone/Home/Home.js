@@ -56,8 +56,8 @@ const Home = () => {
 
             <div className="post-section">
               {/* <SinglePost /> */}
-              {/* <Post /> */}
-              <ThreePost />
+              <Post />
+              {/* <ThreePost /> */}
             </div>
 
             {/* pagination spinner component goes here */}

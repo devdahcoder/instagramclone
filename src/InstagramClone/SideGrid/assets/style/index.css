@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .grid-nav .grid-ul {
@@ -14,22 +15,9 @@
 
 .grid-nav .grid-ul .grid-li {
   padding: 15px 0;
-  border: 1px solid red;
-}
-
-.grid-nav .grid-ul .grid-li .grid-link {
-  text-decoration: none;
-}
-
-.grid-nav .grid-ul .grid-li .grid-link button {
-  background-color: grey;
-}
-
-.grid-nav .grid-ul .grid-li .grid-link button .grid-image {
-  height: 20px;
 }
 
 .grid-nav .grid-ul .grid-li:last-child {
-  margin-top: 70px;
+  margin-top: 10em;
 }
 /*# sourceMappingURL=index.css.map */

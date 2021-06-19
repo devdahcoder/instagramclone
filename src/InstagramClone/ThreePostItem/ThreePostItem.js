@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./assets/style/index.css";
+import "../../styles/global.css"
 import ProfileImage from "../ProfileImage/ProfileImage";
 import Love from "../Header/assets/images/heart.svg";
 import Send from "../Header/assets/images/send.svg";
@@ -53,7 +54,6 @@ const ThreePostItem = ({post}) => {
               </a>
             </span>
 
-
             <div className="svg-button-container three-post-button-container">
               <button className="svg-button">
                 <div className="svg-container three-post-btn">
@@ -69,8 +69,7 @@ const ThreePostItem = ({post}) => {
               <button className="svg-button">
                 <div className="svg-container three-post-btn">
                   <span className="svg-button-span">
-                    {/* <svg xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 451.2 451.2"><path d="M58.5 284.1C26.2 284.1 0 257.9 0 225.6s26.2-58.5 58.5-58.5c32.3 0 58.5 26.2 58.5 58.5S90.8 284.1 58.5 284.1zM58.5 188.6c-20.4 0-37 16.6-37 37s16.6 37 37 37c20.4 0 37-16.6 37-37S78.9 188.6 58.5 188.6z"/><path d="M225.6 284.1c-32.3 0-58.5-26.2-58.5-58.5s26.2-58.5 58.5-58.5 58.5 26.2 58.5 58.5S257.9 284.1 225.6 284.1zM225.6 188.6c-20.4 0-37 16.6-37 37s16.6 37 37 37 37-16.6 37-37S246 188.6 225.6 188.6z"/><path d="M392.7 284.1c-32.3 0-58.5-26.2-58.5-58.5s26.2-58.5 58.5-58.5c32.3 0 58.5 26.2 58.5 58.5S424.9 284.1 392.7 284.1zM392.7 188.6c-20.4 0-37 16.6-37 37s16.6 37 37 37c20.4 0 37-16.6 37-37S413.1 188.6 392.7 188.6z"/></svg> */}
-                    <svg aria-label="More options" fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                    <svg aria-label="More options" class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 48 48" width="16"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
                   </span>
                 </div>
               </button>

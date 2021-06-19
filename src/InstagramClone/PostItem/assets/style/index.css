@@ -104,57 +104,6 @@
 }
 
 .double-post-container .double-post-details .double-post-options .double-post-button-container button {
-  margin: 0;
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  align-items: center;
-  background: 0 0;
-  border: 0;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  outline: none;
-}
-
-.double-post-container .double-post-details .double-post-options .double-post-button-container button .double-post-btn {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  cursor: pointer;
-  font: inherit;
-  vertical-align: baseline;
-  border: 0 solid #000;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.double-post-container .double-post-details .double-post-options .double-post-button-container button .double-post-btn span {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  animation-duration: .45s;
-  animation-name: like-button-animation;
-  animation-timing-function: ease-in-out;
-  transform: scale(1);
-}
-
-.double-post-container .double-post-details .double-post-options .double-post-button-container button .double-post-btn span img {
-  fill: #ed4956;
-  height: 20px;
-  width: 20px;
-  display: block;
-  position: relative;
+  padding: 4px;
 }
 /*# sourceMappingURL=index.css.map */
