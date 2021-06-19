@@ -1,4 +1,4 @@
-.main {
+/* .main {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -14,7 +14,7 @@
     flex-grow: 1;
     min-height: 100%;
     overflow: hidden;
-}
+} */
 
 .main-section {
     -webkit-box-flex: 1;

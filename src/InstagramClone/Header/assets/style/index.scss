@@ -5,83 +5,93 @@
 
 
 .main-header {
-    @include flex-display;
-    justify-content: space-between;
-    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    // border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 3;
 
-    .main-logo {
-        .display-logo {
-            @include flex-display;
-            vertical-align: middle;
-        }
-    }
-
-    .main-header-nav {
-        ul {
-            list-style: none;
-            li {
-                display: inline-block;
-                padding: 0 22px;
+    .main-header-display {
+        @include flex-display;
+        justify-content: space-between;
+        padding: 10px 30px;
+        .main-logo {
+            .display-logo {
+                @include flex-display;
+                vertical-align: middle;
             }
         }
-    }
 
-    .logo-div {
-        margin-right: 20px;
-        .logo {
-            height: 20px;
+        .main-header-nav {
+            ul {
+                list-style: none;
+
+                li {
+                    display: inline-block;
+                    padding: 0 22px;
+                }
+            }
+        }
+
+        .logo-div {
+            margin-right: 20px;
+
+            .logo {
+                height: 20px;
+                vertical-align: middle;
+            }
+        }
+
+        .icon-btn {
+            background-color: inherit;
+            outline: none;
+            cursor: pointer;
+            border: none;
+
+            .icon {
+                height: 20px;
+                vertical-align: middle;
+            }
+        }
+
+        .logo-font {
+            width: 100%;
             vertical-align: middle;
         }
-    }
 
-    .icon-btn {
-        background-color: inherit;
-        outline: none;
-        cursor: pointer;
-        border: none;
-        .icon {
-            height: 20px;
-            vertical-align: middle;
+
+        .profile-logo {
+            @include flex-display;
+
+            .profile-container {
+                margin-left: 20px;
+            }
+
+            // span {
+            //     background-color: #fafafa;
+            //     border-radius: 50%;
+            //     box-sizing: border-box;
+            //     display: block;
+            //     flex: 0 0 auto;
+            //     overflow: hidden;
+            //     position: relative;
+            //     width: 40px;
+            //     height: 40px;
+
+            //     img {
+            //         margin: 0;
+            //         padding: 0;
+            //         border: 0;
+            //         // font: inherit;
+            //         vertical-align: baseline;
+            //         height: auto;
+            //         width: 100%;
+            //         // object-fit: cover;
+            //     }
+            // }
         }
-    }
-
-    .logo-font {
-        width: 100%;
-        vertical-align: middle;
-    }
-
-    
-
-    
-
-    .profile-logo {
-        @include flex-display;
-
-        .profile-container {
-            margin-left: 20px;
-        }
-
-        // span {
-        //     background-color: #fafafa;
-        //     border-radius: 50%;
-        //     box-sizing: border-box;
-        //     display: block;
-        //     flex: 0 0 auto;
-        //     overflow: hidden;
-        //     position: relative;
-        //     width: 40px;
-        //     height: 40px;
-
-        //     img {
-        //         margin: 0;
-        //         padding: 0;
-        //         border: 0;
-        //         // font: inherit;
-        //         vertical-align: baseline;
-        //         height: auto;
-        //         width: 100%;
-        //         // object-fit: cover;
-        //     }
-        // }
     }
 }

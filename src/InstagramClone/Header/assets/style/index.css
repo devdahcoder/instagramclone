@@ -1,57 +1,67 @@
 .main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  z-index: 3;
+}
+
+.main-header .main-header-display {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
+  padding: 10px 30px;
 }
 
-.main-header .main-logo .display-logo {
+.main-header .main-header-display .main-logo .display-logo {
   display: flex;
   align-items: center;
   vertical-align: middle;
 }
 
-.main-header .main-header-nav ul {
+.main-header .main-header-display .main-header-nav ul {
   list-style: none;
 }
 
-.main-header .main-header-nav ul li {
+.main-header .main-header-display .main-header-nav ul li {
   display: inline-block;
   padding: 0 22px;
 }
 
-.main-header .logo-div {
+.main-header .main-header-display .logo-div {
   margin-right: 20px;
 }
 
-.main-header .logo-div .logo {
+.main-header .main-header-display .logo-div .logo {
   height: 20px;
   vertical-align: middle;
 }
 
-.main-header .icon-btn {
+.main-header .main-header-display .icon-btn {
   background-color: inherit;
   outline: none;
   cursor: pointer;
   border: none;
 }
 
-.main-header .icon-btn .icon {
+.main-header .main-header-display .icon-btn .icon {
   height: 20px;
   vertical-align: middle;
 }
 
-.main-header .logo-font {
+.main-header .main-header-display .logo-font {
   width: 100%;
   vertical-align: middle;
 }
 
-.main-header .profile-logo {
+.main-header .main-header-display .profile-logo {
   display: flex;
   align-items: center;
 }
 
-.main-header .profile-logo .profile-container {
+.main-header .main-header-display .profile-logo .profile-container {
   margin-left: 20px;
 }
 /*# sourceMappingURL=index.css.map */

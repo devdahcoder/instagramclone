@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
-import "./assets/index.css"
-import Post from "../Post/Post"
-// import ResetPassword from "../ResetPassword/ResetPassword"
-// import SignUp from "../SignUp/SignUp"
-// import Login from "../Login/Login"
-import SinglePost from "../SinglePost/SinglePost"
-import ThreePost from "../ThreePost/ThreePost"
-import Story from "../Story/Story"
-import SideGrid from "../SideGrid/SideGrid"
-// import Post from "../Post/Post"
-import Chat from "../Chat/Chat"
+import "./assets/index.css";
+import Post from "../Post/Post";
+import SinglePost from "../SinglePost/SinglePost";
+import ThreePost from "../ThreePost/ThreePost";
+import Story from "../Story/Story";
+import SideGrid from "../SideGrid/SideGrid";
+import Header from "../Header/Header";
+
+
+
 const Home = () => {
   // const [story, setStory] = useState([]);
   // const [posts, setPosts] = useState([]);
@@ -46,28 +45,29 @@ const Home = () => {
 
 
   return (
-    <section className="home-section">
-      {/* <Login /> */}
-      {/* <SignUp /> */}
-      {/* <ResetPassword /> */}
-      {/* <Chat /> */}
-      <Story />
-      <div className="home-main">
-        <div className="post-section">
-            <div> 
-              
-              <ThreePost />
-              {/* <Post  /> */}
-              {/* {!toggle && <TwoPost posts={posts} />} */}
+    <section className="global-section global-sub-section">
+      <Header />
+      <main className="home-page-main">
+        <section className="main-home-section">
+          <div className="home-page-post-container">
+
+            <Story />
+
+            <div className="post-section">
               {/* <SinglePost /> */}
+              {/* <Post /> */}
+              <ThreePost />
             </div>
-        </div>
 
+            {/* pagination spinner component goes here */}
+            {/* spinner pagination component */}
+          </div>
 
-        <div className="side-bar">
-          <SideGrid />
-        </div>
-      </div>
+          <div className="side-bar">
+            <SideGrid />
+          </div>
+        </section>
+      </main>
     </section>
   );
 }

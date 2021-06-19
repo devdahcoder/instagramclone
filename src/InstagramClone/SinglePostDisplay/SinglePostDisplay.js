@@ -122,7 +122,7 @@ const SinglePostDisplay = () => {
   //   dispatch(fetchPost())
   // }, [dispatch])
   return (
-    <div className="single-post-display">
+    <div className="single-grid-post-display">
       {posts.map((post) => (
         <SinglePostItem key={uuid()} post={post} />
       ))}

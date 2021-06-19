@@ -10,7 +10,6 @@
   background-color: rgba(var(--bb2, 239, 239, 239), 1);
   display: block;
   width: 100%;
-  border-radius: 10px;
 }
 
 .three-post-container .first-post-layer .second-post-layer .third-post-layer {
@@ -20,7 +19,6 @@
 }
 
 .three-post-container .first-post-layer .second-post-layer .third-post-layer img {
-  border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;

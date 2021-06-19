@@ -1,0 +1,17 @@
+.global-section {
+    -webkit-text-size-adjust: 100%;
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    align-items: stretch;
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+
+.global-sub-section {
+    min-height: 100%;
+    overflow: hidden;
+}

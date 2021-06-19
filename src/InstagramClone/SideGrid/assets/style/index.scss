@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5em;
-    position: fixed;
-    width: 3rem;
+    // margin-top: 5em;
+    // position: fixed;
+    // width: 3rem;
+    // width: 100%;
     
 
     .grid-ul {
@@ -13,20 +14,28 @@
         margin: 0;
         display: flex;
         flex-direction: column;
+        // border: 1px solid blue;
 
         .grid-li {
             padding: 15px 0;
+            border: 1px solid red;
             .grid-link {
                 text-decoration: none;
-                .grid-image {
-                    height: 20px;
+                
+                button {
+                    background-color: grey;
+                    .grid-image {
+                        height: 20px;
+                    }
                 }
+            }
+
+            &:last-child {
+                margin-top: 70px;
             }
         }
 
         
     }
-    .last-child {
-        margin-top: 10em;
-    }
+    
 }

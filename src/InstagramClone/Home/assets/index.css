@@ -1,21 +1,48 @@
-.home-section .home-main {
+.global-section {
+  -webkit-text-size-adjust: 100%;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  align-items: stretch;
+  position: relative;
   display: flex;
-  flex-flow: row nowrap;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.global-sub-section {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+section .home-page-main {
+  position: relative;
+}
+
+section .home-page-main .main-home-section {
+  display: flex;
+  flex-direction: row;
   flex-grow: 1;
   margin: 0 auto;
+  max-width: 80%;
   position: relative;
   width: 100%;
+  padding-top: 60px;
 }
 
-.home-section .home-main .post-section {
-  flex-grow: 1;
-  margin-right: 1rem;
+section .home-page-main .main-home-section .home-page-post-container {
   position: relative;
   width: 100%;
+  margin-right: 3rem;
 }
 
-.home-section .home-main .side-bar {
-  position: relative;
-  width: 3rem;
+section .home-page-main .main-home-section .side-bar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  right: 30px;
+  width: 100%;
+  max-width: 3rem;
+  top: 200px;
+  position: fixed;
+  align-items: center;
 }
 /*# sourceMappingURL=index.css.map */

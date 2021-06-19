@@ -7,6 +7,8 @@ import Chat from "./assets/images/chat.svg";
 import Save from "./assets/images/save.svg"
 import Option from "./assets/images/post-option.svg";
 
+
+
 const SinglePostItem = ({post}) => {
     return (
       <div className="single-post-container">
@@ -327,7 +329,7 @@ const SinglePostItem = ({post}) => {
           <div className="comment-form-container">
               <div>
                 <div className="emoji-display">
-                  <h2 >&#x1F60D;</h2>
+                  <h2>&#x1F60D;</h2>
                   <h2>&#x1F914;</h2>
                   <h2>&#x2764;</h2>
                   <h2>&#x1F44C;</h2>

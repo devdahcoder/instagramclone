@@ -1,0 +1,45 @@
+.like-scale-container {
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    .like-scale-display {
+        height: 128px;
+        width: 128px;
+        pointer-events: none;
+        animation-duration: 1000ms;
+        animation-name: like-heart-animation;
+        animation-timing-function: ease-in-out;
+        margin: 0 auto;
+        opacity: 0;
+        transform: scale(0);
+        background-image: url("../32f0a4f27407.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+
+    @keyframes like-heart-animation {
+        0%, 100% {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        15% {
+            opacity: .9;
+            transform: scale(1.2);
+        }
+        30% {
+            transform: scale(.95);
+        }
+        45%, 80%{
+            opacity: .9;
+            transform: scale(1);
+        }
+    }
+}

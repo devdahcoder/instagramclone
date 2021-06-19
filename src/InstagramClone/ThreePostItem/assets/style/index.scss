@@ -1,10 +1,6 @@
 $font-size: 12px;
 
 .three-post-container {
-    // border-radius: 10px;
-    // width: 30%;
-    // margin-right: 2em;
-    // margin-bottom: 2em;
     
     .first-post-layer {
         flex-grow: 1;
@@ -12,18 +8,19 @@ $font-size: 12px;
         cursor: pointer;
         position: relative;
         user-select: none;
+
         .second-post-layer {
             background-color: rgba(var(--bb2, 239, 239, 239), 1);
             display: block;
             width: 100%;
-            border-radius: 10px;
+
 
             .third-post-layer {
                 display: block;
                 overflow: hidden;
                 padding-bottom: 100%;
+
                 img {
-                    border-radius: 10px;
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
@@ -33,10 +30,6 @@ $font-size: 12px;
                 }
             }
         }
-        // padding-bottom: 100%;
-        // height: 400px;
-
-        
     }
 
     .three-post-details {
