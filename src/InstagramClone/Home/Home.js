@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./assets/index.css";
+import "../../styles/global.css"
 import Post from "../Post/Post";
 import SinglePost from "../SinglePost/SinglePost";
 import ThreePost from "../ThreePost/ThreePost";

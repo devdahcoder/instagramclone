@@ -1,10 +1,13 @@
 import React from 'react'
 import "./assets/style/index.css"
+import "../../styles/global.css"
 import ProfileImage from "../ProfileImage/ProfileImage"
 import Love from "../Header/assets/images/heart.svg"
 import Send from "../Header/assets/images/send.svg"
 import Chat from "./assets/images/chat.svg"
 import Option from "./assets/images/post-option.svg"
+import LikeScale from "../LikeScale/LikeScale"
+
 const PostItem = ({post}) => {
 
     // const useEffect(() => {
@@ -21,6 +24,7 @@ const PostItem = ({post}) => {
               <img className="images" src={post.image} alt="" />
             </div>
           </div>
+          <LikeScale />
         </section>
 
         <section className="double-post-details">

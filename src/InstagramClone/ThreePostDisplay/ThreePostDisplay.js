@@ -14,7 +14,7 @@ const initialState = [
       // profileimage: Billie,
       name: "Billiebiuibbbbbbbbbbbbbbbbbbjjjjjjjjjjjjjjjjj",
       timestamp: "2 hours ago",
-      likes: 1,
+      likes: "1,000",
 
   },
   {

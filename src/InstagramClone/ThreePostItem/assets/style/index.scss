@@ -1,7 +1,6 @@
 $font-size: 12px;
 
 .three-post-container {
-    
     .first-post-layer {
         flex-grow: 1;
         width: 100%;
@@ -10,7 +9,7 @@ $font-size: 12px;
         user-select: none;
 
         .second-post-layer {
-            background-color: rgba(var(--bb2, 239, 239, 239), 1);
+            background-color: hsl(0, 0%, 94%);
             display: block;
             width: 100%;
 
@@ -49,6 +48,7 @@ $font-size: 12px;
 
                 .three-user-post-details-name {
                     max-width: 100px;
+                    width: 100%;
                     overflow: hidden;
                     cursor: pointer;
                     white-space: nowrap;
@@ -113,73 +113,10 @@ $font-size: 12px;
             .three-post-button-container {
                 display: inline-block;
                 margin-left: 10px;
-                button {
-                    margin: 0;
-                    color: rgba(var(--i1d,38,38,38),1);
-                    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-                    font-size: 14px;
-                    line-height: 18px;
-                    align-items: center;
-                    background: 0 0;
-                    border: 0;
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: center;
-                    padding: 5px;
-                    outline: none;
-
-                    .three-post-btn {
-                        color: rgba(var(--i1d,38,38,38),1);
-                        cursor: pointer;
-                        font: inherit;
-                        vertical-align: baseline;
-                        border: 0 solid #000;
-                        box-sizing: border-box;
-                        display: flex;
-                        flex-direction: column;
-                        flex-shrink: 0;
-                        margin: 0;
-                        padding: 0;
-                        position: relative;
-                        align-items: center;
-                        justify-content: center;
-
-                        span {
-                            color: rgba(var(--i1d,38,38,38),1);
-                            cursor: pointer;
-                            margin: 0;
-                            padding: 0;
-                            border: 0;
-                            font: inherit;
-                            vertical-align: baseline;
-                            animation-duration: .45s;
-                            animation-name: like-button-animation;
-                            animation-timing-function: ease-in-out;
-                            transform: scale(1);
-
-                            img {
-                                fill: rgb(237, 73, 86);
-                                height: 15px;
-                                width: 15px;
-                                display: block;
-                                position: relative;
-                            }
-                        }
-                    }
-                }
+                
             }
         }
 
-        
-
-        // .post-details-logo {
-        //     height: 15px;
-        //     vertical-align: middle;
-        // }
-
-        // .post-buttons {
-        //     margin-right: 10px;
-        // }
     }
     
 }

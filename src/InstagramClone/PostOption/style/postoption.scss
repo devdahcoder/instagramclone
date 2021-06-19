@@ -1,0 +1,16 @@
+.post-option-container {
+    -webkit-tap-highlight-color: transparent;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    // animation: IGCoreModalShow .1s ease-out;
+    justify-content: center;
+    margin: 20px;
+    // max-height: calc(100% - 40px);
+    height: 100%;
+    // width: 400px;
+    width: 100%;
+}

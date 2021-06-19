@@ -13,6 +13,35 @@
   overflow: hidden;
 }
 
+.svg-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  align-items: stretch;
+}
+
+.svg-button {
+  font-size: 14px;
+  align-items: center;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  outline: none;
+}
+
+.svg-container {
+  cursor: pointer;
+  border: 0 solid #000;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
 section .home-page-main {
   position: relative;
 }

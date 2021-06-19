@@ -12,4 +12,53 @@
   min-height: 100%;
   overflow: hidden;
 }
+
+.svg-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid #000;
+  align-items: stretch;
+}
+
+.svg-button {
+  font-size: 14px;
+  align-items: center;
+  background: 0 0;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  outline: none;
+}
+
+.svg-container {
+  cursor: pointer;
+  border: 0 solid #000;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-button-span {
+  animation-duration: .45s;
+  animation-name: like-button-animation;
+  animation-timing-function: ease-in-out;
+  transform: scale(1);
+}
+
+@keyframes like-button-animation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+}
 /*# sourceMappingURL=global.css.map */
