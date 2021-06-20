@@ -6,7 +6,6 @@ import "./index.css";
 import Header from "./InstagramClone/Header/Header"
 import Home from "./InstagramClone/Home/Home"
 import Explore from "./InstagramClone/Explore/Explore"
-import Notification from "./InstagramClone/Notification/Notification"
 import Chat from "./InstagramClone/Chat/Chat"
 import Profile from "./InstagramClone/Profile/Profile"
 
@@ -33,7 +32,6 @@ const MainComponent = withRouter(({ location, history, match }) => (
       <>
         <Route exact path="/" component={Home} />
         <Route exact path="/explore"  component={Explore} />
-        <Route exact path="/notification" component={Notification} />
         <Route exact path="/chat" component={Chat} />
         <Route exact path="/profile" component={Profile} />
       </>

@@ -1,9 +1,9 @@
-.single-grid--post-display {
+.single-grid-post-display {
     display: grid;
     // align-items: center;
     grid-template-columns: repeat(1, 1fr);
     // grid-auto-rows: 300px;
-    grid-gap: 3em;
+    grid-gap: 2em;
     // display: flex;
     // flex-direction: column;
 }

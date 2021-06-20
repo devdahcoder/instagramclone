@@ -5,83 +5,21 @@ import "./assets/styles/styles.css"
 const Notification = () => {
     return (
         <section className="notification-section">
-            <main className="notification-main">
-                <div className="notification-container">
-                    <div className="notification-center">
-                        <div className="notification-display">
-                            <div className="notification-list">
+            <div className="notification-display">
+                <div className="notification-arrow">
 
-                                <div className="notification-profile-container">
-                                    <div className="notification-profile-display">
-                                        <div className="notification-profile-center" aria-disabled="true" role="button" tabindex="-1">
-                                            <canvas className="notification-canvas" height="44" width="44" ></canvas>
-                                            <a className="notification-profile-link" href="/itz_emmyk406/" tabindex="0" >
-                                                <img alt="itz_emmyk406's profile picture" class="notification-profile-img" data-testid="user-avatar" draggable="false" src="https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/s150x150/140666438_133809845240257_8536045748561233405_n.jpg?_nc_ht=scontent-los2-1.cdninstagram.com&_nc_ohc=WUtCdypZOSQAX9UiQi1&tp=1&oh=d1bd0566bede6612c67cdc3cb32862a4&oe=604B9169" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                </div>
 
-
-
-                                <div className="notification-user-container">
-                                    <a className="notification-user-link" title="itz_emmyk406" href="/itz_emmyk406/" tabindex="0">itz_emmyk406</a> liked your photo.<time className="notification-time" datetime="2021-02-08T21:15:36.885Z" title="Feb 8, 2021">10h</time>
-                                </div>
-
-
-                                <div className="notification-post-container">
-                                    <a className="notification-post-link" href="/p/CK7j12rpGPV/" tabindex="0">
-                                        <div className="notification-post-display">
-                                            <div class="notification-image-container">
-                                                <img class="notification-post-image" decoding="auto" sizes="40px" srcset="https://scontent-los2-1.cdninstagram.com/v/t51.2885-15/e35/s320x320/146364313_416184506107868_2546048935295243538_n.jpg?_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=108&_nc_ohc=XG6AaS4ppbMAX8SZ00w&tp=1&oh=bdf1eea449675c6100359908bdd0a66c&oe=604B1967" />
-                                            </div>
-                                            {/* <div class="_9AhH0">
-
-                                            </div> */}
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="notification-list">
-
-                                <div className="notification-profile-container">
-                                    <div className="notification-profile-display">
-                                        <div className="notification-profile-center" aria-disabled="true" role="button" tabindex="-1">
-                                            <canvas className="notification-canvas" height="44" width="44" ></canvas>
-                                            <a className="notification-profile-link" href="/itz_emmyk406/" tabindex="0" >
-                                                <img alt="itz_emmyk406's profile picture" class="notification-profile-img" data-testid="user-avatar" draggable="false" src="https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/s150x150/140666438_133809845240257_8536045748561233405_n.jpg?_nc_ht=scontent-los2-1.cdninstagram.com&_nc_ohc=WUtCdypZOSQAX9UiQi1&tp=1&oh=d1bd0566bede6612c67cdc3cb32862a4&oe=604B9169" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <div className="notification-user-container">
-                                    <div className="notification-user-link-container">
-                                        <a className="notification-user-link" title="itz_emmyk406" href="/itz_emmyk406/" tabindex="0">itz_emmyk406</a>
-                                    </div>  started following you.<time className="notification-time" datetime="2021-02-08T21:15:36.885Z" title="Feb 8, 2021">10h</time>
-                                </div>
-
-
-                                <div className="notification-post-container">
-                                    <button class="follow-btn" type="button">Follow</button>
-                                    {/* <a className="notification-post-link" href="/p/CK7j12rpGPV/" tabindex="0">
-                                        <div className="notification-post-display">
-                                            <div class="notification-image-container">
-                                                <img class="notification-post-image" decoding="auto" sizes="40px" srcset="https://scontent-los2-1.cdninstagram.com/v/t51.2885-15/e35/s320x320/146364313_416184506107868_2546048935295243538_n.jpg?_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=108&_nc_ohc=XG6AaS4ppbMAX8SZ00w&tp=1&oh=bdf1eea449675c6100359908bdd0a66c&oe=604B1967" />
-                                            </div>
-                                            <div class="_9AhH0">
-
-                                            </div>
-                                        </div>
-                                    </a> */}
-                                </div>
+                <div className="notification-notify-container">
+                    <div className="notification-notify-display">
+                        <div className="notification-notify">
+                            <div className="notification">
+                                {/* <div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              "><div class="                     Igw0E     IwRSH      eGOV_         _4EzTm                      soMvl                                    DhRcB                      zQLcH            XTCZH                  "><div class="_7UhW9   xLCgt       qyrsm KV-D4          uL8Hv         ">Today</div></div><div class="PUHRj  H_sJK" role="button" tabindex="-1"><div class="cek9Q"><div class="             AC7dP        Igw0E     IwRSH      eGOV_         _4EzTm                                                                                                              "><div class="RR-M- " aria-disabled="true" role="button" tabindex="-1"><canvas class="CfWVH" height="54" width="54" ></canvas><a class="_2dbep qNELH kIKUG" href="/programmersbay/" tabindex="0" ><img alt="programmersbay's profile picture" class="_6q-tv" crossorigin="anonymous" data-testid="user-avatar" draggable="false" src="https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/s150x150/64599138_2454785391424040_3951316302538211328_n.jpg?tp=1&amp;_nc_ht=scontent-los2-1.cdninstagram.com&amp;_nc_ohc=G9tLCVDjSZ4AX9UKIpr&amp;edm=AL4D0a4BAAAA&amp;ccb=7-4&amp;oh=71343605ec5d5dd7952b1cf2695d25e3&amp;oe=60D712E2&amp;_nc_sid=712cc3" /></a></div></div></div><div class="YFq-A"><span class="_7UhW9   xLCgt      MMzan  KV-D4           se6yk        "><a class="FPmhX notranslate  yrJyr" title="programmersbay" href="/programmersbay/" tabindex="0">programmersbay</a><span> started following you.</span></span><time class="HsXaJ Nzb55" datetime="2021-06-20T12:36:22.493Z" title="Jun 20, 2021">39m</time></div><div class="iTMfC"><button class="sqdOP  L3NKy   y3zKF     " type="button">Follow</button></div></div></div> */}
                             </div>
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </section>
     )
 }

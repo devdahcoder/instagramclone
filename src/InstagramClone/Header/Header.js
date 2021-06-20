@@ -10,6 +10,7 @@ import Send from "./assets/images/send.svg";
 // import Profile from "./assets/images/download.png"
 import ProfileImage from "../ProfileImage/ProfileImage";
 import {Link} from "react-router-dom";
+import Notification from "../Notification/Notification"
 
 
 
@@ -59,13 +60,14 @@ const Header = ({ profile }) => {
               </Link>
             </li>
             <li>
-              <Link to="/notification">
+              <Link to="#">
                   <button className="icon-btn">
                     <div>
                       <img className="icon" src={Heart} alt="" />
                     </div>
                   </button>
               </Link>
+              <Notification />
             </li>
           </ul>
         </nav>
