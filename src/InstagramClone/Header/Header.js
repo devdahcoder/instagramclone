@@ -67,7 +67,7 @@ const Header = ({ profile }) => {
                     </div>
                   </button>
               </Link>
-              <Notification />
+              {/* <Notification /> */}
             </li>
           </ul>
         </nav>

@@ -1,0 +1,49 @@
+.user-circle {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+}
+
+.user-circle svg {
+  fill: none;
+  stroke: #8a3ab9;
+  stroke-linecap: round;
+  stroke-width: 3;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: stroke-draw 6s ease-out infinite alternate;
+  enable-background: new -580 439 577.9 194;
+}
+
+@keyframes stroke-draw {
+  from {
+    stroke-dasharray: 1;
+  }
+  to {
+    transform: rotate(180deg);
+    stroke-dasharray: 8;
+  }
+}
+
+.user-circle .user-dele {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  overflow: hidden;
+  width: 44px;
+  height: 44px;
+}
+
+.user-circle .user-dele img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=userimage.css.map */
