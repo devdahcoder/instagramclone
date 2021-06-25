@@ -11,6 +11,7 @@ import Arrow from "./assets/images/leftdirect.svg"
 import Reply from "./assets/images/reply.svg"
 import Align from "./assets/images/align.svg"
 import Header from "../Header/Header";
+import ChatListHeader from "../ChatListHeader/ChatListHeader"
 
 
 
@@ -35,68 +36,7 @@ const Chat = () => {
                             {/* chat friend list container */}
                             <div className="chat-friends-container">
 
-                                {/* chat friend list header */}
-                                <div className="friends-header-container">
-                                    <div className="friends-header ">
-                                        <div className="svg-button-container">
-                                            <button className="svg-button" type="button">
-                                                <div className="svg-container ">
-                                                    <svg height="22" width="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M492 236H276V20c0-11-9-20-20-20 -11 0-20 9-20 20v216H20c-11 0-20 9-20 20s9 20 20 20h216v216c0 11 9 20 20 20s20-9 20-20V276h216c11 0 20-9 20-20C512 245 503 236 492 236z"/></svg>
-                                                </div>
-                                            </button>
-                                        </div>
-
-                                        <div className="header-font">Direct</div>
-
-
-                                        <div className="svg-button-container">
-                                            <button class="svg-button" type="button">
-                                                <div class="svg-container">
-                                                    <svg aria-label="New Message" class="_8-yf5 " fill="#262626" height="24" viewBox="0 0 44 44" width="24">
-                                                        <path d="M33.7 44.12H8.5a8.41 8.41 0 01-8.5-8.5v-25.2a8.41 8.41 0 018.5-8.5H23a1.5 1.5 0 010 3H8.5a5.45 5.45 0 00-5.5 5.5v25.2a5.45 5.45 0 005.5 5.5h25.2a5.45 5.45 0 005.5-5.5v-14.5a1.5 1.5 0 013 0v14.5a8.41 8.41 0 01-8.5 8.5z"></path>
-                                                        <path d="M17.5 34.82h-6.7a1.5 1.5 0 01-1.5-1.5v-6.7a1.5 1.5 0 01.44-1.06L34.1 1.26a4.45 4.45 0 016.22 0l2.5 2.5a4.45 4.45 0 010 6.22l-24.3 24.4a1.5 1.5 0 01-1.02.44zm-5.2-3h4.58l23.86-24a1.45 1.45 0 000-2l-2.5-2.5a1.45 1.45 0 00-2 0l-24 23.86z"></path>
-                                                        <path d="M38.2 14.02a1.51 1.51 0 01-1.1-.44l-6.56-6.56a1.5 1.5 0 012.12-2.12l6.6 6.6a1.49 1.49 0 010 2.12 1.51 1.51 0 01-1.06.4z"></path>
-                                                    </svg>
-                                                </div>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* end of friend list of header */}
-
-                                {/* chat friend list search container */}
-                                <div>
-                                    <div className="header-search-input-container">
-                                        <input autocapitalize="none" className="header-search-input" placeholder="Search" type="text" value="" />
-
-                                        <div className="unfocused-search-container" role="button" tabindex="0">
-                                            <div className="unfocused-search-display">
-                                                <span className="unfocused-search-icon coreSpriteSearchIcon"></span>
-                                                <span className="unfocused-search-placeholder">Search</span>
-                                            </div>
-                                        </div>
-                                        {/* <span className="header-search-input-search-icon"></span>
-                                        <div className="jLwSh" role="dialog"></div>
-                                        <div className="header-search-icon coreSpriteSearchClear" aria-disabled="false" role="button" tabindex="0"></div> */}
-                                        {/* <div className="yPP5B">
-                                            <div aria-hidden="false" className="uo5MA  _2ciX tWgj8 XWrBI ">
-                                                <div className="AvhYw nLL4f"></div>
-                                                <div className="_01UL2">
-                                                    <div className="fuqBx ">
-                                                        <div className="_43CKF">
-                                                            <h4 className="_7UhW9    vy6Bb      qyrsm KV-D4          uL8Hv        T0kll ">Recent</h4>
-                                                        </div>
-                                                        <div className="lWmzy" data-testid="no-recent-results-section">
-                                                            <div className="_7UhW9   xLCgt       qyrsm  _0PwGv         uL8Hv     l4b0S    ">No recent searches.</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="TOh1s"></div>
-                                            </div>
-                                        </div> */}
-                                    </div>
-                                </div>
-                                {/* end of chat friend list container */}
+                                <ChatListHeader />
 
                                 {/* chat friend list main messages list */}
                                 <div className="people-chat-container">
@@ -104,9 +44,6 @@ const Chat = () => {
                                         <div className="people-chat">
                                             <div className="classs">
                                                 <div className="chat-id">
-
-
-
 
                                                     {/* chat messages request */}
                                                     <div className="message-request-container">
@@ -121,14 +58,6 @@ const Chat = () => {
                                                     {/* end of message request */}
 
 
-
-
-
-                                                    {/* chat friend list */}
-                                                    {/* 
-                                                        you can also turn this to a li element if you like your 
-                                                        list to be in ul -> li order
-                                                    */}
                                                     <div className="followers-chat-container">
                                                         <a href="">
                                                             <div className="followers-chat">
@@ -163,7 +92,8 @@ const Chat = () => {
                                                                 <div class="followers-btn-container">
                                                                     <button class="wpO6b ZQScA" type="button">
                                                                         <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512"><path d="M437.3 117.3h-64c-4.6 0-8.7-2.9-10.1-7.3l-6.7-20.2c-7.3-21.8-27.6-36.5-50.6-36.5h-99.8c-23 0-43.3 14.7-50.6 36.5l-6.7 20.2c-1.5 4.4-5.5 7.3-10.1 7.3h-64C33.5 117.3 0 150.8 0 192v192c0 41.2 33.5 74.7 74.7 74.7h362.7C478.5 458.7 512 425.2 512 384V192C512 150.8 478.5 117.3 437.3 117.3zM490.7 384c0 29.4-23.9 53.3-53.3 53.3H74.7c-29.4 0-53.3-23.9-53.3-53.3V192c0-29.4 23.9-53.3 53.3-53.3h64c13.8 0 26-8.8 30.4-21.9l6.8-20.3c4.4-13.1 16.6-21.9 30.3-21.9h99.8c13.8 0 26 8.8 30.4 21.9l6.7 20.2c4.4 13.1 16.6 21.9 30.4 21.9h64c29.4 0 53.3 23.9 53.3 53.3V384z"/><path d="M256 160c-70.6 0-128 57.4-128 128s57.4 128 128 128 128-57.4 128-128S326.6 160 256 160zM256 394.7c-58.8 0-106.7-47.9-106.7-106.7 0-58.8 47.9-106.7 106.7-106.7S362.7 229.2 362.7 288C362.7 346.8 314.8 394.7 256 394.7z"/><path d="M256 202.7c-47.1 0-85.3 38.3-85.3 85.3 0 5.9 4.8 10.7 10.7 10.7S192 293.9 192 288c0-35.3 28.7-64 64-64 5.9 0 10.7-4.8 10.7-10.7S261.9 202.7 256 202.7z"/></svg>
+                                                                            {/* <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg> */}
                                                                         </div>
                                                                     </button>
                                                                 </div>
@@ -171,336 +101,6 @@ const Chat = () => {
                                                         </a>
                                                     </div>
                                                     {/* end of chat friend list */}
-
-
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div className="followers-chat-container">
-                                                        <a href="">
-                                                            <div className="followers-chat">
-                                                                <div style={{marginRight: "10px"}}>
-                                                                    <ProfileImage  size={"56px"} />
-                                                                </div>
-                                                                
-                                                                <div className="chat-user-details">
-                                                                    <div className="chat-user-profile-name-container">
-                                                                        <div className="chat-user-profile-name-display">
-                                                                            <div className="chat-user-profile-name">
-                                                                                <p>Stephencurry30</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div className="padding-div"></div>
-
-                                                                    <div className="active-container">
-                                                                        <div className="active-display">
-                                                                            <div className="active">
-                                                                                <span className="last-message-or-active">
-                                                                                    <p>Hey Bode i'm pregnant</p>
-                                                                                </span>
-                                                                                <span className="spot">.</span>
-                                                                                <time class="last-message-time" datetime="2020-11-20T12:58:37.381Z" title="Nov 20, 2020">12w</time>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                
-                                                                <div class="followers-btn-container">
-                                                                    <button class="wpO6b ZQScA" type="button">
-                                                                        <div class="svg-container ">
-                                                                            <svg id="Icons" height="30" viewBox="0 0 74 74" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m23.5 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m66 63.5h-25.56a1 1 0 0 1 0-2h25.56a4 4 0 0 0 4-4v-35a4 4 0 0 0 -4-4h-15.26a2.011 2.011 0 0 1 -1.834-1.193l-1.824-4.207a.994.994 0 0 0 -.912-.6h-18.34a.991.991 0 0 0 -.909.591l-1.821 4.209a2.014 2.014 0 0 1 -1.838 1.2h-15.262a4 4 0 0 0 -4 4v35a4 4 0 0 0 4 4h5.56a1 1 0 1 1 0 2h-5.56a6.006 6.006 0 0 1 -6-6v-35a6.006 6.006 0 0 1 6-6h15.26l1.822-4.2a2.975 2.975 0 0 1 2.748-1.8h18.34a2.977 2.977 0 0 1 2.751 1.81l1.817 4.19h15.262a6.006 6.006 0 0 1 6 6v35a6.006 6.006 0 0 1 -6 6z"/><path d="m33.44 63.5h-2.94a1 1 0 0 1 0-2h2.94a1 1 0 0 1 0 2z"/><path d="m18.219 18.5h-7.667a1 1 0 0 1 -1-1v-5.307a1.7 1.7 0 0 1 1.693-1.693h6.281a1.694 1.694 0 0 1 1.693 1.693v5.307a1 1 0 0 1 -1 1zm-6.667-2h5.667v-4h-5.667z"/><path d="m34 55.562a16.312 16.312 0 1 1 16.312-16.312 16.33 16.33 0 0 1 -16.312 16.312zm0-30.624a14.312 14.312 0 1 0 14.312 14.312 14.328 14.328 0 0 0 -14.312-14.312z"/><path d="m34 49.179a9.929 9.929 0 1 1 9.929-9.929 9.94 9.94 0 0 1 -9.929 9.929zm0-17.858a7.929 7.929 0 1 0 7.929 7.929 7.938 7.938 0 0 0 -7.929-7.929z"/><path d="m63.156 30h-8.312a1.846 1.846 0 0 1 -1.844-1.844v-4a1.846 1.846 0 0 1 1.844-1.844h8.312a1.846 1.846 0 0 1 1.844 1.844v4a1.846 1.846 0 0 1 -1.844 1.844zm-8.156-2h8v-3.688h-8z"/></svg>
-                                                                        </div>
-                                                                    </button>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
 
                                                 </div>
                                             </div>
@@ -670,7 +270,7 @@ const Chat = () => {
 
                             {/* chat side bar for easy navigation to post content */}
 
-                            <div className="chat-side-bar">
+                            {/* <div className="chat-side-bar">
 
                                 <div className="side-btn-container" style={{marginTop: "auto"}}>
                                     <button>
@@ -680,7 +280,7 @@ const Chat = () => {
                                     </button>
                                 </div>
                                 
-                            </div>
+                            </div> */}
 
                             {/* enf of post navigation */}
                         </div>
