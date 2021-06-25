@@ -55,8 +55,8 @@ const Home = () => {
             <Story />
 
             <div className="post-section">
-              <SinglePost />
-              {/* <Post /> */}
+              {/* <SinglePost /> */}
+              <Post />
               {/* <ThreePost /> */}
             </div>
 

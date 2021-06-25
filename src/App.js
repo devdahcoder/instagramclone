@@ -3,7 +3,6 @@ import "./index.css";
 
 
 //imported components
-import Header from "./InstagramClone/Header/Header"
 import Home from "./InstagramClone/Home/Home"
 import Explore from "./InstagramClone/Explore/Explore"
 import Chat from "./InstagramClone/Chat/Chat"

@@ -11,6 +11,7 @@
     "firebase": "^8.2.6",
     "formik": "^2.2.6",
     "md5": "^2.3.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",

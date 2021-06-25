@@ -28,10 +28,14 @@
         .main-header-nav {
             ul {
                 list-style: none;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
 
                 li {
                     display: inline-block;
                     padding: 0 22px;
+
                 }
             }
         }
