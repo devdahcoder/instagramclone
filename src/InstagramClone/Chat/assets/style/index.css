@@ -1,4 +1,50 @@
-.direct-section .chat-container .chat-div {
+.main-chat-section {
+  height: 100vh;
+  width: 100%;
+}
+
+.main-chat-section .chat-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  height: 100%;
+  background-color: #fafafa;
+  max-height: 100%;
+  padding-top: 60px;
+}
+
+.main-chat-section .chat-container .chat-chat {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.main-chat-section .chat-container .chat-chat .chat-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat {
+  display: flex;
+  position: relative;
+  border: 1px solid #dbdbdb;
+  align-content: stretch;
+  align-items: stretch;
+  flex-direction: row;
+  flex: 0 0 auto;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
   /*
             chat side bar is the link that takes user to
             post for easy and convenient navigation to post
@@ -6,45 +52,34 @@
             */
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container {
+  color: #262626;
   align-items: stretch;
-  border: 0 solid #000;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  margin: 0;
-  background-color: rgba(var(--d87, 255, 255, 255), 1);
-  border-right: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  background-color: white;
+  border-right: 1px solid #dbdbdb;
   height: 100%;
   overflow: hidden;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   /* display none */
   /* this element is displayed none for now */
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container {
-  background-color: rgba(var(--d87, 255, 255, 255), 1);
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .friends-header-container {
+  background-color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 16px;
   font-weight: 600;
-  padding: 10px 16px;
+  padding: 5px 16px;
   width: 100%;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .friends-header-container .friends-header {
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
-  border: 0 solid #000;
   display: flex;
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
   position: relative;
   align-items: center;
   flex-direction: row;
@@ -53,57 +88,14 @@
   width: 100%;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font: inherit;
-  vertical-align: baseline;
-  align-items: stretch;
-  border: 0 solid #000;
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container button {
-  margin: 0;
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  align-items: center;
-  background: 0 0;
-  border: 0;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  outline: none;
-}
-
-.direct-section .chat-container .chat-div .chat-friends-container .friends-header-container .friends-header .friends-header-btn-container button .svg-container {
-  color: rgba(var(--i1d, 38, 38, 38), 1);
-  cursor: pointer;
-  font: inherit;
-  vertical-align: baseline;
-  border: 0 solid #000;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.direct-section .chat-container .chat-div .chat-friends-container .search-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .search-container {
   position: relative;
   padding: 0 20px;
   margin: 5px 0;
+  border: 1px solid red;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .search-container form .form-display {
   font: inherit;
   vertical-align: baseline;
   flex-shrink: 0;
@@ -120,7 +112,7 @@
   border-radius: 100vh;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .search-container form .form-display label {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -129,7 +121,7 @@
   border: 0px solid #000;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label input {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .search-container form .form-display label input {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-family: 'Roboto Mono', monospace;
   line-height: 18px;
@@ -147,7 +139,7 @@
   padding: 0 15px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .search-container form .form-display label span {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .search-container form .form-display label span {
   font: inherit;
   vertical-align: baseline;
   color: rgba(var(--f52, 142, 142, 142), 1);
@@ -166,28 +158,28 @@
   white-space: nowrap;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container {
   display: flex;
   flex-direction: column;
   overflow: hidden;
   height: 100%;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat {
   display: flex;
   flex-direction: column;
   position: relative;
-  height: calc(100% - 44px);
+  height: calc(100% - $deep);
   overflow: hidden;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs {
   display: flex;
   flex-direction: column;
   background: rgba(var(--d87, 255, 255, 255), 1);
@@ -197,12 +189,12 @@
   overflow: hidden auto;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id {
   display: flex;
   flex-direction: column;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   display: flex;
   align-items: center;
@@ -211,7 +203,7 @@
   padding: 0 20px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container .message-text {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container .message-text {
   font: inherit;
   vertical-align: baseline;
   font-size: 16px;
@@ -222,8 +214,8 @@
   display: block;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container button {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .message-request-container button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   appearance: none;
@@ -243,7 +235,7 @@
   outline: none;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -257,7 +249,7 @@
   flex: 0 0 auto;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a {
   font: inherit;
   vertical-align: baseline;
   color: rgba(var(--fe0, 0, 55, 107), 1);
@@ -268,13 +260,13 @@
   border-radius: 10px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a:visited {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a:visited {
   color: #00376b;
   color: rgba(var(--fe0, 0, 55, 107), 1);
   text-decoration: none;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat {
   color: rgba(var(--fe0, 0, 55, 107), 1);
   cursor: pointer;
   font: inherit;
@@ -287,7 +279,7 @@
   flex: 0 0 auto;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
@@ -309,7 +301,7 @@
   max-width: 230px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display {
   cursor: pointer;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   white-space: nowrap;
@@ -325,7 +317,7 @@
   flex: 0 0 auto;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name {
   cursor: pointer;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   white-space: nowrap;
@@ -342,7 +334,7 @@
   overflow: hidden;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name p {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .chat-user-profile-name-container .chat-user-profile-name-display .chat-user-profile-name p {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
@@ -364,11 +356,11 @@
   margin: 0 !important;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .padding-div {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .padding-div {
   padding: 5px 0;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container {
   color: rgba(var(--fe0, 0, 55, 107), 1);
   cursor: pointer;
   font: inherit;
@@ -387,7 +379,7 @@
   margin-top: 0px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
@@ -409,7 +401,7 @@
   white-space: nowrap;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active {
   cursor: pointer;
   color: rgba(var(--f52, 142, 142, 142), 1);
   white-space: nowrap;
@@ -424,13 +416,13 @@
   flex-direction: row;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 200px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active p {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-or-active p {
   cursor: pointer;
   white-space: nowrap;
   font: inherit;
@@ -443,7 +435,7 @@
   margin: 0 !important;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .spot {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .spot {
   cursor: pointer;
   white-space: nowrap;
   font: inherit;
@@ -453,7 +445,7 @@
   margin: 0px 4px;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-time {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .chat-user-details .active-container .active-display .active .last-message-time {
   cursor: pointer;
   color: rgba(var(--f52, 142, 142, 142), 1);
   white-space: nowrap;
@@ -464,7 +456,7 @@
   line-height: inherit;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -480,9 +472,9 @@
   margin-left: auto;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   align-items: center;
@@ -494,7 +486,7 @@
   outline: none;
 }
 
-.direct-section .chat-container .chat-div .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button .svg-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-friends-container .people-chat-container .people-chat-div .people-chat .classs .chat-id .followers-chat-container a .followers-chat .followers-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
@@ -509,14 +501,14 @@
   justify-content: center;
 }
 
-.direct-section .chat-container .chat-div .message-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container {
   height: 100%;
   flex-grow: 1;
   width: 100%;
   display: none;
 }
 
-.direct-section .chat-container .chat-div .message-container .a {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -531,7 +523,7 @@
   flex-direction: row;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -544,7 +536,7 @@
   flex: 2 1 auto;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -561,7 +553,7 @@
   flex-grow: 1;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -579,7 +571,7 @@
   flex-grow: 1;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -592,7 +584,7 @@
   flex-grow: 1;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   border: 0 solid #000;
   display: flex;
@@ -601,11 +593,11 @@
   flex: 0 0 auto;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat {
   flex-grow: 1;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   border: 0 solid #000;
   box-sizing: border-box;
@@ -622,7 +614,7 @@
   z-index: auto;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
@@ -637,7 +629,7 @@
   justify-content: flex-end;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -651,9 +643,9 @@
   justify-content: flex-end;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   align-items: center;
@@ -667,7 +659,7 @@
   padding: 0 5px;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button .svg-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kari-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
@@ -682,7 +674,7 @@
   justify-content: center;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
@@ -697,7 +689,7 @@
   margin-bottom: 8px;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
@@ -720,7 +712,7 @@
   align-self: flex-end;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
@@ -735,7 +727,7 @@
   touch-action: manipulation;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: default;
   font: inherit;
@@ -754,7 +746,7 @@
   min-height: 44px;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola {
   cursor: default;
   font: inherit;
   vertical-align: baseline;
@@ -774,7 +766,7 @@
   white-space: normal;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola span {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .c .dele .inner .inner-chat-container .inner-chat .bolu .kari .kunle .samuel .hassan .collins .ola span {
   cursor: default;
   color: rgba(var(--i1d, 38, 38, 38), 1);
   overflow-wrap: break-word;
@@ -783,7 +775,7 @@
   vertical-align: baseline;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -798,7 +790,7 @@
   flex: 0 0 auto;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -812,11 +804,11 @@
   width: 100%;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .profile-img {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .profile-img {
   margin-right: 10px;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .d {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -833,7 +825,7 @@
   width: 100%;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .d .message-text-area-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -850,9 +842,9 @@
   width: 100%;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .message-text-area-container .textarea {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .d .message-text-area-container .textarea {
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   background-color: transparent;
@@ -863,7 +855,7 @@
   height: 18px !important;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .d .chat-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -877,9 +869,9 @@
   justify-content: flex-end;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .d .chat-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   align-items: center;
@@ -893,7 +885,7 @@
   padding: 0 5px;
 }
 
-.direct-section .chat-container .chat-div .message-container .a .b .text-container .text-a .d .chat-btn-container button .svg-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .message-container .a .b .text-container .text-a .d .chat-btn-container button .svg-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   cursor: pointer;
   font: inherit;
@@ -908,7 +900,7 @@
   justify-content: center;
 }
 
-.direct-section .chat-container .chat-div .chat-side-bar {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-side-bar {
   min-width: 50px;
   display: flex;
   flex-direction: column;
@@ -916,7 +908,7 @@
   display: none;
 }
 
-.direct-section .chat-container .chat-div .chat-side-bar .side-btn-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-side-bar .side-btn-container {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font: inherit;
   vertical-align: baseline;
@@ -931,7 +923,7 @@
   justify-content: flex-end;
 }
 
-.direct-section .chat-container .chat-div .chat-side-bar .side-btn-container button {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-side-bar .side-btn-container button {
   color: rgba(var(--i1d, 38, 38, 38), 1);
   font-size: 14px;
   line-height: 18px;
@@ -944,7 +936,7 @@
   outline: none;
 }
 
-.direct-section .chat-container .chat-div .chat-side-bar .side-btn-container button .svg-container {
+.main-chat-section .chat-container .chat-chat .chat-div .user-chat .chat-side-bar .side-btn-container button .svg-container {
   cursor: pointer;
   font: inherit;
   vertical-align: baseline;
