@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/instagramclone/static/css/main.37b81ba5.chunk.css",
+    "main.js": "/instagramclone/static/js/main.61ffff37.chunk.js",
+    "main.js.map": "/instagramclone/static/js/main.61ffff37.chunk.js.map",
+    "runtime-main.js": "/instagramclone/static/js/runtime-main.7fcd43a1.js",
+    "runtime-main.js.map": "/instagramclone/static/js/runtime-main.7fcd43a1.js.map",
+    "static/js/2.534d2dcc.chunk.js": "/instagramclone/static/js/2.534d2dcc.chunk.js",
+    "static/js/2.534d2dcc.chunk.js.map": "/instagramclone/static/js/2.534d2dcc.chunk.js.map",
+    "static/js/3.d6f85b3a.chunk.js": "/instagramclone/static/js/3.d6f85b3a.chunk.js",
+    "static/js/3.d6f85b3a.chunk.js.map": "/instagramclone/static/js/3.d6f85b3a.chunk.js.map",
+    "index.html": "/instagramclone/index.html",
+    "static/css/main.37b81ba5.chunk.css.map": "/instagramclone/static/css/main.37b81ba5.chunk.css.map",
+    "static/js/2.534d2dcc.chunk.js.LICENSE.txt": "/instagramclone/static/js/2.534d2dcc.chunk.js.LICENSE.txt",
+    "static/media/likescale.css": "/instagramclone/static/media/32f0a4f27407.077eb7ff.png",
+    "static/media/chat.0997c0da.svg": "/instagramclone/static/media/chat.0997c0da.svg",
+    "static/media/direction.e34552a5.svg": "/instagramclone/static/media/direction.e34552a5.svg",
+    "static/media/gridthree.9081a125.svg": "/instagramclone/static/media/gridthree.9081a125.svg",
+    "static/media/gridtwo.2dc6910c.svg": "/instagramclone/static/media/gridtwo.2dc6910c.svg",
+    "static/media/heart.c31d61db.svg": "/instagramclone/static/media/heart.c31d61db.svg",
+    "static/media/home.205e5c86.svg": "/instagramclone/static/media/home.205e5c86.svg",
+    "static/media/instagram.02967a62.svg": "/instagramclone/static/media/instagram.02967a62.svg",
+    "static/media/options-lines.ee330b3d.svg": "/instagramclone/static/media/options-lines.ee330b3d.svg",
+    "static/media/play.1b4fe477.svg": "/instagramclone/static/media/play.1b4fe477.svg",
+    "static/media/plus.31a272fc.svg": "/instagramclone/static/media/plus.31a272fc.svg",
+    "static/media/plus.d5048b9a.svg": "/instagramclone/static/media/plus.d5048b9a.svg",
+    "static/media/post-option.ca3cf7c9.svg": "/instagramclone/static/media/post-option.ca3cf7c9.svg",
+    "static/media/save.8e23c1ef.svg": "/instagramclone/static/media/save.8e23c1ef.svg",
+    "static/media/search.28b0ad10.svg": "/instagramclone/static/media/search.28b0ad10.svg",
+    "static/media/send.8fc2421b.svg": "/instagramclone/static/media/send.8fc2421b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fcd43a1.js",
+    "static/js/2.534d2dcc.chunk.js",
+    "static/css/main.37b81ba5.chunk.css",
+    "static/js/main.61ffff37.chunk.js"
+  ]
+}
