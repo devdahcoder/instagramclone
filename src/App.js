@@ -15,9 +15,7 @@ import {BrowserRouter as Router, Route, Switch, withRouter} from "react-router-d
 function App() {
   return (
     <section className="main-app">
-      <Router>
-        <MainComponent />
-      </Router>
+      <MainComponent />
     </section>
   );
 };

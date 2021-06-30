@@ -1,6 +1,7 @@
 import React from 'react'
 import "./assets/style/index.css"
 import Plus from "./assets/images/plus.svg"
+
 const MyStory = ({profile}) => {
     return (
       <div className="story-container">

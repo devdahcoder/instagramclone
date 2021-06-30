@@ -106,4 +106,24 @@
 .double-post-container .double-post-details .double-post-options .double-post-button-container button {
   padding: 4px;
 }
+
+.double-post-container .double-post-details .double-post-options .double-post-button-container button .post-love-span-scale {
+  animation-duration: .45s;
+  animation-name: like-button-animation;
+  animation-timing-function: ease-in-out;
+  transform: scale(1);
+}
+
+@keyframes like-button-animation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+}
 /*# sourceMappingURL=index.css.map */

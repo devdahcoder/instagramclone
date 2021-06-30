@@ -1,7 +1,5 @@
 .user-circle {
   position: relative;
-  width: 55px;
-  height: 55px;
   margin: 0 auto;
 }
 
@@ -38,8 +36,6 @@
   display: block;
   flex: 0 0 auto;
   overflow: hidden;
-  width: 44px;
-  height: 44px;
 }
 
 .user-circle .user-dele img {

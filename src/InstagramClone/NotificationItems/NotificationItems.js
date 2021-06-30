@@ -19,9 +19,9 @@ const NotificationItems = () => {
                     <time className="notification-time" datetime="2021-05-26T05:25:17.582Z" title="May 26, 2021">3w</time>
                 </div>
             
-                {/* <div className="notification-button-container">
+                <div className="notification-button-container">
                     <button className="notification-button" type="button">Follow</button>
-                </div> */}
+                </div>
 
                 {/* <div className="notification-liked-image-container">
                     <a className="notification-liked-image-link" href="http://" target="_blank" rel="noopener noreferrer">

@@ -10,7 +10,7 @@ const StoryItem = ({post}) => {
       <div className="story-item-container">
         <div className="link" href="">
           <div className="story-container-image-container">
-            <UserImage image={post.image} />
+            <UserImage size="story" image={post.image} />
           </div>
           <div className="story-text"> {post.name} </div>
         </div>

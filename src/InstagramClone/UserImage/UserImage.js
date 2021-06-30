@@ -18,6 +18,19 @@ const UserImage = ({image, size}) => {
                 }
             }
         }
+        else if (size === "story") {
+            imageSize = {
+                circleSize: {
+                    width: "80px",
+                    height: "80px",
+                },
+                
+                imageContainerSize: {
+                    width: "65px",
+                    height: "65px",
+                }
+            }
+        }
         console.log(imageSize.imageContainerSize);
         return imageSize;
         
@@ -25,8 +38,8 @@ const UserImage = ({image, size}) => {
 
 
     return (
-        <div className="user-circle" style={imageStyleCondition("notification")?.circleSize}>
-            <span className="user-dele" style={imageStyleCondition("notification")?.imageContainerSize}>
+        <div className="user-circle circle" style={imageStyleCondition(size)?.circleSize}>
+            <span className="user-dele dele" style={imageStyleCondition(size)?.imageContainerSize}>
                 <img src={image} alt="images" />
             </span>
             

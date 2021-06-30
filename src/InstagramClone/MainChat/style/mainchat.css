@@ -1,0 +1,22 @@
+.message-container {
+  height: 100%;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.message-container .a {
+  align-items: stretch;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+}
+
+.message-container .a .b {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 2 1 auto;
+}
+/*# sourceMappingURL=mainchat.css.map */

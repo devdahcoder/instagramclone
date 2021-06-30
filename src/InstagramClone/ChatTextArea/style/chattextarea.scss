@@ -1,0 +1,115 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex: 0 0 auto;
+
+    .text-a {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+
+        .profile-img {
+            margin-right: 10px;
+        }
+
+        .d {
+            position: relative;
+            align-items: center;
+            border-radius: 22px;
+            border: 1px solid hsl(0, 0%, 86%);
+            display: flex;
+            flex-direction: row;
+            min-height: 44px;
+            padding-left: 11px;
+            padding-right: 8px;
+            width: 100%;
+
+            .message-text-area-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                flex: 1 1 auto;
+                margin-right: 4px;
+                width: 100%;
+
+                .textarea {
+                    color: hsl(0, 0%, 15%);
+                    font-family: inherit;
+                    font-size: 14px;
+                    line-height: 18px;
+                    background-color: transparent;
+                    border: 0 solid #000;
+                    // outline: none;
+                    overflow: auto;
+                    padding: 8px 9px;
+                    resize: none;
+                    height: 18px;
+                }
+            }
+
+            form {
+                display: block;
+
+                input {
+                    -webkit-box-direction: normal;
+                    color: hsl(0, 0%, 15%);
+                    font-size: 14px;
+                    line-height: 18px;
+                    display: none;
+                }
+            }
+
+            .chat-btn-container {
+                color: rgba(var(--i1d, 38, 38, 38), 1);
+                font: inherit;
+                vertical-align: baseline;
+                align-items: stretch;
+                border: 0 solid #000;
+                display: flex;
+                flex-shrink: 0;
+                position: relative;
+                flex-basis: 32px;
+                flex-direction: row;
+                justify-content: flex-end;
+
+                button {
+                    color: rgba(var(--i1d, 38, 38, 38), 1);
+                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 18px;
+                    align-items: center;
+                    background: 0 0;
+                    border: 0;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    outline: none;
+                    height: 42px;
+                    padding: 0 5px;
+
+                    .svg-container {
+                        color: rgba(var(--i1d, 38, 38, 38), 1);
+                        cursor: pointer;
+                        font: inherit;
+                        vertical-align: baseline;
+                        border: 0 solid #000;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        flex-shrink: 0;
+                        position: relative;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.message-container {
+    height: 100%;
+    flex-grow: 1;
+    width: 100%;
+
+    .a {
+        align-items: stretch;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+
+        .b {
+            align-items: stretch;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            flex: 2 1 auto;
+            // padding-top: 44px;
+
+        }   
+    }
+}    
+
+
+
+
+
+
+
+
+            // chat text-area for messages//
+
+            
+
+            // end of chat text-area//
+        }
+    }
+}
