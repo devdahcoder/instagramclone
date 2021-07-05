@@ -1,0 +1,167 @@
+.profile--drop--down--main--section {
+    top: 15px;
+    margin-left: -180px;
+
+    .profile--drop--down--cover {
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    .profile--drop--down--main {
+        color: hsl(0, 0%, 15%);
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        background: rgba(var(--d87,255,255,255),1);
+        border-radius: 6px;
+        box-shadow: 0 0 5px 1px rgba(var(--jb7,0,0,0),.0975);
+        position: absolute;
+        z-index: 3;
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 75ms linear,transform 38ms ease-out,-webkit-transform 38ms ease-out;
+        transform-origin: top center;
+
+        .profile--drop--down--arrow {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            background: hsl(0, 0%, 100%);
+            border: 1px solid hsl(0, 0%, 100%);
+            box-shadow: 0 0 5px 1px hsl(0, 0%, 0%);
+            height: 14px;
+            position: absolute;
+            transform: rotate(45deg);
+            width: 14px;
+            bottom: 0;
+            top: -6px;
+            left: 184px;
+        }
+
+        .profile--drop--down--display {
+            background: hsl(0, 0%, 100%);
+            background: hsl(0, 0%, 100%);
+            border-radius: 6px;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: auto;
+            position: relative;
+            width: 100%;
+
+            .profile--drop--down--link {
+                cursor: pointer;
+                outline: 0;
+                text-decoration: none;
+
+                .profile--drop--down--link--display {
+                    white-space: nowrap;
+                    color: hsl(209, 100%, 21%);
+                    cursor: pointer;
+                    vertical-align: baseline;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    flex: 0 0 auto;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    padding-bottom: 8px;
+                    padding-top: 8px;
+
+                    .profile--drop--down--svg--container {
+                        white-space: nowrap;
+                        color: hsl(209, 100%, 21%);
+                        cursor: pointer;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        align-content: stretch;
+                        justify-content: flex-start;
+                        flex: 0 0 auto;
+                        margin-right: 12px;
+                    }
+
+                    .profile--drop--down--text--container {
+                        white-space: nowrap;
+                        color: rgba(var(--fe0,0,55,107),1);
+                        cursor: pointer;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: stretch;
+                        justify-content: center;
+                        flex: 1 1 auto;
+                        min-height: 0;
+                        min-width: 0;
+
+                        .profile--drop--down--text--display {
+                            white-space: nowrap;
+                            color: rgba(var(--fe0,0,55,107),1);
+                            cursor: pointer;
+                            display: flex;
+                            flex-direction: column;
+                            align-content: stretch;
+                            align-items: stretch;
+                            justify-content: flex-start;
+                            flex: 0 0 auto;
+
+                            .profile--drop--down--text--main {
+                                align-items: stretch;
+                                flex-direction: column;
+                                font-size: 14px;
+                                line-height: 18px;
+                                margin: -3px 0 -4px;
+                                font-weight: 400;
+                                color: rgba(var(--i1d,38,38,38),1);
+                                display: block;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+
+
+                                .profile--drop--down--text--cover {
+                                    color: rgba(var(--i1d,38,38,38),1);
+                                    display: flex;
+                                    flex-direction: column;
+                                    position: relative;
+                                    align-items: stretch;
+                                    justify-content: center;
+                                    flex: 0 0 auto;
+                                    height: 28px;
+                                    width: 170px;
+
+                                    .profile--drop--down--text {
+                                        cursor: pointer;
+                                        flex-direction: column;
+                                        display: flex;
+                                        font-size: 14px;
+                                        line-height: 18px;
+                                        font-weight: 400;
+                                        color: rgba(var(--i1d,38,38,38),1);
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        display: inline;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .profile--drop--down--hr {
+                background-color: hsl(0, 0%, 86%);
+                border: 0;
+                height: 1px;
+                margin: 0;
+                width: 100%;
+            }
+        }
+    }
+}

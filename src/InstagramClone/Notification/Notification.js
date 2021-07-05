@@ -1,12 +1,13 @@
 import React from 'react'
 import "./assets/styles/styles.css"
+import "../../styles/global.css"
 import NotificationItems from '../NotificationItems/NotificationItems';
 
 const Notification = () => {
     return (
         <section className="notification-section">
             <div className="notification-display">
-                <div className="notification-arrow">
+                <div className="drop-down-arrow">
 
                 </div>
 
