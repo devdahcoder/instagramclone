@@ -1,0 +1,77 @@
+.post--profile--detail--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  padding: 0.9em 1em;
+}
+
+.post--profile--detail--container .post--user--post--detail {
+  display: flex;
+  align-items: center;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--post--detail--name {
+  max-width: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: inherit;
+  user-select: none;
+  text-overflow: ellipsis;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 100%;
+  top: 1px;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--post--detail--name .post--user--detail--span {
+  display: inline;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--post--detail--name .post--user--detail--span .post--user--detail--link {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--detail--caption--time--container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--detail--caption--time--container .post--user--detail--caption--container {
+  color: #262626;
+  font-size: 12px;
+  line-height: 15px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  max-width: 300px;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--detail--caption--time--container .post--user--detail--time--container {
+  display: inline;
+  font-size: 10px;
+  margin-left: 0.7em;
+}
+
+.post--profile--detail--container .post--user--post--detail .post--user--post--detail--content .post--user--detail--caption--time--container .post--user--detail--time--container .post--user--detail--time--link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=postprofile.css.map */

@@ -34,51 +34,6 @@
   padding: 10px;
 }
 
-.double-post-container .double-post-details .double-user-post-details {
-  display: flex;
-  align-items: center;
-}
-
-.double-post-container .double-post-details .double-user-post-details .double-user-post-details-content {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-}
-
-.double-post-container .double-post-details .double-user-post-details .double-user-post-details-content .double-user-post-details-name {
-  max-width: 150px;
-  overflow: hidden;
-  cursor: pointer;
-  white-space: nowrap;
-  text-transform: inherit;
-  user-select: none;
-  text-overflow: ellipsis;
-}
-
-.double-post-container .double-post-details .double-user-post-details .double-user-post-details-content .double-user-post-details-name a {
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 600;
-  color: black;
-  text-decoration: none;
-}
-
-.double-post-container .double-post-details .double-user-post-details .double-user-post-details-content .double-user-post-details-time {
-  max-width: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.double-post-container .double-post-details .double-user-post-details .double-user-post-details-content .double-user-post-details-time a {
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: 600;
-  color: #8e8e8e;
-  color: rgba(var(--f52, 142, 142, 142), 1);
-  font-size: 12px;
-}
-
 .double-post-container .double-post-details .double-post-options {
   display: flex;
   align-items: center;

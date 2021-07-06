@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./assets/style/index.css"
 import "../../styles/global.css"
-import ProfileImage from "../ProfileImage/ProfileImage"
+import PostProfile from "../PostProfile/PostProfile"
 import LikeScale from "../LikeScale/LikeScale"
 
 const PostItem = ({post}) => {
@@ -23,6 +23,9 @@ const PostItem = ({post}) => {
 
     return (
       <div className="double-post-container">
+
+        <PostProfile post={post} />
+
         <section onDoubleClick={likeEvent} className="first-post-layer">
           <div className="second-post-layer">
             <div className="third-post-layer">
@@ -33,31 +36,16 @@ const PostItem = ({post}) => {
         </section>
 
         <section className="double-post-details">
-          <div className="double-user-post-details">
-            <ProfileImage />
-
-            <div className="double-user-post-details-content">
-              <div className="double-user-post-details-name">
-                <a href="">
-                  {post.name}
-                </a>
-              </div>
-              <div className="double-user-post-details-time">
-                <a href="">
-                  2 hrs ago
-                </a>
-              </div>
-            </div>
-          </div>
+          
 
 
 
           <div className="double-post-options">
-            <span className="likes-link-container">
+            {/* <span className="likes-link-container">
               <a className="likes-link" href="">
                 {post.likes} {post.likes > 1 ? "likes": "like"}
               </a>
-            </span>
+            </span> */}
 
 
             <div className="svg-button-container post-love-svg-container double-post-button-container">
