@@ -7,9 +7,7 @@ const Notification = () => {
     return (
         <section className="notification-section">
             <div className="notification-display">
-                <div className="drop-down-arrow">
-
-                </div>
+                <div className="drop-down-arrow"></div>
 
                 <div className="notification-notify-container">
                     <div className="notification-notify-display">

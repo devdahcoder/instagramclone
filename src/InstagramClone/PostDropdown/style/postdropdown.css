@@ -1,0 +1,110 @@
+.post--option--drop--down--container {
+  top: 50px;
+  margin-left: -560px;
+  position: absolute;
+  color: black;
+  animation: showPostDropDown .1s ease-out;
+}
+
+@keyframes showPostDropDown {
+  0% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.post--option--drop--down--container .post--option--drop--down--display {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0 0 5px 1px #d5cdcd;
+  position: absolute;
+  z-index: 3;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 75ms linear, transform 38ms ease-out;
+  transform-origin: top center;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--arrow {
+  align-items: stretch;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid white;
+  box-shadow: 0 0 5px 1px black;
+  height: 14px;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 14px;
+  bottom: 0;
+  top: -6px;
+  right: 10px;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container {
+  width: 300px;
+  background: #fff;
+  border-radius: 6px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container .post--option--drop--down--main--display {
+  background-color: white;
+  border-radius: 12px;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container .post--option--drop--down--main--display .post--option--drop--down--main {
+  border: 0 solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container .post--option--drop--down--main--display .post--option--drop--down--main .post--option--drop--down {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 0;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container .post--option--drop--down--main--display .post--option--drop--down--main .post--option--drop--down .post--drop--down--btn--container {
+  background-color: transparent;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #dbdbdb;
+  cursor: pointer;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 48px;
+  padding: 4px 8px;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container .post--option--drop--down--main--display .post--option--drop--down--main .post--option--drop--down .post--drop--down--btn--container:first-child {
+  border-top: none;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.post--option--drop--down--container .post--option--drop--down--display .post--option--drop--down--main--container .post--option--drop--down--main--display .post--option--drop--down--main .post--option--drop--down .post--drop--down--btn--danger {
+  color: #ed4a58;
+  font-weight: 600;
+}
+/*# sourceMappingURL=postdropdown.css.map */
