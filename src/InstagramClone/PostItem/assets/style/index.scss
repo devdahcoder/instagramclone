@@ -38,69 +38,75 @@ $font-size: 12px;
     }
 
     .double-post-details {
+        border: 1px solid red;
+        color: hsl(0, 0%, 15%);
+        align-items: stretch;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px;
+        flex-direction: column;
+        position: relative;
 
-        
-
-
-
-        .double-post-options {
+        .post--utility--option-container {
             display: flex;
             align-items: center;
             flex-direction: row;
-
-            .likes-link-container {
-                .likes-link {
-                    font-size: $font-size;
-                    cursor: pointer;
-                    display: block;
-                    font-weight: 600;
-                    text-align: center;
-                    text-transform: inherit;
-                    text-overflow: ellipsis;
-                    user-select: none;
-                    color: black;
-                    text-decoration: none;
-                }
-            }
-
-            .double-post-button-container {
-                display: inline-block;
-                margin-left: 10px;
-                button {
-                    padding: 4px;
-
-                    .post-love-span-scale {
-                        animation-duration: .45s;
-                        animation-name: like-button-animation;
-                        animation-timing-function: ease-in-out;
-                        transform: scale(1);
-
-
-                    }
-
-                    @keyframes like-button-animation {
-
-                        0%,
-                        100% {
-                            transform: scale(1);
-                        }
-
-                        25% {
-                            transform: scale(1.2);
-                        }
-
-                        50% {
-                            transform: scale(.95);
-                        }
-                    }
-                }
-            }
-
         }
+
+        
+
+        // .double-post-options {
+        //     display: flex;
+        //     align-items: center;
+        //     flex-direction: row;
+
+        //     .likes-link-container {
+        //         .likes-link {
+        //             font-size: $font-size;
+        //             cursor: pointer;
+        //             display: block;
+        //             font-weight: 600;
+        //             text-align: center;
+        //             text-transform: inherit;
+        //             text-overflow: ellipsis;
+        //             user-select: none;
+        //             color: black;
+        //             text-decoration: none;
+        //         }
+        //     }
+
+        //     .double-post-button-container {
+        //         display: inline-block;
+        //         margin-left: 10px;
+        //         button {
+        //             padding: 4px;
+
+        //             .post-love-span-scale {
+        //                 animation-duration: .45s;
+        //                 animation-name: like-button-animation;
+        //                 animation-timing-function: ease-in-out;
+        //                 transform: scale(1);
+
+
+        //             }
+
+        //             @keyframes like-button-animation {
+
+        //                 0%,
+        //                 100% {
+        //                     transform: scale(1);
+        //                 }
+
+        //                 25% {
+        //                     transform: scale(1.2);
+        //                 }
+
+        //                 50% {
+        //                     transform: scale(.95);
+        //                 }
+        //             }
+        //         }
+        //     }
+
+        // }
     }
     
 }

@@ -32,57 +32,17 @@
 }
 
 .double-post-container .double-post-details {
+  border: 1px solid red;
+  color: #262626;
+  align-items: stretch;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
+  flex-direction: column;
+  position: relative;
 }
 
-.double-post-container .double-post-details .double-post-options {
+.double-post-container .double-post-details .post--utility--option-container {
   display: flex;
   align-items: center;
   flex-direction: row;
-}
-
-.double-post-container .double-post-details .double-post-options .likes-link-container .likes-link {
-  font-size: 12px;
-  cursor: pointer;
-  display: block;
-  font-weight: 600;
-  text-align: center;
-  text-transform: inherit;
-  text-overflow: ellipsis;
-  user-select: none;
-  color: black;
-  text-decoration: none;
-}
-
-.double-post-container .double-post-details .double-post-options .double-post-button-container {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.double-post-container .double-post-details .double-post-options .double-post-button-container button {
-  padding: 4px;
-}
-
-.double-post-container .double-post-details .double-post-options .double-post-button-container button .post-love-span-scale {
-  animation-duration: .45s;
-  animation-name: like-button-animation;
-  animation-timing-function: ease-in-out;
-  transform: scale(1);
-}
-
-@keyframes like-button-animation {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  25% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(0.95);
-  }
 }
 /*# sourceMappingURL=index.css.map */
