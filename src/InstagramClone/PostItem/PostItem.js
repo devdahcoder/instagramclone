@@ -33,7 +33,7 @@ const PostItem = ({post}) => {
         <section onDoubleClick={likeEvent} className="first-post-layer">
           <div className="second-post-layer">
             <div className="third-post-layer">
-              <img className="images" src={post.image} alt="" />
+              <img className="images" src={post.picture.large} alt="" />
             </div>
           </div>
           {like ? <LikeScale /> : ""}
@@ -46,7 +46,7 @@ const PostItem = ({post}) => {
 
           <div className="double-post-options">
             
-            <PostUtil />
+            <PostUtil svgLiked={svgLiked} svgLike={svgLike} />
 
             
 

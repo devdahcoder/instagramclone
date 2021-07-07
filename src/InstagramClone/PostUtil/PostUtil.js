@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style/postutil.css"
 
-const PostUtil = () => {
+const PostUtil = ({svgLike, svgLiked}) => {
     return (
         <section className="post--utility--option-container">
             <div className="svg-button-container post-love-svg-container double-post-button-container">

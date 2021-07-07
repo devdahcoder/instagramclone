@@ -14,13 +14,13 @@ const PostProfile = ({post}) => {
     return (
         <section className="post--profile--detail--container">
             <div className="post--user--post--detail">
-                <ProfileImage />
+                <ProfileImage post={post} />
 
                 <div className="post--user--post--detail--content">
                     <div className="post--user--post--detail--name">
                         <span className="post--user--detail--span">
                             <a href="" className="post--user--detail--link">
-                                {post.name}
+                                {post.login.username}
                             </a>
                         </span>
                     </div>
@@ -46,9 +46,9 @@ const PostProfile = ({post}) => {
             <div className="svg-button-container double-post-button-container">
                 <button className="svg-button" onClick={togglePostDropDown}>
                     <div className="svg-container three-post-btn">
-                    <span className="svg-button-span">
-                        <svg aria-label="More options" class="_8-yf5 " fill="#262626" height="20" viewBox="0 0 48 48" width="20"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
-                    </span>
+                        <span className="svg-button-span">
+                            <svg aria-label="More options" class="_8-yf5 " fill="#262626" height="20" viewBox="0 0 48 48" width="20"><circle clip-rule="evenodd" cx="8" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="24" cy="24" fill-rule="evenodd" r="4.5"></circle><circle clip-rule="evenodd" cx="40" cy="24" fill-rule="evenodd" r="4.5"></circle></svg>
+                        </span>
                     </div>
                 </button>
                 {postDropDown ? <PostDropDown /> : ""}
