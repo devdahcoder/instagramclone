@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=postutil.css.map */
+.post--utility--option-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: #262626;
+  margin-top: 4px;
+  justify-content: space-between;
+}
+
+.post--utility--option-container .double-post-button-container {
+  display: inline-block;
+}
+
+.post--utility--option-container .double-post-button-container button {
+  padding: 8px;
+}
+
+.post--utility--option-container .double-post-button-container button .post-love-span-scale {
+  animation-duration: .45s;
+  animation-name: like-button-animation;
+  animation-timing-function: ease-in-out;
+  transform: scale(1);
+}
+
+@keyframes like-button-animation {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+}
+/*# sourceMappingURL=postutil.css.map */

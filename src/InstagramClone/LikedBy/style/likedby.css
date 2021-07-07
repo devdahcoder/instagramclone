@@ -1,4 +1,53 @@
-* {
-  color: red;
+.post--liked--by--container {
+  color: #262626;
+  align-items: stretch;
+  display: flex;
+  position: relative;
+  margin-bottom: 8px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.post--liked--by--container .post--liked--by--display {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  display: flex;
+  position: relative;
+  align-content: stretch;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+}
+
+.post--liked--by--container .post--liked--by--display .post--liked--by {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  white-space: pre;
+}
+
+.post--liked--by--container .post--liked--by--display .post--liked--by .post--liked--by--span {
+  display: inline;
+}
+
+.post--liked--by--container .post--liked--by--display .post--liked--by .post--liked--by--span .post--liked--by--span--link {
+  text-decoration: none;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-left: 5px;
+  margin-left: -5px;
+  color: #262626;
+}
+
+.post--liked--by--container .post--liked--by--display .post--liked--by .post--liked--by--other--link {
+  font-weight: 500;
+  text-decoration: none;
+  color: #262626;
 }
 /*# sourceMappingURL=likedby.css.map */

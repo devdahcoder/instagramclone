@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import "./assets/style/index.css"
 import "../../styles/global.css"
+
+//imported components
 import PostProfile from "../PostProfile/PostProfile"
 import PostComment from "../PostComment/PostComment"
 import PostCommentContainer from "../PostCommentContainer/PostCommentContainer"

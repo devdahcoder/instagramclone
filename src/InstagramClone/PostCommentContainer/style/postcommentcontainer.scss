@@ -1,0 +1,97 @@
+.post--comment--container {
+    color: hsl(0, 0%, 15%);
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-height: 0;
+    overflow: auto;
+    margin: 0 0 auto;
+
+    .post--comment--display {
+        color: rgba(var(--i1d,38,38,38),1);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-content: stretch;
+        align-items: stretch;
+        justify-content: flex-start;
+        flex: 0 0 auto;
+
+        .post--user--caption--container {
+            color: rgba(var(--i1d,38,38,38),1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            align-content: stretch;
+            align-items: stretch;
+            justify-content: flex-start;
+            flex: 0 0 auto;
+            margin-bottom: 4px;
+
+            .post--user--caption--display {
+                color: rgba(var(--i1d,38,38,38),1);
+                flex-direction: column;
+                display: flex;
+                position: relative;
+                display: block;
+                align-content: stretch;
+                align-items: stretch;
+                justify-content: flex-start;
+                flex: 1 1 auto;
+                min-height: 0;
+                min-width: 0;
+
+                .post--user--caption--profile--span {
+                    display: inline;
+
+                    .post--user--caption--profile--span--link {
+                        color: hsl(0, 0%, 15%);
+                        font-weight: 500;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        padding-left: 5px;
+                        margin-left: -5px;
+                        text-decoration: none;
+                    }
+                }
+
+                .post--caption--container {
+                    overflow-wrap: break-word;
+                }
+            }
+        }
+
+        .post--main--comment--container {
+            align-items: stretch;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+
+            .post--view--all--comment {
+                color: rgba(var(--i1d,38,38,38),1);
+                display: flex;
+                flex-direction: column;
+                align-content: stretch;
+                align-items: stretch;
+                justify-content: flex-start;
+                flex: 0 0 auto;
+                margin-bottom: 4px;
+
+                .post--view--all--comment--link {
+                    background: 0 0;
+                    border: 0;
+                    color: hsl(0, 0%, 56%);
+                    line-height: inherit;
+                    margin: 0;
+                    padding: 0;
+                    text-decoration: none;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
