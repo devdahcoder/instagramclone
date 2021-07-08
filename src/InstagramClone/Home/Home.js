@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./assets/index.css";
 import "../../styles/global.css"
 import Post from "../Post/Post";
-import SinglePost from "../SinglePost/SinglePost";
-import ThreePost from "../ThreePost/ThreePost";
 import Story from "../Story/Story";
 import SideGrid from "../SideGrid/SideGrid";
 import Header from "../Header/Header";
@@ -55,18 +53,16 @@ const Home = () => {
             <Story />
 
             <div className="post-section">
-              {/* <SinglePost /> */}
               <Post />
-              {/* <ThreePost /> */}
             </div>
 
             {/* pagination spinner component goes here */}
             {/* spinner pagination component */}
           </div>
 
-          <div className="side-bar">
+          {/* <div className="side-bar">
             <SideGrid />
-          </div>
+          </div> */}
         </section>
       </main>
     </section>

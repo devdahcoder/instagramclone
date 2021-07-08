@@ -1,1 +1,62 @@
-/* No CSS *//*# sourceMappingURL=postcomment.css.map */
+.post--comment--text--area--container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+}
+
+.post--comment--text--area--container .post--comment--text--area--display {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.post--comment--text--area--container .post--comment--text--area--display .post--comment--text--area--profile--image--container {
+  margin-right: 5px;
+}
+
+.post--comment--text--area--container .post--comment--text--area--display .post--comment--text--area--form--container {
+  position: relative;
+  align-items: center;
+  border-radius: 22px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: row;
+  min-height: 44px;
+  padding-left: 11px;
+  padding-right: 8px;
+  width: 100%;
+}
+
+.post--comment--text--area--container .post--comment--text--area--display .post--comment--text--area--form--container .post--comment--text--area--form--display {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+  margin-right: 4px;
+  width: 100%;
+}
+
+.post--comment--text--area--container .post--comment--text--area--display .post--comment--text--area--form--container .post--comment--text--area--form--display .textarea {
+  color: #262626;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: transparent;
+  border: 0 solid #000;
+  overflow: auto;
+  padding: 8px 9px;
+  resize: none;
+  height: 18px;
+}
+
+.post--comment--text--area--container .post--comment--text--area--display .post--comment--text--area--send--svg--container {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=postcomment.css.map */

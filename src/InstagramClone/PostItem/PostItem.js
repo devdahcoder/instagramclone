@@ -9,6 +9,7 @@ import PostCommentContainer from "../PostCommentContainer/PostCommentContainer"
 import LikedBy from "../LikedBy/LikedBy"
 import PostUtil from "../PostUtil/PostUtil"
 import LikeScale from "../LikeScale/LikeScale"
+import ChatTextArea from '../ChatTextArea/ChatTextArea'
 
 const PostItem = ({post}) => {
 
