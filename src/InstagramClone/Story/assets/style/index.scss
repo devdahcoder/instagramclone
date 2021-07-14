@@ -1,49 +1,17 @@
 .story {
-    margin-bottom: 20px;
-    padding: 10px 0;
+    color: hsl(0, 0%, 15%);
+    font: inherit;
+    vertical-align: baseline;
+    align-items: stretch;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative;
     display: block;
     overflow-y: hidden;
+    background: hsl(0, 0%, 100%);
+    // border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 3px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding: 5px 0;
 }
-
-
-// body{
-//     display:flex;
-//     align-items:center;
-//     justify-content:center;
-//     height:100vh;
-//   }
-//   .circle{
-//     position:relative;
-//     width:100px;
-//     height:100px;
-//     svg{
-//       fill:none;
-//       stroke:#8a3ab9;
-//       stroke-linecap: round;
-//       stroke-width:3;
-//       stroke-dasharray: 1;
-//       stroke-dashoffset: 0;
-//       animation: stroke-draw 6s ease-out infinite alternate; 
-//       // animation: stroke-draw 6s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate; 
-//     }
-//     img{
-//       position:absolute;
-//       left:50%;
-//       top:50%;
-//       transform:translate(-50%, -50%);
-//       width:70px;
-//       border-radius:50%;
-//     }
-//   }
-//   @keyframes stroke-draw {
-//     from{
-//       stroke:#8a3ab9;
-//       stroke-dasharray: 1;
-//     }
-//     to{
-//       stroke:#cd486b;
-//       transform:rotate(180deg);
-//       stroke-dasharray: 8;
-//     }
-//   }
-  

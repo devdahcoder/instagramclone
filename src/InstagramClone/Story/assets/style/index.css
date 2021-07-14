@@ -1,7 +1,17 @@
 .story {
-  margin-bottom: 20px;
-  padding: 10px 0;
+  color: #262626;
+  font: inherit;
+  vertical-align: baseline;
+  align-items: stretch;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: relative;
   display: block;
   overflow-y: hidden;
+  background: white;
+  border-radius: 3px;
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding: 5px 0;
 }
 /*# sourceMappingURL=index.css.map */

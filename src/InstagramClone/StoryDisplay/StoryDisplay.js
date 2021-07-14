@@ -45,7 +45,7 @@ const initialState = [
 ]
 const StoryDisplay = () => {
 
-  const [storys, setStories] = useState(initialState)
+  const [story, setStory] = useState([])
   // const storys = useSelector((state) => state.storys.storys)
   // const loading = useSelector((state) => state.loading)
   // const error = useSelector((state) => state.error)
@@ -59,15 +59,32 @@ const StoryDisplay = () => {
   // }, [dispatch]);
 
 
-  // if (loading) return <h1>loading...</h1>
+      useEffect(() => {
+        fetch("https://randomuser.me/api/?results=8")
+            .then (response => {
+                if (response.ok) {
+                    return response.json()
+                }
+                throw response;
+            })
+            .then(data => {
+                console.log(data.results)
+                setStory(data.results)
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }, [])
+
+
 
   return (
     <div className="story-display">
       <div className="story-inner-div">
         <div className="inner-container">
           <MyStory />
-          {storys.map((post) => (
-            <StoryItem key={uuid()} post={post} />
+          {story.map((story) => (
+            <StoryItem key={uuid()} story={story} />
           ))}
           <StoryWatch />
         </div>

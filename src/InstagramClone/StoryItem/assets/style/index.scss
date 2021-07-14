@@ -1,4 +1,4 @@
-$story-image-sizing: 56px;
+
 
 .story-item-container {
     height: 120px;
@@ -31,8 +31,7 @@ $story-image-sizing: 56px;
         .story-text {
             letter-spacing: .01em;
             max-width: 75px;
-            color: #262626;
-            color: rgba(var(--i1d,38,38,38),1);
+            color: hsl(0, 0%, 15%);
             display: block;
             font-size: 12px;
             line-height: 14px;
@@ -42,7 +41,7 @@ $story-image-sizing: 56px;
             text-overflow: ellipsis;
             top: 68px;
             white-space: nowrap;
-            font-weight: 500;
+
         }
     }
 }

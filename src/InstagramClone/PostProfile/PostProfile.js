@@ -35,7 +35,7 @@ const PostProfile = ({post}) => {
 
                         <div className="post--user--detail--time--container">
                             <a href="" className="post--user--detail--time--link">
-                                <time className="post--user--detail--time" datetime="2021-07-05T17:11:09.000Z" title="Jul 5, 2021">14 hours ago</time>
+                                <time className="post--user--detail--time" dateTime="2021-07-05T17:11:09.000Z" title="Jul 5, 2021">14 hours ago</time>
                             </a>
                         </div>
                     </div>

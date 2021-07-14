@@ -11,7 +11,7 @@ import PostUtil from "../PostUtil/PostUtil"
 import LikeScale from "../LikeScale/LikeScale"
 import ChatTextArea from '../ChatTextArea/ChatTextArea'
 
-const PostItem = ({post}) => {
+const PostItem = ({post, postsImage, index}) => {
 
 
     const [like, setLike] = useState(false);
@@ -36,7 +36,7 @@ const PostItem = ({post}) => {
         <section onDoubleClick={likeEvent} className="first-post-layer">
           <div className="second-post-layer">
             <div className="third-post-layer">
-              <img className="images" src={post.picture.large} alt="" />
+              <img className="images" src={postsImage[index].urls.full } alt="" />
             </div>
           </div>
           {like ? <LikeScale /> : ""}

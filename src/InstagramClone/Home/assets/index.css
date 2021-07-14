@@ -88,7 +88,7 @@ section .home-page-main .main-home-section {
   flex-direction: row;
   flex-grow: 1;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 90%;
   position: relative;
   width: 100%;
   padding-top: 60px;
@@ -97,18 +97,5 @@ section .home-page-main .main-home-section {
 section .home-page-main .main-home-section .home-page-post-container {
   position: relative;
   width: 100%;
-  margin-right: 3rem;
-}
-
-section .home-page-main .main-home-section .side-bar {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  right: 30px;
-  width: 100%;
-  max-width: 3rem;
-  top: 200px;
-  position: fixed;
-  align-items: center;
 }
 /*# sourceMappingURL=index.css.map */

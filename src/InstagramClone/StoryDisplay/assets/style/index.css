@@ -1,8 +1,16 @@
 .story-display {
   width: 80%;
   margin: 0 auto;
-  height: 104px;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100px;
   outline: 0;
+  overflow-y: hidden;
 }
 
 .story-display .story-inner-div {
@@ -11,6 +19,8 @@
 }
 
 .story-display .story-inner-div .inner-container {
+  overflow-x: auto;
+  overflow-y: hidden;
   display: flex;
   justify-content: space-between;
   flex-direction: row;

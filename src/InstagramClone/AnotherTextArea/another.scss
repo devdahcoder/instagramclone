@@ -1,0 +1,66 @@
+.another-text-area-container {
+    color: var(--primary);
+    visibility: visible;
+    font: inherit;
+    vertical-align: initial;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    width: inherit;
+    min-width: 0;
+    min-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    outline: none;
+    will-change: width;
+    padding: 9px 12px 11px;
+    margin: 5px 10px;
+    background-color: var(--compose-input-background);
+    border: 1px solid var(--compose-input-border);
+    border-radius: 21px;
+
+    .another-text-area-display {
+        color: var(--primary);
+        visibility: visible;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: initial;
+        outline: none;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        position: relative;
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        cursor: text;
+        padding-right: 0;
+
+        .another-text-area {
+            visibility: visible;
+            cursor: text;
+            direction: ltr;
+            unicode-bidi: isolate;
+            font: inherit;
+            vertical-align: initial;
+            width: 100%;
+            line-height: 20px;
+            user-select: text;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            min-height: 20px;
+            max-height: 100px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--compose-primary);
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            outline: none;
+            padding: 0;
+            padding-right: 2px;
+        }
+    }
+}

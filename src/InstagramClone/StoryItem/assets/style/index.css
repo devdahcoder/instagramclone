@@ -30,7 +30,6 @@
   letter-spacing: .01em;
   max-width: 75px;
   color: #262626;
-  color: rgba(var(--i1d, 38, 38, 38), 1);
   display: block;
   font-size: 12px;
   line-height: 14px;
@@ -39,6 +38,5 @@
   text-overflow: ellipsis;
   top: 68px;
   white-space: nowrap;
-  font-weight: 500;
 }
 /*# sourceMappingURL=index.css.map */

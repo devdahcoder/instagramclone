@@ -42,8 +42,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .explore-section .explore-main-page .main-explore-display .explore-first .explore-second .main-explore-post-container .first-explore-grid {

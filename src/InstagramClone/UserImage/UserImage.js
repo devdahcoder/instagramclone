@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./style/userimage.css";
 
 const UserImage = ({image, size}) => {
+
+
+
 
     const imageStyleCondition = (size) => {
         let imageSize;
@@ -13,8 +16,8 @@ const UserImage = ({image, size}) => {
                 },
                 
                 imageContainerSize: {
-                    width: "44px",
-                    height: "44px",
+                    width: "40px",
+                    height: "40px",
                 }
             }
         }
@@ -26,8 +29,8 @@ const UserImage = ({image, size}) => {
                 },
                 
                 imageContainerSize: {
-                    width: "65px",
-                    height: "65px",
+                    width: "58px",
+                    height: "58px",
                 }
             }
         }
@@ -36,9 +39,9 @@ const UserImage = ({image, size}) => {
         
     }
 
-
     return (
         <div className="user-circle circle" style={imageStyleCondition(size)?.circleSize}>
+
             <span className="user-dele dele" style={imageStyleCondition(size)?.imageContainerSize}>
                 <img src={image} alt="images" />
             </span>
@@ -53,7 +56,7 @@ const UserImage = ({image, size}) => {
                         <stop offset="100%" stop-color="#285AEB"/>
                     </linearGradient>
                 </defs>  
-                <circle cx="50" cy="50" r="45" stroke="url(#linear)" />
+                <circle cx="50" cy="50" r="40" stroke="url(#linear)" />
             </svg>
         </div>
     )

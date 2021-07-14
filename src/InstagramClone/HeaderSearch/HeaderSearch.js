@@ -1,21 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./style/headersearch.css"
 
+
+//imported components
+import SearchInputButton from "../SearchInputButton/SearchInputButton"
+import SearchInputIcon from "../SearchInputIcon/SearchInputIcon"
+
+
 const HeaderSearch = () => {
+
+    const [showInput, setShowInput] = useState(false);
+
+    const toggleShowInput = () => {
+        setShowInput(true)
+    }
+
+
     return (
         <div>
-            <div className="header-search-input-container">
+            <div className="header-search-input-container" onClick={toggleShowInput}>
                 <input autocapitalize="none" className="header-search-input" placeholder="Search" type="text" value="" />
 
-                <div className="unfocused-search-container" role="button" tabindex="0">
-                    <div className="unfocused-search-display">
-                        <span className="unfocused-search-icon coreSpriteSearchIcon"></span>
-                        <span className="unfocused-search-placeholder">Search</span>
-                    </div>
-                </div>
-                {/* <span className="header-search-input-search-icon"></span>
-                <div className="jLwSh" role="dialog"></div>
-                <div className="header-search-icon coreSpriteSearchClear" aria-disabled="false" role="button" tabindex="0"></div> */}
+                
+
+                {
+                    showInput && showInput ? <SearchInputIcon /> : <SearchInputButton />
+                }
+
+                
+
+                
                 {/* <div className="yPP5B">
                     <div aria-hidden="false" className="uo5MA  _2ciX tWgj8 XWrBI ">
                         <div className="AvhYw nLL4f"></div>
